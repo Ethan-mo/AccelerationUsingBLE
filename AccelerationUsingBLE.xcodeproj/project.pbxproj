@@ -13,6 +13,10 @@
 		A9B6F56229922EAA000A9A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B6F56029922EAA000A9A43 /* Main.storyboard */; };
 		A9B6F56429922EAC000A9A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B6F56329922EAC000A9A43 /* Assets.xcassets */; };
 		A9B6F56729922EAC000A9A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B6F56529922EAC000A9A43 /* LaunchScreen.storyboard */; };
+		A9B6F57529922F80000A9A43 /* ScanSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57429922F80000A9A43 /* ScanSensorViewController.swift */; };
+		A9B6F5772992302A000A9A43 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F5762992302A000A9A43 /* Extension.swift */; };
+		A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57829923519000A9A43 /* BluetoothSerial.swift */; };
+		A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A9B6F56329922EAC000A9A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B6F56629922EAC000A9A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B6F56829922EAC000A9A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B6F57429922F80000A9A43 /* ScanSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSensorViewController.swift; sourceTree = "<group>"; };
+		A9B6F5762992302A000A9A43 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A9B6F57829923519000A9A43 /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,12 @@
 		A9B6F55929922EAA000A9A43 /* AccelerationUsingBLE */ = {
 			isa = PBXGroup;
 			children = (
+				A9B6F57329922F3A000A9A43 /* API */,
+				A9B6F57229922F32000A9A43 /* Uitils */,
+				A9B6F57129922F2C000A9A43 /* ViewModel */,
+				A9B6F57029922F29000A9A43 /* View */,
+				A9B6F56F29922F23000A9A43 /* Controller */,
+				A9B6F56E29922F1E000A9A43 /* Model */,
 				A9B6F55A29922EAA000A9A43 /* AppDelegate.swift */,
 				A9B6F55C29922EAA000A9A43 /* SceneDelegate.swift */,
 				A9B6F55E29922EAA000A9A43 /* ViewController.swift */,
@@ -65,6 +79,60 @@
 				A9B6F56829922EAC000A9A43 /* Info.plist */,
 			);
 			path = AccelerationUsingBLE;
+			sourceTree = "<group>";
+		};
+		A9B6F56E29922F1E000A9A43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9B6F56F29922F23000A9A43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6F57429922F80000A9A43 /* ScanSensorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9B6F57029922F29000A9A43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9B6F57129922F2C000A9A43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9B6F57229922F32000A9A43 /* Uitils */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6F57A2992351D000A9A43 /* Bluetooth */,
+				A9B6F5762992302A000A9A43 /* Extension.swift */,
+			);
+			path = Uitils;
+			sourceTree = "<group>";
+		};
+		A9B6F57329922F3A000A9A43 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A9B6F57A2992351D000A9A43 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6F57829923519000A9A43 /* BluetoothSerial.swift */,
+			);
+			path = Bluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B6F5772992302A000A9A43 /* Extension.swift in Sources */,
 				A9B6F55F29922EAA000A9A43 /* ViewController.swift in Sources */,
+				A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */,
 				A9B6F55B29922EAA000A9A43 /* AppDelegate.swift in Sources */,
 				A9B6F55D29922EAA000A9A43 /* SceneDelegate.swift in Sources */,
+				A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */,
+				A9B6F57529922F80000A9A43 /* ScanSensorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
