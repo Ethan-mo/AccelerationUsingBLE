@@ -43,7 +43,20 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     private var writeType: CBCharacteristicWriteType = .withoutResponse
     
     /// serviceUUID는 Peripheral이 가지고 있는 서비스의 UUID를 뜻합니다.
-    var serviceUUID = CBUUID(string: "20c10001-71bd-11e7-8cf7-a6006ad3dba0")
+    var serviceUUID = CBUUID(string: "20c10001-71bd-11e7-8cf7-a6006ad3dba0") // 이건 뭔지 모르겠음
+    var legacyDfuServiceUUID  = CBUUID(string: "00001530-1212-EFDE-1523-785FEABCD123")
+    let ExperimentalButtonlessDfuUUID = CBUUID(string: "8E400001-F315-4F60-9FB8-838830DAEA50")
+    var secureDfuServiceUUID  = CBUUID(string: "FE59")
+    var deviceInfoServiceUUID = CBUUID(string: "180A")
+    let EX_RX_SERVICE_UUID       = CBUUID(string: "6e400001-b5a3-f393-e0a9-e50e24dcca9e")
+    let EX_NOTIFICATION_DESCRIPTION_UUID = CBUUID(string: "00002902-0000-1000-8000-00805f9b34fb")
+    let EX_RX_CHAR_UUID          = CBUUID(string: "6e400002-b5a3-f393-e0a9-e50e24dcca9e")
+    let EX_TX_CHAR_UUID          = CBUUID(string: "6e400003-b5a3-f393-e0a9-e50e24dcca9e")
+    
+    let RX_SERVICE_UUID          = CBUUID(string: "20c10001-71bd-11e7-8cf7-a6006ad3dba0") // 모닛 센서들의 UUID
+    let RX_CHAR_UUID             = CBUUID(string: "20c10002-71bd-11e7-8cf7-a6006ad3dba0")
+    let TX_CHAR_UUID             = CBUUID(string: "20c10003-71bd-11e7-8cf7-a6006ad3dba0")
+    let NOTIFICATION_DESCRIPTION_UUID = CBUUID(string: "00002902-0000-1000-8000-00805f9b34fb")
     
     /// characteristicUUID는 serviceUUID에 포함되어있습니다. 이를 이용하여 데이터를 송수신합니다. 
     var characteristicUUID = CBUUID(string : "20c10002-71bd-11e7-8cf7-a6006ad3dba0")
@@ -58,15 +71,20 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     
     /// 기기 검색을 시작합니다. 연결이 가능한 모든 주변기기를 serviceUUID를 통해 찾아냅니다.
     func startScan() {
+        print("DEBUG: centralManager.state 확인중")
+        if centralManager.state == .poweredOff {
+            print("DEBUG: 불루투스가 꺼져있음")
+        }
+        print(centralManager.state.rawValue)
         guard centralManager.state == .poweredOn else { return }
-        
+        print("DEBUG: 기기검색중")
         // CBCentralManager의 메서드인 scanForPeripherals를 호출하여 연결가능한 기기들을 검색합니다. 이 떄 withService 파라미터에 nil을 입력하면 모든 종류의 기기가 검색되고, 지금과 같이
         // serviceUUID를 입력하면 특정 serviceUUID를 가진 기기만을 검색합니다.
-        centralManager.scanForPeripherals(withServices: [serviceUUID], options: nil)
-        
-        let peripherals = centralManager.retrieveConnectedPeripherals(withServices: [serviceUUID])
+        centralManager.scanForPeripherals(withServices: [RX_SERVICE_UUID], options: nil)
+        let peripherals = centralManager.retrieveConnectedPeripherals(withServices: [RX_SERVICE_UUID])
         for peripheral in peripherals {
             // TODO : 검색된 기기들에 대한 처리를 여기에 작성합니다.(잠시 후 작성할 예정입니다)
+            delegate?.serialDidDiscoverPeripheral(peripheral: peripheral, RSSI: nil)
             
         }
     }
@@ -84,22 +102,18 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
         centralManager.connect(peripheral, options: nil)
     }
     
-    // CBCentralManagerDelegate에 포함되어 있는 메서드입니다.
-    // central 기기의 블루투스가 켜져있는지, 꺼져있는지 확인합니다. 확인하여 centralManager.state의 값을 .powerOn 또는 .powerOff로 변경합니다.
-    func centralManagerDidUpdateState(_ central: CBCentralManager) {
-        pendingPeripheral = nil
-        connectedPeripheral = nil
-    }
-    
     // 기기가 검색될 때마다 호출되는 메서드입니다.
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         // RSSI는 기기의 신호 강도를 의미합니다.
+        print("DEBUG: 찾았다!")
         // TODO : 기기가 검색될 때마다 필요한 코드를 여기에 작성합니다.(잠시 후 작성할 예정입니다)
+        delegate?.serialDidDiscoverPeripheral(peripheral: peripheral, RSSI: RSSI)
     }
     
     
     // 기기 연결가 연결되면 호출되는 메서드입니다.
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+        print("DEBUG: 찾았다!")
         peripheral.delegate = self
         pendingPeripheral = nil
         connectedPeripheral = peripheral
@@ -130,6 +144,7 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
                 // 데이터를 보내는 타입을 설정합니다. 이는 주변기기가 어떤 type으로 설정되어 있는지에 따라 변경됩니다.
                 writeType = characteristic.properties.contains(.write) ? .withResponse :  .withoutResponse
                 // TODO : 주변 기기와 연결 완료 시 동작하는 코드를 여기에 작성합니다.(잠시 후 작성할 예정입니다)
+                delegate?.serialDidConnectPeripheral(peripheral: peripheral)
             }
         }
     }
@@ -144,5 +159,17 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     func peripheral(_ peripheral: CBPeripheral, didReadRSSI RSSI: NSNumber, error: Error?) {
         // 블루투스 기기의 신호 강도를 요청하는 peripheral.readRSSI()가 호출하는 함수입니다.
         // 신호 강도와 관련된 코드를 작성합니다.(필요하다면 작성해주세요.)
+    }
+}
+
+// CBCentralManagerDelegate에 포함되어 있는 메서드입니다.
+// central 기기의 블루투스가 켜져있는지, 꺼져있는지 확인합니다. 확인하여 centralManager.state의 값을 .powerOn 또는 .powerOff로 변경합니다.
+extension BluetoothSerial {
+    func centralManagerDidUpdateState(_ central: CBCentralManager) {
+        print("DEBUG: 현재 블루투스 상태 확인중")
+        print(centralManager.state.rawValue)
+        
+        pendingPeripheral = nil
+        connectedPeripheral = nil
     }
 }

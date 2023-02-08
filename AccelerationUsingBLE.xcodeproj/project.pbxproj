@@ -17,6 +17,7 @@
 		A9B6F5772992302A000A9A43 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F5762992302A000A9A43 /* Extension.swift */; };
 		A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57829923519000A9A43 /* BluetoothSerial.swift */; };
 		A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */; };
+		A9CAD5162993517E006FD23C /* FirstviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD5152993517E006FD23C /* FirstviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A9B6F5762992302A000A9A43 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		A9B6F57829923519000A9A43 /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 		A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewCell.swift; sourceTree = "<group>"; };
+		A9CAD5152993517E006FD23C /* FirstviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A9B6F57429922F80000A9A43 /* ScanSensorViewController.swift */,
+				A9CAD5152993517E006FD23C /* FirstviewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				A9B6F5772992302A000A9A43 /* Extension.swift in Sources */,
 				A9B6F55F29922EAA000A9A43 /* ViewController.swift in Sources */,
 				A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */,
+				A9CAD5162993517E006FD23C /* FirstviewController.swift in Sources */,
 				A9B6F55B29922EAA000A9A43 /* AppDelegate.swift in Sources */,
 				A9B6F55D29922EAA000A9A43 /* SceneDelegate.swift in Sources */,
 				A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */,
@@ -359,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RAJ2UPL4CG;
+				DEVELOPMENT_TEAM = URTJJ24R4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AccelerationUsingBLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,7 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RAJ2UPL4CG;
+				DEVELOPMENT_TEAM = URTJJ24R4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AccelerationUsingBLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

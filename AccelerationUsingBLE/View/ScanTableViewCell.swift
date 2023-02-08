@@ -30,6 +30,8 @@ class ScanTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    
+    // MARK: - Helpers
     /// peripheral의 이름을 파라미터로 입력받아 Cell을 update합니다.
     func updatePeriphralsName(name : String?)
     {
