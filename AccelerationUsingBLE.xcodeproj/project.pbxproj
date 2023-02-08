@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9AD2D40299CB8E000E12142 /* FetchSenSingDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD2D3F299CB8E000E12142 /* FetchSenSingDataController.swift */; };
 		A9B6F55B29922EAA000A9A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F55A29922EAA000A9A43 /* AppDelegate.swift */; };
 		A9B6F55D29922EAA000A9A43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F55C29922EAA000A9A43 /* SceneDelegate.swift */; };
 		A9B6F55F29922EAA000A9A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F55E29922EAA000A9A43 /* ViewController.swift */; };
@@ -17,9 +18,16 @@
 		A9B6F5772992302A000A9A43 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F5762992302A000A9A43 /* Extension.swift */; };
 		A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57829923519000A9A43 /* BluetoothSerial.swift */; };
 		A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */; };
+		A9CAD5162993517E006FD23C /* FirstviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD5152993517E006FD23C /* FirstviewController.swift */; };
+		A9CAD51829935EB4006FD23C /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD51729935EB4006FD23C /* Utilites.swift */; };
+		A9CAD51A299387A6006FD23C /* Peripheral_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD519299387A6006FD23C /* Peripheral_Controller.swift */; };
+		A9CAD51C2993937A006FD23C /* BleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD51B2993937A006FD23C /* BleInfo.swift */; };
+		A9CAD51E299393BC006FD23C /* SensorStatusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD51D299393BC006FD23C /* SensorStatusInfo.swift */; };
+		A9CAD520299395F1006FD23C /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CAD51F299395F1006FD23C /* Configure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9AD2D3F299CB8E000E12142 /* FetchSenSingDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSenSingDataController.swift; sourceTree = "<group>"; };
 		A9B6F55729922EAA000A9A43 /* AccelerationUsingBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerationUsingBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B6F55A29922EAA000A9A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B6F55C29922EAA000A9A43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +40,12 @@
 		A9B6F5762992302A000A9A43 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		A9B6F57829923519000A9A43 /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 		A9B6F57B2992384A000A9A43 /* ScanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewCell.swift; sourceTree = "<group>"; };
+		A9CAD5152993517E006FD23C /* FirstviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstviewController.swift; sourceTree = "<group>"; };
+		A9CAD51729935EB4006FD23C /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		A9CAD519299387A6006FD23C /* Peripheral_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral_Controller.swift; sourceTree = "<group>"; };
+		A9CAD51B2993937A006FD23C /* BleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleInfo.swift; sourceTree = "<group>"; };
+		A9CAD51D299393BC006FD23C /* SensorStatusInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorStatusInfo.swift; sourceTree = "<group>"; };
+		A9CAD51F299395F1006FD23C /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +105,9 @@
 		A9B6F56F29922F23000A9A43 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A9CAD5152993517E006FD23C /* FirstviewController.swift */,
 				A9B6F57429922F80000A9A43 /* ScanSensorViewController.swift */,
+				A9AD2D3F299CB8E000E12142 /* FetchSenSingDataController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -116,6 +132,8 @@
 			children = (
 				A9B6F57A2992351D000A9A43 /* Bluetooth */,
 				A9B6F5762992302A000A9A43 /* Extension.swift */,
+				A9CAD51729935EB4006FD23C /* Utilites.swift */,
+				A9CAD51F299395F1006FD23C /* Configure.swift */,
 			);
 			path = Uitils;
 			sourceTree = "<group>";
@@ -131,6 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				A9B6F57829923519000A9A43 /* BluetoothSerial.swift */,
+				A9CAD519299387A6006FD23C /* Peripheral_Controller.swift */,
+				A9CAD51B2993937A006FD23C /* BleInfo.swift */,
+				A9CAD51D299393BC006FD23C /* SensorStatusInfo.swift */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
@@ -207,11 +228,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9B6F5772992302A000A9A43 /* Extension.swift in Sources */,
+				A9CAD51A299387A6006FD23C /* Peripheral_Controller.swift in Sources */,
+				A9CAD51829935EB4006FD23C /* Utilites.swift in Sources */,
+				A9CAD51E299393BC006FD23C /* SensorStatusInfo.swift in Sources */,
 				A9B6F55F29922EAA000A9A43 /* ViewController.swift in Sources */,
+				A9CAD51C2993937A006FD23C /* BleInfo.swift in Sources */,
 				A9B6F57929923519000A9A43 /* BluetoothSerial.swift in Sources */,
+				A9CAD5162993517E006FD23C /* FirstviewController.swift in Sources */,
+				A9AD2D40299CB8E000E12142 /* FetchSenSingDataController.swift in Sources */,
 				A9B6F55B29922EAA000A9A43 /* AppDelegate.swift in Sources */,
 				A9B6F55D29922EAA000A9A43 /* SceneDelegate.swift in Sources */,
 				A9B6F57C2992384A000A9A43 /* ScanTableViewCell.swift in Sources */,
+				A9CAD520299395F1006FD23C /* Configure.swift in Sources */,
 				A9B6F57529922F80000A9A43 /* ScanSensorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +387,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RAJ2UPL4CG;
+				DEVELOPMENT_TEAM = URTJJ24R4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AccelerationUsingBLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,7 +415,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RAJ2UPL4CG;
+				DEVELOPMENT_TEAM = URTJJ24R4X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AccelerationUsingBLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
