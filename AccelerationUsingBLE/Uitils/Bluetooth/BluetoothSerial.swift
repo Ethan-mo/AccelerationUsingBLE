@@ -55,6 +55,14 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     /// characteristicUUID는 serviceUUID에 포함되어있습니다. 이를 이용하여 데이터를 송수신합니다. 
     lazy var characteristicUUID = TX_CHAR_UUID
     
+    var m_connectSensor = [BleInfo]()
+    
+    var bleInfo: BleInfo? {
+        get {
+            return getSensorByPeripheral(peripheral: 연결성공한블루투스기기)
+        }
+    }
+    
     // MARK: - Lifecycle
     override init() {
         super.init()
@@ -119,8 +127,11 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     
     
     // service 검색에 성공 시 호출
+    /// 기존 모닛 코드에서는 현재 periperal의 m_state라는 속성의 값을 connecting으로 변경해주는 작업만이 추가되어있다.
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
         for service in peripheral.services! {
+            // 서비스가 무엇이 있는지 좀 보자
+            print("DEBUG: 검색된 서비스는: \(service)")
             print("DEBUG: servic검색 성공")
             // 검색된 모든 service에 대해서 characteristic을 검색합니다. 파라미터를 nil로 설정하면 해당 service의 모든 characteristic을 검색합니다.
             peripheral.discoverCharacteristics(nil, for: service)
@@ -131,43 +142,29 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     // characteristic 검색에 성공 시 호출되는 메서드입니다.
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
         print("DEBUG: 연결된 기기의 characteristic을 검색하고 있습니다.")
-//        for characteristic in service.characteristics! {
-//            print("DEBUG:\(characteristic)")
-//            // 검색된 모든 characteristic에 대해 characteristicUUID를 한번 더 체크하고, 일치한다면 peripheral을 구독하고 통신을 위한 설정을 완료합니다.
-//            if characteristic.uuid == TX_CHAR_UUID {
-//                print("DEBUG: 찾았다 데이터")
-//                // 해당 기기의 데이터를 구독합니다.
-//                peripheral.setNotifyValue(true, for: characteristic)
-//                // 데이터를 보내기 위한 characteristic을 저장합니다.
-//                writeCharacteristic = characteristic
-//                if let str = String(bytes: characteristic.value!, encoding: .utf8) {
-//                    print("DEBUG: 검색된 내용은: \(str)")
-//                }
-//                // 데이터를 보내는 타입을 설정합니다. 이는 주변기기가 어떤 type으로 설정되어 있는지에 따라 변경됩니다.
-//                writeType = characteristic.properties.contains(.write) ? .withResponse :  .withoutResponse
-//                // TODO : 주변 기기와 연결 완료 시 동작하는 코드를 여기에 작성합니다.(잠시 후 작성할 예정입니다)
-//                delegate?.serialDidConnectPeripheral(peripheral: peripheral)
-//            }
-//            if characteristic.uuid == RX_CHAR_UUID {
-//
-//            }
-            //
-//        }
+        if let error = error {
+            print("DEBUG: Chacteristic을 검색하는 중에 오류가 발생하였습니다. \nerror:[\(error.localizedDescription)]")
+            return
+        }
             for cc in service.characteristics! { // write, read
                 
-                print("[BLE] cc.uuid: \(cc.uuid)")
-                print("[BLE] cc.properties: \(cc.properties)")
+                print("[BLE] Characteristic의 uuid: \(cc.uuid)")
+                print("[BLE] Characteristic의 속성: \(cc.properties)")
 
                 if (cc.uuid == RX_CHAR_UUID) { // write (12)
                     print("[BLE] set write")
                     writeCharacteristic = cc // 여기까지는 오케이
-//                    writeCharacteristic.changeState(status: .setInit)
-//                    writeCharacteristic.
+                    /// 여기에다가 블루투스 기기에 보낼 데이터를 정리한다.
+                    if let _bleInfo = bleInfo {
+                        _bleInfo.m_adv = peripheral.name!
+                    }
+                    
                 }
                 else if (cc.uuid == TX_CHAR_UUID) { // read (16)
                     print("[BLE] set read")
+                    /// 여기에다가 블루투스 기기에서 보낸 데이터를 정리한다.
                     peripheral.setNotifyValue(true, for: cc)
-                    //                    peripheral.readValue(for: cc) // once
+                    //peripheral.readValue(for: cc) // once
                 }
             }
     }
@@ -197,6 +194,18 @@ class BluetoothSerial: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate 
     func peripheral(_ peripheral: CBPeripheral, didReadRSSI RSSI: NSNumber, error: Error?) {
         // 블루투스 기기의 신호 강도를 요청하는 peripheral.readRSSI()가 호출하는 함수입니다.
         // 신호 강도와 관련된 코드를 작성합니다.(필요하다면 작성해주세요.)
+    }
+    //
+    func getSensorByPeripheral(peripheral: CBPeripheral?, isSuccessCheck:Bool = false) -> BleInfo? {
+        guard let peripheral = peripheral else { return nil }
+        // m_connectSensor값들 중에
+        for item in m_connectSensor {
+            // 매개변수로 가져온 peripheral과 같은 peripheral을 갖고있는 m_connectSensor값 대상으로 해당 값을 return해준다.
+            if (item.peripheral == peripheral) {
+                return item
+            }
+        }
+        return nil
     }
 }
 
