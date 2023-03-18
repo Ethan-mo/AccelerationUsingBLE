@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "3dN-61-Gg9"; */
+"3dN-61-Gg9.text" = "Password";
+
+/* Class = "UILabel"; text = "Enter Wireless network information"; ObjectID = "Env-qh-hFQ"; */
+"Env-qh-hFQ.text" = "Enter Wireless network information";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Msh-MM-qqI"; */
+"Msh-MM-qqI.text" = "Name";
+
+/* Class = "UILabel"; text = "없음"; ObjectID = "UqB-bb-D0J"; */
+"UqB-bb-D0J.text" = "없음";
+
+/* Class = "UILabel"; text = "INput password"; ObjectID = "bGp-zv-8t2"; */
+"bGp-zv-8t2.text" = "INput password";
+
+/* Class = "UILabel"; text = "Manual input"; ObjectID = "ff4-ht-8Q2"; */
+"ff4-ht-8Q2.text" = "Manual input";
+
+/* Class = "UIButton"; normalTitle = "Security"; ObjectID = "jyM-zj-dwq"; */
+"jyM-zj-dwq.normalTitle" = "Security";
+
+/* Class = "UILabel"; text = "Input network name"; ObjectID = "nsL-Ix-fwy"; */
+"nsL-Ix-fwy.text" = "Input network name";

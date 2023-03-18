@@ -1,0 +1,78 @@
+
+/* Class = "UILabel"; text = "오전 9:41"; ObjectID = "2V0-M2-1fp"; */
+"2V0-M2-1fp.text" = "오전 9:41";
+
+/* Class = "UILabel"; text = "Temperature"; ObjectID = "2xh-Yu-9qS"; */
+"2xh-Yu-9qS.text" = "Temperature";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "4vx-IX-F7a"; */
+"4vx-IX-F7a.text" = "100";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "4vz-u9-mlO"; */
+"4vz-u9-mlO.text" = "-";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "A6X-db-Pl4"; */
+"A6X-db-Pl4.text" = "100";
+
+/* Class = "UILabel"; text = "90"; ObjectID = "Ew0-PT-6Xj"; */
+"Ew0-PT-6Xj.text" = "90";
+
+/* Class = "UILabel"; text = "아기방 허브(허브이름)"; ObjectID = "H2m-fX-89I"; */
+"H2m-fX-89I.text" = "아기방 허브(허브이름)";
+
+/* Class = "UILabel"; text = "허브와 연결이 끊어졌습니다."; ObjectID = "HVI-sc-gp9"; */
+"HVI-sc-gp9.text" = "허브와 연결이 끊어졌습니다.";
+
+/* Class = "UILabel"; text = "차분"; ObjectID = "Jin-A8-JUC"; */
+"Jin-A8-JUC.text" = "차분";
+
+/* Class = "UILabel"; text = "Gas"; ObjectID = "NXl-EZ-WI9"; */
+"NXl-EZ-WI9.text" = "Gas";
+
+/* Class = "UIButton"; normalTitle = "ALERT"; ObjectID = "Pu9-Hv-g0W"; */
+"Pu9-Hv-g0W.normalTitle" = "ALERT";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "QDA-Ev-cye"; */
+"QDA-Ev-cye.text" = "Humidity";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "VAq-lw-BsZ"; */
+"VAq-lw-BsZ.text" = "-";
+
+/* Class = "UILabel"; text = "좋음"; ObjectID = "Vc1-gR-zMo"; */
+"Vc1-gR-zMo.text" = "좋음";
+
+/* Class = "UILabel"; text = "스코어"; ObjectID = "Ydy-Hd-13s"; */
+"Ydy-Hd-13s.text" = "스코어";
+
+/* Class = "UILabel"; text = "인터넷 상태를 확인해주세요."; ObjectID = "aSh-tU-aFz"; */
+"aSh-tU-aFz.text" = "인터넷 상태를 확인해주세요.";
+
+/* Class = "UILabel"; text = "이 날의 평균 습도"; ObjectID = "awb-jy-Zhp"; */
+"awb-jy-Zhp.text" = "이 날의 평균 습도";
+
+/* Class = "UILabel"; text = "스코어"; ObjectID = "b5y-9B-pcm"; */
+"b5y-9B-pcm.text" = "스코어";
+
+/* Class = "UIButton"; normalTitle = "GRAPH"; ObjectID = "eh3-5S-hmd"; */
+"eh3-5S-hmd.normalTitle" = "GRAPH";
+
+/* Class = "UILabel"; text = "스코어"; ObjectID = "kJD-oC-xQv"; */
+"kJD-oC-xQv.text" = "스코어";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "ka2-vd-mev"; */
+"ka2-vd-mev.text" = "%";
+
+/* Class = "UILabel"; text = "스코어"; ObjectID = "rXQ-J9-BeD"; */
+"rXQ-J9-BeD.text" = "스코어";
+
+/* Class = "UILabel"; text = "°C"; ObjectID = "uKT-Zc-soF"; */
+"uKT-Zc-soF.text" = "°C";
+
+/* Class = "UILabel"; text = "7월 13일 목요일"; ObjectID = "wvW-FD-xO0"; */
+"wvW-FD-xO0.text" = "7월 13일 목요일";
+
+/* Class = "UIButton"; normalTitle = "STATUS"; ObjectID = "x9h-ST-h4w"; */
+"x9h-ST-h4w.normalTitle" = "STATUS";
+
+/* Class = "UILabel"; text = "어제"; ObjectID = "xx3-ic-GlY"; */
+"xx3-ic-GlY.text" = "어제";

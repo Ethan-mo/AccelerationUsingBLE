@@ -1,0 +1,12 @@
+/* 
+  Message.strings
+  Monit
+
+  Created by 맥 on 2017. 8. 24..
+  Copyright © 2017년 맥. All rights reserved.
+*/
+
+"cancle" = "취소"
+"ok" = "확인"
+"retry" = "다시시도"
+"emailVaild" = "올바른 이메일 형식이 아닙니다"

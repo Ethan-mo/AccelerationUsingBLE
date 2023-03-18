@@ -1,0 +1,162 @@
+
+/* Class = "UILabel"; text = "이제 센서를 사용할 수 있습니다."; ObjectID = "0Sk-9k-ZhG"; */
+"0Sk-9k-ZhG.text" = "이제 센서를 사용할 수 있습니다.";
+
+/* Class = "UILabel"; text = "Wifi 설정하기"; ObjectID = "1v2-4A-zxr"; */
+"1v2-4A-zxr.text" = "Wifi 설정하기";
+
+/* Class = "UIButton"; normalTitle = "기기 등록하기"; ObjectID = "32R-EW-p5m"; */
+"32R-EW-p5m.normalTitle" = "기기 등록하기";
+
+/* Class = "UILabel"; text = "센서 연결하기"; ObjectID = "385-rP-ouc"; */
+"385-rP-ouc.text" = "센서 연결하기";
+
+/* Class = "UILabel"; text = "아기 성별"; ObjectID = "3mJ-Ck-aMC"; */
+"3mJ-Ck-aMC.text" = "아기 성별";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "4CS-5L-M0d"; */
+"4CS-5L-M0d.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "완료"; ObjectID = "6Y2-NP-yKI"; */
+"6Y2-NP-yKI.normalTitle" = "완료";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "6ps-DA-Ffj"; */
+"6ps-DA-Ffj.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "완료"; ObjectID = "8xi-Zp-jEi"; */
+"8xi-Zp-jEi.normalTitle" = "완료";
+
+/* Class = "UIButton"; normalTitle = "연결 시작하기"; ObjectID = "9hp-RD-BaH"; */
+"9hp-RD-BaH.normalTitle" = "연결 시작하기";
+
+/* Class = "UIButton"; normalTitle = "등록"; ObjectID = "EId-bO-W7w"; */
+"EId-bO-W7w.normalTitle" = "등록";
+
+/* Class = "UILabel"; text = "Wifi 설정하기"; ObjectID = "EJ9-QK-IfV"; */
+"EJ9-QK-IfV.text" = "Wifi 설정하기";
+
+/* Class = "UIButton"; normalTitle = "수유등"; ObjectID = "FBl-wT-Ehk"; */
+"FBl-wT-Ehk.normalTitle" = "수유등";
+
+/* Class = "UILabel"; text = "아기 생일"; ObjectID = "Fg6-xI-nFP"; */
+"Fg6-xI-nFP.text" = "아기 생일";
+
+/* Class = "UILabel"; text = "허브 연결하기"; ObjectID = "GGI-gz-gI4"; */
+"GGI-gz-gI4.text" = "허브 연결하기";
+
+/* Class = "UIButton"; normalTitle = "연결할 기기를 선택해주세요."; ObjectID = "HBM-Zf-54b"; */
+"HBM-Zf-54b.normalTitle" = "연결할 기기를 선택해주세요.";
+
+/* Class = "UIButton"; normalTitle = "D"; ObjectID = "KL6-xv-H6Z"; */
+"KL6-xv-H6Z.normalTitle" = "D";
+
+/* Class = "UILabel"; text = "센서의 전원을 켜고 파란 불이 깜빡이는지 확인한 후에 아래 버튼을 눌러 주세요"; ObjectID = "L5q-bO-dMw"; */
+"L5q-bO-dMw.text" = "센서의 전원을 켜고 파란 불이 깜빡이는지 확인한 후에 아래 버튼을 눌러 주세요";
+
+/* Class = "UIButton"; normalTitle = "연결"; ObjectID = "MpH-xH-kF2"; */
+"MpH-xH-kF2.normalTitle" = "연결";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "QJc-6G-bPa"; */
+"QJc-6G-bPa.text" = "기기등록";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "Y8a-Ce-LDF"; */
+"Y8a-Ce-LDF.text" = "기기등록";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "YG7-s4-1GX"; */
+"YG7-s4-1GX.text" = "기기등록";
+
+/* Class = "UILabel"; text = "허브 연결에 성공했습니다!"; ObjectID = "ZWN-dw-mZ0"; */
+"ZWN-dw-mZ0.text" = "허브 연결에 성공했습니다!";
+
+/* Class = "UILabel"; text = "아기 이름"; ObjectID = "Zro-YQ-4lN"; */
+"Zro-YQ-4lN.text" = "아기 이름";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "ZyZ-FZ-6IU"; */
+"ZyZ-FZ-6IU.text" = "기기등록";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "dUl-m2-xXW"; */
+"dUl-m2-xXW.text" = "1985";
+
+/* Class = "UIButton"; normalTitle = "남자아이"; ObjectID = "eM9-Nf-704"; */
+"eM9-Nf-704.normalTitle" = "남자아이";
+
+/* Class = "UILabel"; text = "월"; ObjectID = "ed5-Li-fgl"; */
+"ed5-Li-fgl.text" = "월";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "ehj-TF-nPn"; */
+"ehj-TF-nPn.text" = "기기등록";
+
+/* Class = "UILabel"; text = "년"; ObjectID = "f7h-uv-3db"; */
+"f7h-uv-3db.text" = "년";
+
+/* Class = "UIButton"; normalTitle = "연결 시작하기"; ObjectID = "fac-4V-dbh"; */
+"fac-4V-dbh.normalTitle" = "연결 시작하기";
+
+/* Class = "UILabel"; text = "아기 정보 등록"; ObjectID = "g1n-ST-lSR"; */
+"g1n-ST-lSR.text" = "아기 정보 등록";
+
+/* Class = "UILabel"; text = "센서를 사용할 아기 정보를 등록해주세요.\n입력된 아기정보에 따라 센서의 정확도가 차이 날 수 있습니다."; ObjectID = "glf-bY-Dm1"; */
+"glf-bY-Dm1.text" = "센서를 사용할 아기 정보를 등록해주세요.\n입력된 아기정보에 따라 센서의 정확도가 차이 날 수 있습니다.";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "h86-2E-Ecl"; */
+"h86-2E-Ecl.text" = "15";
+
+/* Class = "UIButton"; normalTitle = "연결"; ObjectID = "iLd-2e-kHK"; */
+"iLd-2e-kHK.normalTitle" = "연결";
+
+/* Class = "UILabel"; text = "허브가 연결되었습니다!\n휴대폰의 Wifi를 켜고 허브가 사용할 Wifi를 설정해주세요."; ObjectID = "j3q-7E-tt8"; */
+"j3q-7E-tt8.text" = "허브가 연결되었습니다!\n휴대폰의 Wifi를 켜고 허브가 사용할 Wifi를 설정해주세요.";
+
+/* Class = "UIButton"; normalTitle = "연결 시작하기"; ObjectID = "kcf-tk-FUC"; */
+"kcf-tk-FUC.normalTitle" = "연결 시작하기";
+
+/* Class = "UILabel"; text = "허브가 사용할 Wifi를 선택해주세요."; ObjectID = "l1z-sn-ACo"; */
+"l1z-sn-ACo.text" = "허브가 사용할 Wifi를 선택해주세요.";
+
+/* Class = "UILabel"; text = "일"; ObjectID = "mmJ-db-DAz"; */
+"mmJ-db-DAz.text" = "일";
+
+/* Class = "UILabel"; text = "내 휴대폰과 연결되어 있는 기기가 없습니다.\n기기를 새로 등록해주세요."; ObjectID = "pIS-Rs-uKE"; */
+"pIS-Rs-uKE.text" = "내 휴대폰과 연결되어 있는 기기가 없습니다.\n기기를 새로 등록해주세요.";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "qYx-kd-xkX"; */
+"qYx-kd-xkX.text" = "기기등록";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "rlq-rb-nIC"; */
+"rlq-rb-nIC.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "추가로 다른 기기 연결하기"; ObjectID = "rtF-Of-kyF"; */
+"rtF-Of-kyF.normalTitle" = "추가로 다른 기기 연결하기";
+
+/* Class = "UIButton"; normalTitle = "센서"; ObjectID = "sKd-DN-i6B"; */
+"sKd-DN-i6B.normalTitle" = "센서";
+
+/* Class = "UILabel"; text = "허브를 전원에 연결하신 후에 아래 버튼을 눌러주세요."; ObjectID = "v8A-g5-y7F"; */
+"v8A-g5-y7F.text" = "허브를 전원에 연결하신 후에 아래 버튼을 눌러주세요.";
+
+/* Class = "UILabel"; text = "기기등록"; ObjectID = "vKr-P2-8LI"; */
+"vKr-P2-8LI.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "여자아이"; ObjectID = "vq1-aM-fDg"; */
+"vq1-aM-fDg.normalTitle" = "여자아이";
+
+/* Class = "UILabel"; text = "센서 연결에 성공했습니다!"; ObjectID = "wES-yR-rwA"; */
+"wES-yR-rwA.text" = "센서 연결에 성공했습니다!";
+
+/* Class = "UILabel"; text = "이제 허브를 사용할 수 있습니다."; ObjectID = "wmP-c4-iGy"; */
+"wmP-c4-iGy.text" = "이제 허브를 사용할 수 있습니다.";
+
+/* Class = "UILabel"; text = "허브 연결하기"; ObjectID = "xPO-n2-7dw"; */
+"xPO-n2-7dw.text" = "허브 연결하기";
+
+/* Class = "UILabel"; text = "아기 이름을 입력해주세요"; ObjectID = "y15-3N-B9U"; */
+"y15-3N-B9U.text" = "아기 이름을 입력해주세요";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z0N-4Z-epa"; */
+"z0N-4Z-epa.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "추가로 다른 기기 연결하기"; ObjectID = "z6E-4S-adc"; */
+"z6E-4S-adc.normalTitle" = "추가로 다른 기기 연결하기";
+
+/* Class = "UILabel"; text = "1. 먼저 센서를 연결해주세요.\n2. 연결된 센서를 허브에 꽂아주세요.\n3. 센서를 통해 허브가 연결됩니다. 기다려주세요.\n4. 허브가 연결되면 다음 페이지로 자동변경됩니다."; ObjectID = "zrB-k7-SAt"; */
+"zrB-k7-SAt.text" = "1. 먼저 센서를 연결해주세요.\n2. 연결된 센서를 허브에 꽂아주세요.\n3. 센서를 통해 허브가 연결됩니다. 기다려주세요.\n4. 허브가 연결되면 다음 페이지로 자동변경됩니다.";

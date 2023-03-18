@@ -1,0 +1,186 @@
+
+/* Class = "UILabel"; text = "아기 이름"; ObjectID = "1cf-yv-XRa"; */
+"1cf-yv-XRa.text" = "아기 이름";
+
+/* Class = "UILabel"; text = "알람 켜기"; ObjectID = "2CI-Ks-Y8r"; */
+"2CI-Ks-Y8r.text" = "알람 켜기";
+
+/* Class = "UILabel"; text = "2017.08.11"; ObjectID = "2ed-Gj-wyQ"; */
+"2ed-Gj-wyQ.text" = "2017.08.11";
+
+/* Class = "UILabel"; text = "1.01.01"; ObjectID = "3Ij-2d-l3O"; */
+"3Ij-2d-l3O.text" = "1.01.01";
+
+/* Class = "UILabel"; text = "°C"; ObjectID = "4Zt-Ha-uCD"; */
+"4Zt-Ha-uCD.text" = "°C";
+
+/* Class = "UIButton"; normalTitle = "최저 온도"; ObjectID = "4tE-0S-KQh"; */
+"4tE-0S-KQh.normalTitle" = "최저 온도";
+
+/* Class = "UILabel"; text = "온도 설정"; ObjectID = "4yh-6h-bOg"; */
+"4yh-6h-bOg.text" = "온도 설정";
+
+/* Class = "UIButton"; normalTitle = "최저 온도"; ObjectID = "5DO-fH-vln"; */
+"5DO-fH-vln.normalTitle" = "최저 온도";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "5ce-4w-C9T"; */
+"5ce-4w-C9T.text" = "15";
+
+/* Class = "UIButton"; normalTitle = "온도"; ObjectID = "6PL-9U-fct"; */
+"6PL-9U-fct.normalTitle" = "온도";
+
+/* Class = "UILabel"; text = "습도 설정"; ObjectID = "7fb-dr-YPA"; */
+"7fb-dr-YPA.text" = "습도 설정";
+
+/* Class = "UILabel"; text = "1.01.01"; ObjectID = "8zK-3F-id2"; */
+"8zK-3F-id2.text" = "1.01.01";
+
+/* Class = "UILabel"; text = "알람켜기"; ObjectID = "9fP-sU-ti7"; */
+"9fP-sU-ti7.text" = "알람켜기";
+
+/* Class = "UILabel"; text = "연결 상태"; ObjectID = "ATl-dF-cd3"; */
+"ATl-dF-cd3.text" = "연결 상태";
+
+/* Class = "UILabel"; text = "설정"; ObjectID = "F8C-7u-0As"; */
+"F8C-7u-0As.text" = "설정";
+
+/* Class = "UILabel"; text = "기기 이름을 입력해주세요."; ObjectID = "FQQ-Hm-azc"; */
+"FQQ-Hm-azc.text" = "기기 이름을 입력해주세요.";
+
+/* Class = "UIButton"; normalTitle = "남자아이"; ObjectID = "HkX-5g-jSn"; */
+"HkX-5g-jSn.normalTitle" = "남자아이";
+
+/* Class = "UIButton"; normalTitle = "기기이름"; ObjectID = "J8g-9s-JHI"; */
+"J8g-9s-JHI.normalTitle" = "기기이름";
+
+/* Class = "UIButton"; normalTitle = "기기 지우기"; ObjectID = "JiY-kV-GCc"; */
+"JiY-kV-GCc.normalTitle" = "기기 지우기";
+
+/* Class = "UILabel"; text = "적정습도 설정"; ObjectID = "Lz8-o2-o0l"; */
+"Lz8-o2-o0l.text" = "적정습도 설정";
+
+/* Class = "UIButton"; normalTitle = "기기 펌웨어 버전"; ObjectID = "QIe-HD-Nl2"; */
+"QIe-HD-Nl2.normalTitle" = "기기 펌웨어 버전";
+
+/* Class = "UIButton"; normalTitle = "기기 펌웨어 버전"; ObjectID = "Qu5-bT-HxA"; */
+"Qu5-bT-HxA.normalTitle" = "기기 펌웨어 버전";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "RaF-G3-zxc"; */
+"RaF-G3-zxc.text" = "1985";
+
+/* Class = "UILabel"; text = "기기이름 설정"; ObjectID = "RrG-t0-sPw"; */
+"RrG-t0-sPw.text" = "기기이름 설정";
+
+/* Class = "UILabel"; text = "설정한 적정온도를 벗어났을 때 알람이 울립니다."; ObjectID = "S7j-B9-1m5"; */
+"S7j-B9-1m5.text" = "설정한 적정온도를 벗어났을 때 알람이 울립니다.";
+
+/* Class = "UILabel"; text = "60 %"; ObjectID = "Sef-Wh-F8X"; */
+"Sef-Wh-F8X.text" = "60 %";
+
+/* Class = "UILabel"; text = "알람 켜기"; ObjectID = "UKM-bT-On6"; */
+"UKM-bT-On6.text" = "알람 켜기";
+
+/* Class = "UILabel"; text = "MONIT"; ObjectID = "W4z-xP-JLB"; */
+"W4z-xP-JLB.text" = "MONIT";
+
+/* Class = "UILabel"; text = "아기 성별"; ObjectID = "W8w-2p-bmW"; */
+"W8w-2p-bmW.text" = "아기 성별";
+
+/* Class = "UILabel"; text = "아기 이름을 입력해주세요"; ObjectID = "XbF-Sa-qg4"; */
+"XbF-Sa-qg4.text" = "아기 이름을 입력해주세요";
+
+/* Class = "UILabel"; text = "아기 이름"; ObjectID = "a7V-kH-RM2"; */
+"a7V-kH-RM2.text" = "아기 이름";
+
+/* Class = "UIButton"; normalTitle = "저장"; ObjectID = "bXM-hz-cGC"; */
+"bXM-hz-cGC.normalTitle" = "저장";
+
+/* Class = "UILabel"; text = "22.0"; ObjectID = "c21-s5-kES"; */
+"c21-s5-kES.text" = "22.0";
+
+/* Class = "UILabel"; text = "사용중인 아기 정보"; ObjectID = "c8M-sP-hff"; */
+"c8M-sP-hff.text" = "사용중인 아기 정보";
+
+/* Class = "UILabel"; text = "아기 이름"; ObjectID = "cfM-Lj-pvN"; */
+"cfM-Lj-pvN.text" = "아기 이름";
+
+/* Class = "UILabel"; text = "월"; ObjectID = "ctu-x6-D9G"; */
+"ctu-x6-D9G.text" = "월";
+
+/* Class = "UILabel"; text = "기기이름"; ObjectID = "dM1-0M-ICZ"; */
+"dM1-0M-ICZ.text" = "기기이름";
+
+/* Class = "UILabel"; text = "대소변 상태"; ObjectID = "dv5-LR-MJn"; */
+"dv5-LR-MJn.text" = "대소변 상태";
+
+/* Class = "UILabel"; text = "사용중인 아기 정보"; ObjectID = "es7-NQ-CUO"; */
+"es7-NQ-CUO.text" = "사용중인 아기 정보";
+
+/* Class = "UILabel"; text = "일"; ObjectID = "fs8-zn-u7X"; */
+"fs8-zn-u7X.text" = "일";
+
+/* Class = "UIButton"; normalTitle = "사용중인 아기 정보"; ObjectID = "g7y-SL-OdQ"; */
+"g7y-SL-OdQ.normalTitle" = "사용중인 아기 정보";
+
+/* Class = "UILabel"; text = "설정한 적정습도를 벗어났을 때 알람이 울립니다."; ObjectID = "h0c-IQ-7ej"; */
+"h0c-IQ-7ej.text" = "설정한 적정습도를 벗어났을 때 알람이 울립니다.";
+
+/* Class = "UILabel"; text = "40 %"; ObjectID = "hAQ-hS-F2s"; */
+"hAQ-hS-F2s.text" = "40 %";
+
+/* Class = "UILabel"; text = "여자 아이"; ObjectID = "j61-va-bjC"; */
+"j61-va-bjC.text" = "여자 아이";
+
+/* Class = "UIButton"; normalTitle = "여자아이"; ObjectID = "jYA-Qk-WIH"; */
+"jYA-Qk-WIH.normalTitle" = "여자아이";
+
+/* Class = "UILabel"; text = "아기 생일"; ObjectID = "kVv-Jv-jIe"; */
+"kVv-Jv-jIe.text" = "아기 생일";
+
+/* Class = "UIButton"; normalTitle = "기기 초기화 및 삭제"; ObjectID = "kyP-yz-S7e"; */
+"kyP-yz-S7e.normalTitle" = "기기 초기화 및 삭제";
+
+/* Class = "UILabel"; text = "생년월일"; ObjectID = "lfT-tl-Ibg"; */
+"lfT-tl-Ibg.text" = "생년월일";
+
+/* Class = "UIButton"; normalTitle = "최저 습도"; ObjectID = "lmr-2M-MxK"; */
+"lmr-2M-MxK.normalTitle" = "최저 습도";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "nBj-wp-2T1"; */
+"nBj-wp-2T1.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "습도"; ObjectID = "nFG-4S-hVA"; */
+"nFG-4S-hVA.normalTitle" = "습도";
+
+/* Class = "UIButton"; normalTitle = "저장"; ObjectID = "pr4-1h-1v3"; */
+"pr4-1h-1v3.normalTitle" = "저장";
+
+/* Class = "UILabel"; text = "적정온도 설정"; ObjectID = "qaf-rW-5rM"; */
+"qaf-rW-5rM.text" = "적정온도 설정";
+
+/* Class = "UILabel"; text = "아기 이름"; ObjectID = "rxZ-ur-ZZN"; */
+"rxZ-ur-ZZN.text" = "아기 이름";
+
+/* Class = "UILabel"; text = "성별"; ObjectID = "taM-m3-IYw"; */
+"taM-m3-IYw.text" = "성별";
+
+/* Class = "UILabel"; text = "설정"; ObjectID = "ug3-YB-4pR"; */
+"ug3-YB-4pR.text" = "설정";
+
+/* Class = "UILabel"; text = "년"; ObjectID = "vhw-Cc-bQh"; */
+"vhw-Cc-bQh.text" = "년";
+
+/* Class = "UIButton"; normalTitle = "최고 습도"; ObjectID = "xVL-vg-2uP"; */
+"xVL-vg-2uP.normalTitle" = "최고 습도";
+
+/* Class = "UILabel"; text = "알람켜기"; ObjectID = "xhA-56-ZTd"; */
+"xhA-56-ZTd.text" = "알람켜기";
+
+/* Class = "UILabel"; text = "대소변 상태"; ObjectID = "z1v-z1-u62"; */
+"z1v-z1-u62.text" = "대소변 상태";
+
+/* Class = "UIButton"; normalTitle = "온도 단위"; ObjectID = "zCA-GE-g6V"; */
+"zCA-GE-g6V.normalTitle" = "온도 단위";
+
+/* Class = "UILabel"; text = "22.0"; ObjectID = "zf5-HJ-cpp"; */
+"zf5-HJ-cpp.text" = "22.0";

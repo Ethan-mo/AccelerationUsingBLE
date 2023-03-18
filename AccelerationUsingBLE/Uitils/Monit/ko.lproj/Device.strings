@@ -1,0 +1,191 @@
+/* Class = "UILabel"; text = "Now sensor is ready to use"; ObjectID = "0Sk-9k-ZhG"; */
+"0Sk-9k-ZhG.text" = "이제 센서를 사용할 수 있습니다.";
+
+/* Class = "UILabel"; text = "Wireless network setting"; ObjectID = "1v2-4A-zxr"; */
+"1v2-4A-zxr.text" = "Wifi 설정하기";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "2fy-ST-o4x"; */
+"2fy-ST-o4x.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "32R-EW-p5m"; */
+"32R-EW-p5m.normalTitle" = "기기 등록하기";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "3mJ-Ck-aMC"; */
+"3mJ-Ck-aMC.text" = "아기 성별";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "6Y2-NP-yKI"; */
+"6Y2-NP-yKI.normalTitle" = "완료";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "6ps-DA-Ffj"; */
+"6ps-DA-Ffj.text" = "기기등록";
+
+/* Class = "UITextView"; text = "Check blue light flashing."; ObjectID = "71h-KW-Rjq"; */
+"71h-KW-Rjq.text" = "파란색 LED가 깜빡이는 것을 확인해주세요.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "71s-By-aAs"; */
+"71s-By-aAs.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "8xi-Zp-jEi"; */
+"8xi-Zp-jEi.normalTitle" = "완료";
+
+/* Class = "UIButton"; normalTitle = "SEARCHING WIRELESS NETWORK"; ObjectID = "9hp-RD-BaH"; */
+"9hp-RD-BaH.normalTitle" = "연결 시작하기";
+
+/* Class = "UILabel"; text = "Put the sensor into a hub. The hub will be connected with your smart phone through the sensor."; ObjectID = "9zO-nu-Fvj"; */
+"9zO-nu-Fvj.text" = "센서를 허브에 꽂아주세요.";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "B9b-dH-7Dd"; */
+"B9b-dH-7Dd.normalTitle" = "다음";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "BGe-Lc-v3j"; */
+"BGe-Lc-v3j.text" = "모닛 허브 연결 준비하기";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "Bmq-5E-HFD"; */
+"Bmq-5E-HFD.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "START CONNECTION"; ObjectID = "CBD-dm-icf"; */
+"CBD-dm-icf.normalTitle" = "연결 시작하기";
+
+/* Class = "UILabel"; text = "Connect with MONIT Sensor"; ObjectID = "CfO-Vm-0DJ"; */
+"CfO-Vm-0DJ.text" = "모닛 허브를 연결하기 위해서는 모닛 센서를 먼저 연결해야 합니다.";
+
+/* Class = "UITextView"; text = "Turn on the sensor."; ObjectID = "D3o-PZ-a8V"; */
+"D3o-PZ-a8V.text" = "센서의 전원을 켜주세요.";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "EId-bO-W7w"; */
+"EId-bO-W7w.normalTitle" = "등록";
+
+/* Class = "UILabel"; text = "Wireless network setting"; ObjectID = "EJ9-QK-IfV"; */
+"EJ9-QK-IfV.text" = "Wifi 설정하기";
+
+/* Class = "UILabel"; text = "Baby Information"; ObjectID = "EMH-Px-8CP"; */
+"EMH-Px-8CP.text" = "아기 정보 등록";
+
+/* Class = "UIButton"; normalTitle = "Monit Hub"; ObjectID = "FBl-wT-Ehk"; */
+"FBl-wT-Ehk.normalTitle" = "모닛 허브";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "Fg6-xI-nFP"; */
+"Fg6-xI-nFP.text" = "아기 생일";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "JaO-U5-JT9"; */
+"JaO-U5-JT9.normalTitle" = "다음";
+
+/* Class = "UIButton"; normalTitle = "D"; ObjectID = "KL6-xv-H6Z"; */
+"KL6-xv-H6Z.normalTitle" = "일";
+
+/* Class = "UILabel"; text = "Choose a device to register in"; ObjectID = "L9X-Yd-Ir0"; */
+"L9X-Yd-Ir0.text" = "메인 화면에 등록할 새로운 기기를 선택해주세요.";
+
+/* Class = "UIButton"; normalTitle = "CONNECT"; ObjectID = "MpH-xH-kF2"; */
+"MpH-xH-kF2.normalTitle" = "연결";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "Sf3-Iz-V3E"; */
+"Sf3-Iz-V3E.normalTitle" = "다음";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "Uv2-aq-5mh"; */
+"Uv2-aq-5mh.text" = "모닛 허브 연결 준비하기";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "Y8a-Ce-LDF"; */
+"Y8a-Ce-LDF.text" = "기기등록";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "YG7-s4-1GX"; */
+"YG7-s4-1GX.text" = "기기등록";
+
+/* Class = "UILabel"; text = "Connection with the hub succeed"; ObjectID = "ZWN-dw-mZ0"; */
+"ZWN-dw-mZ0.text" = "허브 연결에 성공했습니다!";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Zro-YQ-4lN"; */
+"Zro-YQ-4lN.text" = "아기 이름";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "ZyZ-FZ-6IU"; */
+"ZyZ-FZ-6IU.text" = "기기등록";
+
+/* Class = "UILabel"; text = "Please input information of baby who uses this sensor. The accuracy of detection is related to this information."; ObjectID = "c0M-MK-TvY"; */
+"c0M-MK-TvY.text" = "센서를 사용할 아기 정보를 등록해주세요.\n입력된 아기정보에 따라 센서의 정확도가 차이 날 수 있습니다.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "dQc-Ag-16s"; */
+"dQc-Ag-16s.text" = "기기등록";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "dUl-m2-xXW"; */
+"dUl-m2-xXW.text" = "1985";
+
+/* Class = "UIButton"; normalTitle = "BOY"; ObjectID = "eM9-Nf-704"; */
+"eM9-Nf-704.normalTitle" = "남자아이";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "ed5-Li-fgl"; */
+"ed5-Li-fgl.text" = "월";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "ehj-TF-nPn"; */
+"ehj-TF-nPn.text" = "기기등록";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "f3C-Ja-eaK"; */
+"f3C-Ja-eaK.text" = "모닛 허브 연결 준비하기";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "f7h-uv-3db"; */
+"f7h-uv-3db.text" = "년";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "h86-2E-Ecl"; */
+"h86-2E-Ecl.text" = "15";
+
+/* Class = "UIButton"; normalTitle = "CONNECT"; ObjectID = "iLd-2e-kHK"; */
+"iLd-2e-kHK.normalTitle" = "연결";
+
+/* Class = "UILabel"; text = "Hub is connected! Presse search button below for connecting hub to Wireless network."; ObjectID = "j3q-7E-tt8"; */
+"j3q-7E-tt8.text" = "허브가 연결되었습니다!\n휴대폰의 Wifi를 켜고 허브가 사용할 Wifi를 설정해주세요.";
+
+/* Class = "UILabel"; text = "Choose a network beleow for the hub"; ObjectID = "l1z-sn-ACo"; */
+"l1z-sn-ACo.text" = "허브가 사용할 Wifi를 선택해주세요.";
+
+/* Class = "UITextView"; text = "Check blue light flashing."; ObjectID = "mG3-bc-trL"; */
+"mG3-bc-trL.text" = "파란색 LED가 깜빡이는 것을 확인해주세요.";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "mmJ-db-DAz"; */
+"mmJ-db-DAz.text" = "일";
+
+/* Class = "UIButton"; normalTitle = "Start connection"; ObjectID = "oXn-zV-lU2"; */
+"oXn-zV-lU2.normalTitle" = "연결 시작하기";
+
+/* Class = "UILabel"; text = "Connect with MONIT Sensor"; ObjectID = "ont-Sa-gm5"; */
+"ont-Sa-gm5.text" = "모닛 센서 연결 준비하기";
+
+/* Class = "UILabel"; text = "Device not connected.\nPlease register new device."; ObjectID = "pIS-Rs-uKE"; */
+"pIS-Rs-uKE.text" = "내 스마트폰과 연결되어 있는 기기가 없습니다.\n기기를 새로 등록해주세요.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "qYx-kd-xkX"; */
+"qYx-kd-xkX.text" = "기기등록";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "rlq-rb-nIC"; */
+"rlq-rb-nIC.text" = "기기등록";
+
+/* Class = "UIButton"; normalTitle = "ADD OTHER DEVICES"; ObjectID = "rtF-Of-kyF"; */
+"rtF-Of-kyF.normalTitle" = "추가로 다른 기기 연결하기";
+
+/* Class = "UIButton"; normalTitle = "Monit Sensor"; ObjectID = "sKd-DN-i6B"; */
+"sKd-DN-i6B.normalTitle" = "모닛센서";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "vKr-P2-8LI"; */
+"vKr-P2-8LI.text" = "모닛센서";
+
+/* Class = "UIButton"; normalTitle = "GIRL"; ObjectID = "vq1-aM-fDg"; */
+"vq1-aM-fDg.normalTitle" = "여자아이";
+
+/* Class = "UITextView"; text = "Select below button after supply power to the hub."; ObjectID = "w5L-ZY-t8I"; */
+"w5L-ZY-t8I.text" = "허브를 전원에 연결하신 후에 아래 버튼을 눌러주세요.";
+
+/* Class = "UILabel"; text = "Connection with the sensor succeed"; ObjectID = "wES-yR-rwA"; */
+"wES-yR-rwA.text" = "센서 연결에 성공했습니다!";
+
+/* Class = "UILabel"; text = "Now hub is ready to use"; ObjectID = "wmP-c4-iGy"; */
+"wmP-c4-iGy.text" = "이제 허브를 사용할 수 있습니다.";
+
+/* Class = "UILabel"; text = "24 Alphabets or 8 Characters"; ObjectID = "y15-3N-B9U"; */
+"y15-3N-B9U.text" = "영문24자 또는 한글8자 까지 입력가능";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z0N-4Z-epa"; */
+"z0N-4Z-epa.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "ADD OTHER DEVICES"; ObjectID = "z6E-4S-adc"; */
+"z6E-4S-adc.normalTitle" = "추가로 다른 기기 연결하기";
+
+/* Class = "UILabel"; text = "You need to connect with Monit sensor before connect with Monit hub"; ObjectID = "zuw-KT-RAL"; */
+"zuw-KT-RAL.text" = "모닛 허브를 연결하기 위해서는 모닛 센서를 먼저 연결해야 합니다.";

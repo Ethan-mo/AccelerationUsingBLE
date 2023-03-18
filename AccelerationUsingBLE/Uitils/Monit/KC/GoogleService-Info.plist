@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>402338842408-qm5bagqleveq1h2a2uqch8jn44i3a1og.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.402338842408-qm5bagqleveq1h2a2uqch8jn44i3a1og</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLLKyw7aRJrEMdy8Pp-SdGScKV5Lg2NoY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>402338842408</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kcc.HuggiesxMonit</string>
+	<key>PROJECT_ID</key>
+	<string>huggiesxmonit-1697b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>huggiesxmonit-1697b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:402338842408:ios:542c053042efa14b4db21d</string>
+	<key>DATABASE_URL</key>
+	<string>https://huggiesxmonit-1697b.firebaseio.com</string>
+</dict>
+</plist>

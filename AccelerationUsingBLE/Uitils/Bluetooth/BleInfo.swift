@@ -10,7 +10,7 @@ import CoreBluetooth
 
 // 센서 정보
 class BleInfo : SensorStatusInfo {
-    //var controller: Peripheral_Controller?
+    var controller: Peripheral_Controller?
     var peripheral : CBPeripheral?
     
     var m_cid: Int = 0

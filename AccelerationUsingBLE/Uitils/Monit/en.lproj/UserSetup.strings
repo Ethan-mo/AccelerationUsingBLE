@@ -1,0 +1,102 @@
+
+/* Class = "UILabel"; text = "8-12 character+number+special character"; ObjectID = "09p-kW-eEU"; */
+"09p-kW-eEU.text" = "8-12 character+number+special character";
+
+/* Class = "UILabel"; text = "Sign out"; ObjectID = "71Z-cs-sy0"; */
+"71Z-cs-sy0.text" = "Sign out";
+
+/* Class = "UITableViewSection"; headerTitle = "Help"; ObjectID = "9XC-sF-khG"; */
+"9XC-sF-khG.headerTitle" = "Help";
+
+/* Class = "UILabel"; text = "Delete your account"; ObjectID = "AeF-Wx-x0x"; */
+"AeF-Wx-x0x.text" = "Delete your account";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Blr-3v-bZh"; */
+"Blr-3v-bZh.text" = "0";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "CS0-dM-Tjk"; */
+"CS0-dM-Tjk.text" = "Setting";
+
+/* Class = "UILabel"; text = "Warranty"; ObjectID = "D3y-9X-tR6"; */
+"D3y-9X-tR6.text" = "Warranty";
+
+/* Class = "UITableViewSection"; headerTitle = "Group"; ObjectID = "FIY-hT-lMO"; */
+"FIY-hT-lMO.headerTitle" = "Group";
+
+/* Class = "UILabel"; text = "Change password"; ObjectID = "J0q-fg-6Ak"; */
+"J0q-fg-6Ak.text" = "Change password";
+
+/* Class = "UILabel"; text = "1900-01-01"; ObjectID = "JtR-kX-DIz"; */
+"JtR-kX-DIz.text" = "1900-01-01";
+
+/* Class = "UILabel"; text = "Support"; ObjectID = "MSq-Fk-hRA"; */
+"MSq-Fk-hRA.text" = "Support";
+
+/* Class = "UITableViewSection"; headerTitle = "Legal notice"; ObjectID = "OEf-nS-aWC"; */
+"OEf-nS-aWC.headerTitle" = "Legal notice";
+
+/* Class = "UILabel"; text = "Date of birth"; ObjectID = "OVL-s6-aaK"; */
+"OVL-s6-aaK.text" = "Date of birth";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "TkK-oz-xh4"; */
+"TkK-oz-xh4.text" = "ID";
+
+/* Class = "UILabel"; text = "Terms of Use"; ObjectID = "XfW-MR-MNm"; */
+"XfW-MR-MNm.text" = "Terms of Use";
+
+/* Class = "UILabel"; text = "mama"; ObjectID = "Yrv-V4-7Rf"; */
+"Yrv-V4-7Rf.text" = "mama";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "ZPz-Or-fLO"; */
+"ZPz-Or-fLO.text" = "Sex";
+
+/* Class = "UILabel"; text = "Enter 4-12 character"; ObjectID = "bQj-09-o6Y"; */
+"bQj-09-o6Y.text" = "Enter 4-12 character";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "bfD-9f-gDN"; */
+"bfD-9f-gDN.text" = "ID";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "cS7-Iy-UW1"; */
+"cS7-Iy-UW1.title" = "비밀번호 변경";
+
+/* Class = "UILabel"; text = "My Group"; ObjectID = "dHu-U4-p0X"; */
+"dHu-U4-p0X.text" = "My Group";
+
+/* Class = "UILabel"; text = "Enter 4-12 character"; ObjectID = "dRQ-U2-YA9"; */
+"dRQ-U2-YA9.text" = "Enter 4-12 character";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "dmu-wU-r3x"; */
+"dmu-wU-r3x.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "em8-za-7Ja"; */
+"em8-za-7Ja.text" = "Password";
+
+/* Class = "UILabel"; text = "8-12 character"; ObjectID = "gde-j7-uii"; */
+"gde-j7-uii.text" = "8-12 character";
+
+/* Class = "UILabel"; text = "Change password"; ObjectID = "gge-wL-Eve"; */
+"gge-wL-Eve.text" = "Change password";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "jI7-eb-GVT"; */
+"jI7-eb-GVT.title" = "비밀번호 변경";
+
+/* Class = "UITableViewSection"; headerTitle = "Account :"; ObjectID = "mtX-Vk-CfC"; */
+"mtX-Vk-CfC.headerTitle" = "Account :";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "oCd-ZX-mMm"; */
+"oCd-ZX-mMm.text" = "Male";
+
+/* Class = "UILabel"; text = "Change nickname"; ObjectID = "szb-gR-BnX"; */
+"szb-gR-BnX.text" = "Change nickname";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "tFK-25-TdI"; */
+"tFK-25-TdI.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "w3a-bU-9VQ"; */
+"w3a-bU-9VQ.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "App version"; ObjectID = "xap-v4-4WE"; */
+"xap-v4-4WE.text" = "App version";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "yLs-Yy-AaG"; */
+"yLs-Yy-AaG.text" = "Privacy";

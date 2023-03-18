@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "움직임"; ObjectID = "0OV-2h-yfB"; */
+"0OV-2h-yfB.text" = "움직임";
+
+/* Class = "UILabel"; text = "아기방허브"; ObjectID = "7d8-tI-pLa"; */
+"7d8-tI-pLa.text" = "아기방허브";
+
+/* Class = "UILabel"; text = "Lost connection with a sensor. Please check the sensor or place the sensor near by mobile or Monit Hub."; ObjectID = "TzZ-7E-tTX"; */
+"TzZ-7E-tTX.text" = "Lost connection with a sensor. Please check the sensor or place the sensor near by mobile or Monit Hub.";
+
+/* Class = "UILabel"; text = "대변"; ObjectID = "jXj-bE-IRM"; */
+"jXj-bE-IRM.text" = "대변";
+
+/* Class = "UILabel"; text = "센싱중"; ObjectID = "nxO-UP-IMR"; */
+"nxO-UP-IMR.text" = "센싱중";
+
+/* Class = "UILabel"; text = "Diaper status"; ObjectID = "uCo-hM-b4X"; */
+"uCo-hM-b4X.text" = "Diaper status";

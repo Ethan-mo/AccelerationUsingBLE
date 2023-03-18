@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "취소"; ObjectID = "7wS-ex-J2C"; */
+"7wS-ex-J2C.normalTitle" = "취소";
+
+/* Class = "UIButton"; normalTitle = "삭제"; ObjectID = "EJe-Fa-32k"; */
+"EJe-Fa-32k.normalTitle" = "삭제";
+
+/* Class = "UILabel"; text = "dddddd"; ObjectID = "SJb-kV-zMy"; */
+"SJb-kV-zMy.text" = "dddddd";
+
+/* Class = "UILabel"; text = "공유 멤버 삭제"; ObjectID = "mtR-dZ-DuL"; */
+"mtR-dZ-DuL.text" = "공유 멤버 삭제";
+
+/* Class = "UIButton"; normalTitle = "취소"; ObjectID = "wqp-Mc-kBF"; */
+"wqp-Mc-kBF.normalTitle" = "취소";
+
+/* Class = "UIButton"; normalTitle = "Do not watch from next time"; ObjectID = "y0d-7k-32y"; */
+"y0d-7k-32y.normalTitle" = "Do not watch from next time";

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "비밀번호 찾기"; ObjectID = "1h8-Ry-jtl"; */
+"1h8-Ry-jtl.text" = "Find Password";
+
+/* Class = "UILabel"; text = "모닛 가입하기"; ObjectID = "B4z-b2-h33"; */
+"B4z-b2-h33.text" = "Signup";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Koy-p6-yIP"; */
+"Koy-p6-yIP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "이메일"; ObjectID = "d1V-4D-qi3"; */
+"d1V-4D-qi3.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "nGd-sC-2Vh"; */
+"nGd-sC-2Vh.normalTitle" = "signin";
+
+/* Class = "UILabel"; text = "비밀번호"; ObjectID = "sPc-Ks-sHw"; */
+"sPc-Ks-sHw.text" = "password";

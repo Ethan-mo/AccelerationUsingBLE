@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; normalTitle = "공유받기"; ObjectID = "1x0-if-kpv"; */
+"1x0-if-kpv.normalTitle" = "공유받기";
+
+/* Class = "UILabel"; text = "허브"; ObjectID = "4vJ-KG-aKk"; */
+"4vJ-KG-aKk.text" = "허브";
+
+/* Class = "UILabel"; text = "DAFKJW"; ObjectID = "5Ps-LH-YK7"; */
+"5Ps-LH-YK7.text" = "DAFKJW";
+
+/* Class = "UIButton"; normalTitle = "알림"; ObjectID = "9zX-fv-quQ"; */
+"9zX-fv-quQ.normalTitle" = "알림";
+
+/* Class = "UILabel"; text = "내 그룹"; ObjectID = "D43-M1-Ou2"; */
+"D43-M1-Ou2.text" = "내 그룹";
+
+/* Class = "UILabel"; text = "You can invite others into this group. And you can share your device status to invitees."; ObjectID = "E6M-uh-htI"; */
+"E6M-uh-htI.text" = "You can invite others into this group. And you can share your device status to invitees.";
+
+/* Class = "UILabel"; text = "모닛"; ObjectID = "FS2-qa-Gui"; */
+"FS2-qa-Gui.text" = "모닛";
+
+/* Class = "UILabel"; text = "그룹 리더"; ObjectID = "FaI-9E-KRF"; */
+"FaI-9E-KRF.text" = "그룹 리더";
+
+/* Class = "UILabel"; text = "구성원을 초대하시려면 + 버튼을 눌러주세요.\n구성원을 삭제하시려면 이름을 눌러 삭제버튼을 눌러주세요."; ObjectID = "KIh-yM-JBV"; */
+"KIh-yM-JBV.text" = "구성원을 초대하시려면 + 버튼을 눌러주세요.\n구성원을 삭제하시려면 이름을 눌러 삭제버튼을 눌러주세요.";
+
+/* Class = "UILabel"; text = "그룹 리더"; ObjectID = "KOB-sV-3qj"; */
+"KOB-sV-3qj.text" = "그룹 리더";
+
+/* Class = "UILabel"; text = "허브"; ObjectID = "TxW-55-qUn"; */
+"TxW-55-qUn.text" = "허브";
+
+/* Class = "UIButton"; normalTitle = "탈퇴"; ObjectID = "Tzb-hl-tAR"; */
+"Tzb-hl-tAR.normalTitle" = "탈퇴";
+
+/* Class = "UIButton"; normalTitle = "공유하기"; ObjectID = "Vpf-S6-xwE"; */
+"Vpf-S6-xwE.normalTitle" = "공유하기";
+
+/* Class = "UILabel"; text = "그룹 리더"; ObjectID = "XEc-OX-x8U"; */
+"XEc-OX-x8U.text" = "그룹 리더";
+
+/* Class = "UILabel"; text = "엄마 (나)"; ObjectID = "anv-TN-gWo"; */
+"anv-TN-gWo.text" = "엄마 (나)";
+
+/* Class = "UILabel"; text = "MONIT 허브"; ObjectID = "bHg-k6-41A"; */
+"bHg-k6-41A.text" = "MONIT 허브";
+
+/* Class = "UILabel"; text = "공유기기가 없습니다."; ObjectID = "fQm-Dv-5bJ"; */
+"fQm-Dv-5bJ.text" = "공유기기가 없습니다.";
+
+/* Class = "UILabel"; text = "GJKOSA"; ObjectID = "hIV-EC-1ue"; */
+"hIV-EC-1ue.text" = "GJKOSA";
+
+/* Class = "UILabel"; text = "아빠 UWOKEL"; ObjectID = "nXo-KW-xAT"; */
+"nXo-KW-xAT.text" = "아빠 UWOKEL";
+
+/* Class = "UILabel"; text = "그룹 리더"; ObjectID = "oJa-td-lSa"; */
+"oJa-td-lSa.text" = "그룹 리더";
+
+/* Class = "UILabel"; text = "MONIT 허브"; ObjectID = "ow5-Uz-jlH"; */
+"ow5-Uz-jlH.text" = "MONIT 허브";
+
+/* Class = "UILabel"; text = "You can invite others into this group. And you can share your device status to invitees."; ObjectID = "skk-t2-Tm6"; */
+"skk-t2-Tm6.text" = "You can invite others into this group. And you can share your device status to invitees.";

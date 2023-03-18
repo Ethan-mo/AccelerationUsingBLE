@@ -1,0 +1,123 @@
+
+/* Class = "UILabel"; text = "8-12 character+number+special character"; ObjectID = "09p-kW-eEU"; */
+"09p-kW-eEU.text" = "8-12 character+number+special character";
+
+/* Class = "UILabel"; text = "마케팅 수신에 동의하시겠습니까?"; ObjectID = "5fO-t9-yco"; */
+"5fO-t9-yco.text" = "마케팅 수신에 동의하시겠습니까?";
+
+/* Class = "UIButton"; normalTitle = "취소"; ObjectID = "5y6-JX-ZfC"; */
+"5y6-JX-ZfC.normalTitle" = "취소";
+
+/* Class = "UILabel"; text = "Sign out"; ObjectID = "71Z-cs-sy0"; */
+"71Z-cs-sy0.text" = "Sign out";
+
+/* Class = "UIButton"; normalTitle = "아니오"; ObjectID = "9FI-nq-8bC"; */
+"9FI-nq-8bC.normalTitle" = "아니오";
+
+/* Class = "UITableViewSection"; headerTitle = "Help"; ObjectID = "9XC-sF-khG"; */
+"9XC-sF-khG.headerTitle" = "Help";
+
+/* Class = "UILabel"; text = "Delete your account"; ObjectID = "AeF-Wx-x0x"; */
+"AeF-Wx-x0x.text" = "Delete your account";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Blr-3v-bZh"; */
+"Blr-3v-bZh.text" = "0";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "CS0-dM-Tjk"; */
+"CS0-dM-Tjk.text" = "Setting";
+
+/* Class = "UILabel"; text = "Change password"; ObjectID = "J0q-fg-6Ak"; */
+"J0q-fg-6Ak.text" = "Change password";
+
+/* Class = "UIButton"; normalTitle = "네"; ObjectID = "JUm-yp-E4U"; */
+"JUm-yp-E4U.normalTitle" = "네";
+
+/* Class = "UILabel"; text = "1900-01-01"; ObjectID = "JtR-kX-DIz"; */
+"JtR-kX-DIz.text" = "1900-01-01";
+
+/* Class = "UILabel"; text = "Support"; ObjectID = "MSq-Fk-hRA"; */
+"MSq-Fk-hRA.text" = "Support";
+
+/* Class = "UITableViewSection"; headerTitle = "Legal notice"; ObjectID = "OEf-nS-aWC"; */
+"OEf-nS-aWC.headerTitle" = "Legal notice";
+
+/* Class = "UILabel"; text = "Date of birth"; ObjectID = "OVL-s6-aaK"; */
+"OVL-s6-aaK.text" = "Date of birth";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "TkK-oz-xh4"; */
+"TkK-oz-xh4.text" = "ID";
+
+/* Class = "UILabel"; text = "Send Report"; ObjectID = "ULx-3i-qHv"; */
+"ULx-3i-qHv.text" = "Send Report";
+
+/* Class = "UILabel"; text = "Terms of Use"; ObjectID = "XfW-MR-MNm"; */
+"XfW-MR-MNm.text" = "Terms of Use";
+
+/* Class = "UILabel"; text = "마케팅 수신 동의"; ObjectID = "Ycs-nr-pU1"; */
+"Ycs-nr-pU1.text" = "마케팅 수신 동의";
+
+/* Class = "UILabel"; text = "mama"; ObjectID = "Yrv-V4-7Rf"; */
+"Yrv-V4-7Rf.text" = "mama";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "ZPz-Or-fLO"; */
+"ZPz-Or-fLO.text" = "Sex";
+
+/* Class = "UIButton"; normalTitle = "내용보기"; ObjectID = "aVb-Oc-NUB"; */
+"aVb-Oc-NUB.normalTitle" = "내용보기";
+
+/* Class = "UILabel"; text = "Enter 4-12 character"; ObjectID = "bQj-09-o6Y"; */
+"bQj-09-o6Y.text" = "Enter 4-12 character";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "bfD-9f-gDN"; */
+"bfD-9f-gDN.text" = "ID";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "cS7-Iy-UW1"; */
+"cS7-Iy-UW1.title" = "비밀번호 변경";
+
+/* Class = "UILabel"; text = "Enter 4-12 character"; ObjectID = "dRQ-U2-YA9"; */
+"dRQ-U2-YA9.text" = "Enter 4-12 character";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "dmu-wU-r3x"; */
+"dmu-wU-r3x.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "MemberID"; ObjectID = "ejC-2T-jbB"; */
+"ejC-2T-jbB.text" = "MemberID";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "em8-za-7Ja"; */
+"em8-za-7Ja.text" = "Password";
+
+/* Class = "UILabel"; text = "112312"; ObjectID = "gPl-Gl-kGz"; */
+"gPl-Gl-kGz.text" = "112312";
+
+/* Class = "UILabel"; text = "8-12 character"; ObjectID = "gde-j7-uii"; */
+"gde-j7-uii.text" = "8-12 character";
+
+/* Class = "UILabel"; text = "Change password"; ObjectID = "gge-wL-Eve"; */
+"gge-wL-Eve.text" = "Change password";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "jI7-eb-GVT"; */
+"jI7-eb-GVT.title" = "비밀번호 변경";
+
+/* Class = "UITableViewSection"; headerTitle = "Account :"; ObjectID = "mtX-Vk-CfC"; */
+"mtX-Vk-CfC.headerTitle" = "Account :";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "oCd-ZX-mMm"; */
+"oCd-ZX-mMm.text" = "Male";
+
+/* Class = "UILabel"; text = "Change nickname"; ObjectID = "szb-gR-BnX"; */
+"szb-gR-BnX.text" = "Change nickname";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "w3a-bU-9VQ"; */
+"w3a-bU-9VQ.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "App version"; ObjectID = "xap-v4-4WE"; */
+"xap-v4-4WE.text" = "App version";
+
+/* Class = "UILabel"; text = "CollectInfo"; ObjectID = "yCl-6W-n8g"; */
+"yCl-6W-n8g.text" = "CollectInfo";
+
+/* Class = "UILabel"; text = "Privacy"; ObjectID = "yLs-Yy-AaG"; */
+"yLs-Yy-AaG.text" = "Privacy";
+
+/* Class = "UILabel"; text = "3rdParty"; ObjectID = "ypE-br-iBI"; */
+"ypE-br-iBI.text" = "3rdParty";

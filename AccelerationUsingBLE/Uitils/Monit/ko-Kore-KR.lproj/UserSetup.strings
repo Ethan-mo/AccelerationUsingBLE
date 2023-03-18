@@ -1,0 +1,102 @@
+
+/* Class = "UILabel"; text = "8~10자리 영문+숫자+특수문자 혼합"; ObjectID = "09p-kW-eEU"; */
+"09p-kW-eEU.text" = "8~10자리 영문+숫자+특수문자 혼합";
+
+/* Class = "UILabel"; text = "로그 아웃"; ObjectID = "71Z-cs-sy0"; */
+"71Z-cs-sy0.text" = "로그 아웃";
+
+/* Class = "UITableViewSection"; headerTitle = "도움말"; ObjectID = "9XC-sF-khG"; */
+"9XC-sF-khG.headerTitle" = "도움말";
+
+/* Class = "UILabel"; text = "회원 탈퇴"; ObjectID = "AeF-Wx-x0x"; */
+"AeF-Wx-x0x.text" = "회원 탈퇴";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Blr-3v-bZh"; */
+"Blr-3v-bZh.text" = "0";
+
+/* Class = "UILabel"; text = "계정"; ObjectID = "CS0-dM-Tjk"; */
+"CS0-dM-Tjk.text" = "계정";
+
+/* Class = "UILabel"; text = "제품 보증 정책"; ObjectID = "D3y-9X-tR6"; */
+"D3y-9X-tR6.text" = "제품 보증 정책";
+
+/* Class = "UITableViewSection"; headerTitle = "공유"; ObjectID = "FIY-hT-lMO"; */
+"FIY-hT-lMO.headerTitle" = "공유";
+
+/* Class = "UILabel"; text = "비밀번호"; ObjectID = "J0q-fg-6Ak"; */
+"J0q-fg-6Ak.text" = "비밀번호";
+
+/* Class = "UILabel"; text = "1985.10.15"; ObjectID = "JtR-kX-DIz"; */
+"JtR-kX-DIz.text" = "1985.10.15";
+
+/* Class = "UILabel"; text = "고객 지원"; ObjectID = "MSq-Fk-hRA"; */
+"MSq-Fk-hRA.text" = "고객 지원";
+
+/* Class = "UITableViewSection"; headerTitle = "법적고지"; ObjectID = "OEf-nS-aWC"; */
+"OEf-nS-aWC.headerTitle" = "법적고지";
+
+/* Class = "UILabel"; text = "생일"; ObjectID = "OVL-s6-aaK"; */
+"OVL-s6-aaK.text" = "생일";
+
+/* Class = "UILabel"; text = "닉네임"; ObjectID = "TkK-oz-xh4"; */
+"TkK-oz-xh4.text" = "닉네임";
+
+/* Class = "UILabel"; text = "서비스 이용약관"; ObjectID = "XfW-MR-MNm"; */
+"XfW-MR-MNm.text" = "서비스 이용약관";
+
+/* Class = "UILabel"; text = "엄마"; ObjectID = "Yrv-V4-7Rf"; */
+"Yrv-V4-7Rf.text" = "엄마";
+
+/* Class = "UILabel"; text = "성별"; ObjectID = "ZPz-Or-fLO"; */
+"ZPz-Or-fLO.text" = "성별";
+
+/* Class = "UILabel"; text = "4~12자로 입력해주세요."; ObjectID = "bQj-09-o6Y"; */
+"bQj-09-o6Y.text" = "4~12자로 입력해주세요.";
+
+/* Class = "UILabel"; text = "닉네임"; ObjectID = "bfD-9f-gDN"; */
+"bfD-9f-gDN.text" = "닉네임";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "cS7-Iy-UW1"; */
+"cS7-Iy-UW1.title" = "비밀번호 변경";
+
+/* Class = "UILabel"; text = "공유 멤버"; ObjectID = "dHu-U4-p0X"; */
+"dHu-U4-p0X.text" = "공유 멤버";
+
+/* Class = "UILabel"; text = "4~12자로 입력해주세요."; ObjectID = "dRQ-U2-YA9"; */
+"dRQ-U2-YA9.text" = "4~12자로 입력해주세요.";
+
+/* Class = "UIButton"; normalTitle = "저장"; ObjectID = "dmu-wU-r3x"; */
+"dmu-wU-r3x.normalTitle" = "저장";
+
+/* Class = "UILabel"; text = "비밀번호"; ObjectID = "em8-za-7Ja"; */
+"em8-za-7Ja.text" = "비밀번호";
+
+/* Class = "UILabel"; text = "8~10자리 영문+숫자+특수문자 혼합"; ObjectID = "gde-j7-uii"; */
+"gde-j7-uii.text" = "8~10자리 영문+숫자+특수문자 혼합";
+
+/* Class = "UILabel"; text = "비밀번호 변경"; ObjectID = "gge-wL-Eve"; */
+"gge-wL-Eve.text" = "비밀번호 변경";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "jI7-eb-GVT"; */
+"jI7-eb-GVT.title" = "비밀번호 변경";
+
+/* Class = "UITableViewSection"; headerTitle = "계정 : mom@goodmonit.com"; ObjectID = "mtX-Vk-CfC"; */
+"mtX-Vk-CfC.headerTitle" = "계정 : mom@goodmonit.com";
+
+/* Class = "UILabel"; text = "여자"; ObjectID = "oCd-ZX-mMm"; */
+"oCd-ZX-mMm.text" = "여자";
+
+/* Class = "UILabel"; text = "닉네임 변경"; ObjectID = "szb-gR-BnX"; */
+"szb-gR-BnX.text" = "닉네임 변경";
+
+/* Class = "UILabel"; text = "3명"; ObjectID = "tFK-25-TdI"; */
+"tFK-25-TdI.text" = "3명";
+
+/* Class = "UIButton"; normalTitle = "저장"; ObjectID = "w3a-bU-9VQ"; */
+"w3a-bU-9VQ.normalTitle" = "저장";
+
+/* Class = "UILabel"; text = "앱 버전"; ObjectID = "xap-v4-4WE"; */
+"xap-v4-4WE.text" = "앱 버전";
+
+/* Class = "UILabel"; text = "개인정보 취급방침"; ObjectID = "yLs-Yy-AaG"; */
+"yLs-Yy-AaG.text" = "개인정보 취급방침";

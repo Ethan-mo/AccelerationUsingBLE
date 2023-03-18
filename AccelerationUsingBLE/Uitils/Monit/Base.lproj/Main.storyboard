@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Init View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="initView" id="BYZ-38-t0r" customClass="InitViewController" customModule="goodmonit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgSplash_1" translatesAutoresizingMaskIntoConstraints="NO" id="rbM-Za-UML">
+                                <rect key="frame" x="107" y="233" width="160" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgLogo3" translatesAutoresizingMaskIntoConstraints="NO" id="qf9-7G-09y">
+                                <rect key="frame" x="170" y="316" width="34" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgMonitXHuggiesLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qyf-hq-5aA">
+                                <rect key="frame" x="51" y="301" width="273" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgKcSigninLogo" translatesAutoresizingMaskIntoConstraints="NO" id="wZ7-gw-QgT">
+                                <rect key="frame" x="92" y="274" width="190" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Ja-9V-sAM"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NZS-Ah-z2g"/>
+                    <connections>
+                        <outlet property="imgLogo" destination="qf9-7G-09y" id="UJK-yA-ySS"/>
+                        <outlet property="imgSplashGoodmonit" destination="rbM-Za-UML" id="OlD-bu-WDb"/>
+                        <outlet property="imgSplashKc" destination="wZ7-gw-QgT" id="yRR-qo-9ER"/>
+                        <outlet property="imgSplashMonitXHuggies" destination="qyf-hq-5aA" id="C0M-Es-Hp7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3776.8000000000002" y="-1178.8605697151424"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+    <resources>
+        <image name="imgKcSigninLogo" width="190" height="118"/>
+        <image name="imgLogo3" width="37" height="37"/>
+        <image name="imgMonitXHuggiesLogo" width="273" height="65"/>
+        <image name="imgSplash_1" width="160" height="120"/>
+    </resources>
+</document>

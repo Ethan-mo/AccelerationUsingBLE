@@ -1,0 +1,12 @@
+/* 
+  LocalInfo.strings
+  Monit
+
+  Created by 맥 on 2017. 8. 21..
+  Copyright © 2017년 맥. All rights reserved.
+*/
+
+CFBundleDisplayName = "Monit Baby";
+NSBluetoothAlwaysUsageDescription = "手机用蓝牙连接设备";
+NSBluetoothPeripheralUsageDescription = "手机用蓝牙连接设备";
+

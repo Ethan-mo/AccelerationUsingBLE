@@ -1,0 +1,936 @@
+// es-mx
+"app_name" = "MONIT";
+"swipe_down_to_refresh" = "Los datos en la pantalla se actualizan automáticamente cada 10 segundos. Si deseas actualizar la pantalla manualmente, desliza hacia abajo desde la parte superior de la misma. ";
+"toast_sent_new_password_email" = "El enlace para cambiar su constraseña ha sido enviado por correo electronico.Por favor revise su bandeja de entrada.";
+"toast_sent_an_authentication_email" = "El correo electronico de verificación ha sido reenviado. Por favor revise su correo electronico.";
+"toast_failed_to_send_an_email" = "Error al enviar un correo electronico de verificacion. Por favor vuelve a intentarlo en un momento.";
+"toast_invalid_user_info" = "La cuenta no coincide con su entrada. Comprueba tu cuenta y vuelve a intentarlo.";
+"toast_invalid_user_session" = "La configuración de la cuenta ha cambiado. Por favor inicie la sesión de nuevo.";
+
+
+
+
+"toast_change_password_succeeded" = "Se ha cambiado la contraseña.";
+
+"toast_change_nickname_succeeded" = "El sobrenombre ha sido cambiado.";
+"toast_change_same_nickname" = "El sobrenombre que ingreso es el mismo que el anterior. Por favor, haga un cambio.";
+"toast_change_nickname_failed" = "Error al cambiar el sobrenombre. Por favor vuelve a intentarlo.";
+
+"toast_invite_group_member_failed" = "No se pudo invitar a un nuevo miembro.";
+
+
+"toast_delete_group_member_failed" = "No se pudo quitar un miembro. Por favor compruebe el ID de la cuenta.";
+"toast_leave_group_succeeded" = "Dejas un grupo.";
+"toast_leave_group_failed" = "No se pudo dejar el grupo. Por favor vuelve a intentarlo.";
+
+
+
+
+
+
+
+"dialog_contents_update_available" = "La nueva versión esta disponible. Por favor actualice su aplicación.";
+
+
+
+"dialog_contents_err_communication_with_server" = "Error de conexión con el servidor. Por faver vuelve a intentarlo.";
+"dialog_contents_input_invitee_short_id" = "Por favor ingrese el codigo de miembro para la invitación. (6 digitos).";
+
+"dialog_contents_sign_out_confirm_description" = "Si cierra su cuenta, se desconectara de sus dispositivos y no podra recibir informacion compartida.";
+"dialog_contents_leave_confirm" = "Desea borrar su cuenta?";
+"dialog_contents_leave_confirm_description" = "Si elimina su cuenta, los grupos de distribución actuales se eliminan y no pueden compartir el estado del dispositivo. Una vez la cuenta se elimina, es dificil de inicializar la configuración del dispositivo conectado. Por favor, asegurese de terminar todo el proces de inicializacion antes de salir. Iniciar sesión de nuevo con la misma cuenta de correo electronico es posible despúes de dos semanas de eliminación. Desea continuar?";
+"dialog_contents_group_leave_confirm" = "Desea dejar el grupo con la propiedad de %@(%@)? Si se abandona el grupo, no podrás recibir la información del estado del dispositivo en este grupo.";
+"dialog_contents_need_internet_connection" = "Se necesita red de internet para conectarse al sensor.";
+"dialog_contents_scanning" = "Buscando el dispositivo ahora. \nPor favor espera un rato.";
+"dialog_contents_connecting" = "Conectando el dispositivo ahora. \nPor favor espera un rato.";
+"dialog_contents_hub_ap_connecting" = "Configurando la conexión del internet en el HUB. \nPor favor espera un rato.";
+
+"dialog_contents_hub_ap_connection_failed" = "no pudo configurar la conexión del internet. \nPor favor comprueba la información de la red inalambrica y vuelve a intentarlo.";
+"dialog_contents_not_detected_monit" = "No pudo encontrar el Sensor de pañal.\nPor favor vuelve a intentarlo con los siguientes pasos. \n1. Encienda y apague el sensor. \n2. El LED azul destella. \n3. Seleccione el boton de intentar otra vez.";
+
+
+"dialog_contents_ask_for_connectint_hub" = "¿Desea conectar el Hub adicionalmente?";
+
+"dialog_contents_remove_device" = "Elimine el dispositivo conectado. Si el dispositivo esta eliminada, otros dispositivos del groupo serán eliminados tambien. ¿Desea continuarlo?";
+"dialog_contents_initialize_device" = "Iniciar el dispositivo. Luego de iniciación este completo, el dispositivo desconectara y los datos del dispositivo será eliminado desde el telefono. Si deserías a conectar el dispositivo. Vuelve a registrarlo.";
+"dialog_contents_finding_device" = "Para buscar el dispositivo, la luz azul del LED destalla por 5 segundos.";
+"signin_email" = "Correo electronico";
+"signin_password" = "contraseña";
+"signin_forgot_password" = "¿Se olvidó la contraseña?";
+
+
+
+
+
+"title_setting" = "Configuración";
+"title_firmware_update" = "Actualización de soporte lógico inalterable.";
+"title_account" = "Cuenta";
+
+"title_signin" = "Iniciar sesión";
+"title_signup" = "Crear una nueva cuenta.";
+"title_forgot_password" = "¿Olvidaste tu contraseña?";
+"title_connection" = "Registro";
+"tab_status" = "Estado";
+"tab_graph" = "Gráficas";
+"tab_notification" = "Alarma";
+
+"account_shortid" = "Código de miembro";
+"account_change_password" = "Cambiar contraseña";
+
+"account_change_nickname" = "Cambiar sobrenombre";
+
+"account_gender" = "Sexo";
+
+
+
+
+
+"account_baby_name" = "Nombre del bebé";
+"account_hint_baby_name" = "Hasta 8 caracteres";
+
+"account_baby_sex" = "Sexo del bebé";
+"account_baby_birthday" = "Fecha de nacimiento del bebé";
+"account_email" = "Correo electronico";
+"account_hint_email" = "Correo electronico";
+"account_warning_dialog_email" = "Introduzca su correo electronico";
+"account_warning_email" = "Correo electrico inválido";
+"account_warning_duplicated_email" = "El correo electronico ya esta registrada";
+"account_warning_leave_email" = "Esta dirección de correo electronico ya se ha dejado.";
+
+"account_birthday" = "Fecha de nacimiento";
+
+"account_warning_birthday" = "Introduzca la fecha de nacimiento.";
+
+"account_hint_password" = "Al menos 8 caracteres (alfanuméricos y caracteres especiales)";
+"account_warning_password" = "Al menos 8 caracteres (alfanuméricos y caracteres especiales)";
+"account_warning_password_digit" = "8-64 caracteristicas";
+"account_warning_password_no_alphabet" = "Introducir al menos un alfabeto";
+"account_warning_password_no_number" = "Introducir al menos un numero";
+"account_warning_password_no_special_character" = "introducir al menos un caracter especial";
+"account_warning_dialog_password" = "Introduzca la contraseña (8-64 caracteres).";
+"account_nickname" = "Nombre";
+"account_hint_nickname" = "introduzca 1-12 caracteres";
+"account_warning_nickname" = "introduzca 1-12 caracteres";
+"account_warning_dialog_nickname" = "Por favor ingrese el sobrenombre (1-12 caracteres).";
+
+"account_warning_gender" = "Por favor seleciona el sexo";
+"account_warning_dialog_gender" = "Por favor seleciona el sexo";
+
+
+
+
+
+"account_warning_agreement" = "Por favor acepte los terminos.";
+"account_warning_dialog_agreement" = "Por favor acepte los terminos y marque la casilla";
+
+"signup_check_auth_email" = "Por favor revisa el correo electrónico de verificación";
+"signup_check_auth_email_description" = "Se ha enviado el correo electrónico de verificación al correo registrado. Por favor da clic en el botón de verificación  que se muestra en el correo electrónico\n%@\n\n, luego selecciona el botón “SIGUIENTE” en la parte superior de la pantalla.";
+"signup_not_authenticated" = "La verificación del correo electrónico no esta terminado.";
+"signup_send_auth_email" = "Reenviar el correo electrónico de verificaión";
+
+
+
+"signup_step1_title" = "Crear una cuenta Monit";
+"signup_step1_detail" = "La cuenta es necesaria para usar el servicio de Monit.\nCompleta la siguiente información y selecciona el botón “TERMINADO” en la parte superior una vez que hayas terminado.";
+"signup_step3_title" = "Información adicional del tutor";
+"signup_step3_detail" = "Por favor ingresa la información del tutor que creó la cuenta para completar el registro.\nLa información ingresada se usará para mejorar el producto a través de estadísticas y análisis.";
+"gender_male" = "Hombre";
+"gender_female" = "Mujer";
+"sex_baby_boy" = "Niño";
+"sex_baby_girl" = "Niña";
+"time_year_short" = "Año";
+"time_month_short" = "Mes";
+"time_day_short" = "Día";
+
+
+
+
+
+
+"btn_leave" = "Eliminar ID de la cuenta";
+"btn_invite" = "Invitar";
+
+"btn_done" = "Terminado";
+"btn_group_leave" = "Eliminado";
+
+
+"btn_next" = "Siguiente";
+"btn_save" = "Guardar";
+
+
+"btn_connect" = "Conectar";
+
+
+"btn_signout" = "Salir";
+
+"btn_register_device" = "Registrar";
+
+"btn_update" = "Actualizar";
+
+"btn_ok" = "Ok";
+"btn_yes" = "Sí";
+"btn_no" = "No";
+"btn_none" = "Ninguna";
+"btn_try_again" = "Intentar de Nuevo";
+"btn_close" = "Cerrar";
+"btn_cancel" = "Cancelar";
+"btn_remove" = "Eliminar";
+
+
+"unit_temperature_celsius" = "℃";
+"unit_temperature_fahrenheit" = "℉";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"connection_select_device" = "Elige el dispositivo que deseas registrar.\nNo puedes registrar un dispositivo adicional antes de iniciar el dispositivo ya registrado.";
+"connection_monit_sensor_ready_title" = "Conéctate al Sensor de pañal";
+"connection_monit_sensor_ready_detail_step1" = "Prende el sensor.";
+"connection_monit_sensor_ready_detail_step2" = "Verifique que la luz azul esté parpadeando.";
+"connection_monit_sensor_babyinfo_title" = "Registrar el perfil de bebé";
+"connection_monit_sensor_babyinfo_detail" = "Por favor introduzca la información del bebé que usará este sensor.\nLa precisión del mismo puede estar relacionada con esta información.";
+"connection_monit_sensor_connected_title" = "¡El sensor está conectado!";
+"connection_monit_sensor_connected_detail" = "Ahora el sensor está listo para usar. \nVerifique las imágenes de instrucciones a continuación para usarlo.";
+"connection_hub_ready_title" = "Listo para enlazar el Hub";
+"connection_hub_ready_detail_step1" = "Por favor conecta la alimentación USB tanto al Hub como al adaptador proporcionado.\nCuando se conecta a un puerto USB de su computadora o a un puerto multi USB, es posible que no funcione correctamente debido a una fuente de alimentación insuficiente.";
+"connection_hub_ready_detail_step2" = "Verifique que la luz azul esté parpadeando.";
+
+
+
+"connection_hub_put_sensor_detail_step1" = "Verifique si el sensor del pañal está conectado a su teléfono inteligente.";
+"connection_hub_put_sensor_detail_step2" = "Coloca el sensor en el centro del hub. Éste se conectará con tu celular a través del sensor. ";
+"connection_hub_add_new_network_title" = "Introduzca información de red inalámbrica";
+
+"connection_hub_hint_input_network_name" = "Por favor Ingrese el nombre de la red de entrada";
+"connection_hub_network_name" = "Nombre";
+"connection_hub_network_security" = "Seguridad";
+"connection_hub_network_security_none" = "OPEN";
+
+
+
+
+
+
+
+"connection_hub_hint_input_ap_password" = "Por favor Ingrese la contraseña";
+"connection_hub_ap_password" = "Contraseña";
+"connection_hub_selected_ap_name" = "Red :";
+"connection_hub_select_ap_title" = "Configuración de red inalámbrica";
+"connection_hub_scan_ap_detail" = "¡El Hub está conectado a tu celular! Presiona el botón de búsqueda a continuación para conectarlo a una red inalámbrica.";
+
+"connection_hub_scanning_add_new_network" = "Añadir otra red";
+"connection_hub_scan_network_list" = "Elige una red";
+
+"connection_hub_select_ap_detail" = "Elija una red a continuación para conectar el Hub.";
+"connection_scan_ap" = "Buscar red";
+"connection_start_connect" = "Comience la conexión";
+"connection_hub_connected_title" = "¡El Hub está conectado!";
+"connection_hub_connected_detail" = "Ahora Hub está listo para usar.";
+"connection_connect_other_device" = "Agrega otros dispositivos";
+
+
+"toast_need_to_enable_bluetooth" = "Bluetooth es requerido para este modo.";
+"device_monit_hub_connection_condition" = "Debes enlazar primero el Sensor y después el Hub.";
+"device_no_registered_devices" = "No hay dispositivos vinculados a su celular.";
+
+"device_sensing_environment" = "Hub";
+
+"device_hub_disconnected" = "Se perdió la conexión con Hub. Por favor, compruebe el estado de la red de internet. Si el problema persiste, retire y vuelva a enchufar el adaptador de alimentación del concentrador.";
+"device_hub_disconnected_title" = "Conexión perdida con Hub";
+"device_hub_disconnected_detail" = "Por favor, compruebe el estado de la red de internet. Para cambiar la red, vaya a Configuración superior derecha y seleccione Cambiar red.";
+"device_sensor_disconnected" = "Perdió la conexión con un sensor. Verifique que el sensor esté encendido y colóquelo cerca de su teléfono inteligente o Hub.";
+"device_sensor_disconnected_title" = "Perdió la conexión con el sensor.";
+"device_sensor_disconnected_detail" = "Asegúrese de que el sensor esté encendido y colóquelo cerca de su teléfono inteligente o Hub.";
+
+
+
+
+
+
+
+
+
+
+
+"device_environment_temperature" = "Temperatura";
+"device_environment_temperature_unit" = "La escala de temperatura";
+"device_environment_temperature_high" = "¡Hace mucho calor!";
+"device_environment_temperature_high_action" = "Por favor. Prende el Aire acondicionado.";
+"device_environment_temperature_low" = "¡Hace mucho frio!";
+"device_environment_temperature_low_action" = "Por favor prende la calefacción.";
+"device_environment_humidity" = "Humedad";
+"device_environment_humidity_high" = "¡Es muy húmedo!";
+"device_environment_humidity_high_action" = "Por favor, apague el humidificador.";
+"device_environment_humidity_low" = "¡El aire está demasiado seco!";
+"device_environment_humidity_low_action" = "Por favor Prende el humidificador";
+"device_environment_voc" = "Gas";
+"device_environment_voc_bad_detected" = "¡Detectado el GAS!";
+
+"device_environment_voc_bad_action" = "¡Prende el purificador de aire o abra la ventana!";
+"device_environment_voc_good" = "Bueno";
+"device_environment_voc_normal" = "Normal";
+"device_environment_voc_not_good" = "Malo";
+"device_environment_voc_very_bad" = "Muy Malo";
+
+
+"device_environment_status_normal_detail" = "¡Buen estado!";
+"device_sensor_battery_power" = "Batería";
+
+
+
+
+"device_sensor_detect_passed_time" = "%@ minutos pasado";
+"device_sensor_operation" = "Movimiento";
+"device_sensor_operation_sensing" = "Observando";
+"device_sensor_operation_idle" = "Listo";
+"device_sensor_operation_charging" = "Cargando";
+"device_sensor_operation_connected" = "Conectado";
+"device_sensor_operation_disconnected" = "Conexión perdida";
+
+
+
+"device_sensor_diaper_status_normal" = "Bueno";
+"device_sensor_diaper_status_normal_detail" = "¡Buen estado!";
+"device_sensor_diaper_status_pee" = "Pipí";
+"device_sensor_diaper_status_pee_detail" = "¡Detectado PIpí!";
+"device_sensor_diaper_status_poo" = "Popo";
+"device_sensor_diaper_status_poo_detail" = "¡Detectado Popo!";
+"device_sensor_diaper_status_fart" = "Pedo";
+"device_sensor_diaper_status_fart_detail" = "¡Detectado pedo! Un poco de popo también puede ser. Por favor revisa el pañal!";
+"device_sensor_diaper_status_abnormal" = "Error";
+"device_sensor_diaper_status_abnormal_detail" = "La humedad alta y el gas se detectan y el sensor no funciona normalmente. Compruebe el pañal y reinicie el sensor.";
+"device_sensor_diaper_status_change" = "Por favor revisa el pañal.";
+"device_sensor_diaper_status_change_button" = "El pañal cambiado";
+"device_sensor_diaper_status_change_detail" = "Después de cambiar el pañal, presione el botón de PAÑAL CAMBIADO";
+"device_sensor_movement" = "Moviente";
+"device_sensor_movement_sleeping" = "Calma";
+"device_sensor_movement_crawling" = "Animado";
+"device_sensor_movement_running" = "Muy Animado";
+"setting_device_babyinfo" = "Información de Bebé";
+"setting_device_name" = "Nombre del dispositivo";
+"setting_device_find" = "Buscar el dispositivo";
+
+"setting_device_remove" = "Eliminar el dispositivo y abandonar el grupo";
+"setting_device_initialize" = "Reiniciar y eliminar el dispositivo";
+"setting_device_firmware_version" = "Versión de firmware";
+"setting_device_app_version" = "Versión de App";
+"setting_device_enable_alarm" = "Prender la alarma";
+"setting_device_enable_connection_alarm" = "Estado de conexión";
+"setting_device_enable_diaper_alarm" = "Estado del Pañal";
+"setting_device_led_light" = "Prender el indicador LED";
+"setting_device_led_light_on_time" = "Configuración de hora";
+
+"setting_custom_temperature" = "Ajuste de temperatura óptima";
+"setting_max_temperature_threshold" = "La temperatura máxima";
+"setting_min_temperature_threshold" = "La temperatura mínima";
+"setting_custom_temperature_description" = "Cuando la temperatura sale del rango óptimo establecido, la alarma lo notificará.";
+"setting_ap_info_title" = "Cambiar la red";
+
+
+"setting_custom_humidity" = "Configuración de humedad óptima";
+"setting_max_humidity_threshold" = "La humedad máxima";
+"setting_min_humidity_threshold" = "La humedad mínima";
+"setting_custom_humidity_description" = "Cuando la humedad salga del rango óptimo que configuró, la alarma lo notificará.";
+"setting_custom_led_on_off_time" = "Configuración de indicador LED";
+"setting_led_on_time" = "Hora de prender";
+"setting_led_off_time" = "Hora de apagar";
+"setting_custom_led_on_off_time_description" = "Para no molestar el sueño, la luz se encenderá solo entre el momento en que se establece";
+
+"notification_empty_view" = "Ningún mensaje";
+"notification_diaper_status_diaper_changed_title" = "Pañal cambiado";
+"notification_diaper_status_diaper_changed_detail" = "El pañal ha sido cambiado.";
+
+
+
+
+
+"notification_diaper_status_fart_detected_detail" = "Pedo detectado! Un poco de popo también puede ser. Por favor revisa el pañal!";
+
+
+"notification_environment_high_humidity_title" = "¡Es muy húmedo!";
+
+"notification_environment_low_humidity_title" = "¡El aire está demasiado seco!";
+
+"notification_environment_high_temperature_title" = "¡Hace mucho calor!";
+
+"notification_environment_low_temperature_title" = "¡Hace mucho frio!";
+
+"notification_environment_bad_voc_title" = "Se detectó gas VOC";
+
+"notification_low_battery_title" = "Potencia de batería baja";
+"notification_low_battery_detail" = "Potencia de batería baja. Por favor recargue ahora.";
+"group_share" = "Compartir";
+"group_title_name" = "Nombre del grupo";
+"group_title_device_count" = "Lista de dispositivo compatible (%@ dispositivos)";
+"group_title_shared_member_count" = "Miembros de dispositivo compatible (%@ miembros)";
+"group_title_sharing" = "compartir";
+"group_title_shared" = "compartido";
+"group_no_sharing_member_description" = "Ningún miembro comparte el estado del dispositivo en tiempo real con usted. Si desea invitar a un miembro, seleccione el botón INVITAR en la parte superior.";
+
+"group_sharing_member_description" = "Deslice el miembro a la izquierda si desea eliminar del grupo.";
+"group_title_sharing_description" = "Puede invitar a otros a este grupo y compartir el estado de su dispositivo con invitados";
+"group_leave_description" = "Si desea abandonar el grupo, seleccione el botón Dejar en la parte superior.";
+"group_title_shared_description" = "Puede ser invitado a un grupo y recibir el estado del dispositivo del líder del grupo.";
+"group_mygroup" = "Mi grupo";
+"group_name_default" = "Nuevo grupo.";
+"group_count" = "";
+"group_set_name" = "Configuración del nombre del grupo";
+"group_set_name_detail" = "Este nombre del grupo solo se muestra en mi App.";
+"group_leader" = "Líder";
+"group_invite_member" = "Invitar miembro";
+"group_member_category_me" = "Mi";
+
+
+"group_member_count" = "personas";
+"group_invite_description" = "Después de invitar a otros usuarios a este grupo, puede compartir el estado del dispositivo con los miembros en tiempo real.";
+"group_delete_dialog_title" = "Confirmado la eliminación del miembro";
+"group_delete_dialog_description" = "Si se elimina el miembro, la información de los dispositivos en este grupo no se compartirá. ¿Desea eliminar este miembro?";
+"legal_notice" = "Política legal";
+"legal_terms" = "Términos y Condiciones del uso de servicio Monit";
+"legal_privacy" = "Política de privacidad";
+"legal_warranty" = "Garantía de dispositivo";
+"legal_agreement" = "Confirmación de cláusula";
+"legal_agree_all" = "estoy de acuerdo";
+"help" = "Ayuda";
+"help_support" = "Atención al cliente";
+
+
+
+
+
+
+"dfu_status_completed_msg" = "La actualización se ha completado con éxito.";
+
+
+
+
+
+
+
+
+
+
+
+"dfu_status_uploading" = "Subiendo ...";
+
+
+
+
+
+
+
+
+"toast_invalid_min_max_range" = "El valor máximo no puede ser menor que el valor mínimo.";
+"device_sensor_operation_fully_charged" = "Completamente cargado";
+"toast_invite_group_member_exceeded" = "Invitación máxima excedida";
+"dialog_group_leave_title" = "Abandonar el grupo";
+"dialog_unknown_error_description" = "Código de error desconocido";
+"account_warning_dialog_findpw_description" = "Por favor, revise la información introducido";
+"account_warning_dialog_babyname" = "Introduce el nombre del bebé";
+"toast_sharing_member_renewed" = "La configuración de uso compartido se ha cambiado. \nRenova los datos.";
+"dialog_contents_failed_hub_connection" = "La conexión con Hub ha fallado. Si falla varias veces, retire el sensor del concentrador y vuelva a intentarlo desde el principio.";
+"dialog_contents_failed_hub_connection_empty_sensor" = "El sensor se ha eliminado del Hub. \n Por favor, colóquelo en Hub.";
+"device_warning_dialog_babyname" = "Introduce el nombre del bebé";
+"device_warning_dialog_hubname" = "Introduce el nombre";
+"PEE_DETECTED" = "%@\nPipí detectado. \nPor favor revisa el pañal.";
+"POO_DETECTED" = "%@\nPopo detectado. \nPor favor revisa el pañal.";
+"ABNORMAL_DETECTED" = "%@\nLa humedad alta y el gas se detectan y el sensor no funciona normalmente. Compruebe el pañal y reinicie el sensor.";
+"DIAPER_CHANGED" = "%@\n El pañal ha sido cambiado.";
+"LOW_TEMPERATURE" = "%@\n La temperatura está por debajo del nivel de temperatura más bajo que configuró.";
+"HIGH_TEMPERATURE" = "%@\n La temperatura excedió el nivel de temperatura más alto que configuró.";
+"LOW_HUMIDITY" = "%@\n La humedad está por debajo del nivel de humedad más bajo que configuró.";
+"HIGH_HUMIDITY" = "%@\n La humedad está excedió del nivel de humedad más alto que configuró.";
+"VOC_WARNING" = "Se detectó %@\nVOC gas. \nPor favor, ventile la habitación.";
+"LOW_BATTERY" = "%@\n Batería baja. Por favor recargue ahora.";
+"DISCONNECTED" = "%@\nConexión perdida";
+"CONNECTED" = "%@\nConectado";
+"FART_DETECTED" = "%@\nPedo detectado. Un poco de popo también puede ser. Por favor revisa el pañal!";
+"deviceSetupAlarmOffSummary" = "Para ajustar la configuración de la alarma, vaya a Configuración> Notificaciones> Monit en su teléfono.";
+"setting_device_hub_constraints_not_owner" = "Como se trata de un dispositivo compartido, puede configurar la alarma y la unidad de temperatura solo.";
+"setting_device_sensor_constraints_not_owner" = "Como este es un dispositivo compartido, puede configurar la alarma solamente.";
+"device_sensor_alarm_count" = "Alarma";
+"btn_refresh" = "Actualizar";
+"account_name" = "Sobrenombre";
+"account_id" = "Cuenta ID";
+"account_hint_id" = "Introduzca la identificación de la cuenta";
+"account_warning_id" = "Introduzca la identificación de la cuenta con al menos 3 caracteres.";
+"account_warning_dialog_id" = "Introduzca la identificación de la cuenta con al menos 4 caracteres.";
+"btn_send_report" = "Enviar datos de registro";
+"dialog_contents_send_report" = "Envíe datos de registro a un administrador de servicios monit. Puede obtener una respuesta rápida con esta función.";
+"internet_disconnected_detail" = "Por favor revisa el estado de tu red de internet";
+"toast_noti_loading" = "importar una lista de notificaciones.";
+"connection_hub_select_ap_detail_etc" = "El Hub está habilitado para conectarse a una red inalámbrica de 2.4Ghz. Las redes con banda de 5Ghz no pueden ser identificadas y no son aptas para el correcto funcionamiento del Hub.";
+"connection_terminate_app_noti_detail" = "Si apaga esta aplicación por la fuerza, se perderá la conexión Bluetooth entre su teléfono inteligente y el sensor. En caso de desconexión, es posible que no reciba la alerta de notificación.";
+"notice_title" = "Noticia";
+"btn_do_not_repeat" = "No mirar desde la próxima vez";
+"cautions_title" = "Precauciones!";
+"toast_need_to_enable_bluetooth_with_err" = "Para usar esta función, Bluetooth debe estar encendido. \nConfiguraciones> Bluetooth \n\n Si este error continúa ocurriendo, actualice OS a la última versión.";
+"btn_connecting" = "Conectando";
+"dialog_contents_already_registered" = "Este sensor ya ha sido registrado. Puede obtener la información de este dispositivo uniéndose al grupo. ¿Quieres continuar esta conexión?";
+"dialog_contents_failed_connection_reason_ble" = "La conexión con el dispositivo falló con una mala comunicación bluetooth. Por favor intente esto nuevamente después de reiniciar este sensor.";
+"dialog_contents_failed_connection_reason_internet" = "La conexión con el dispositivo falló con una mala comunicación de Internet. Por favor intente esto nuevamente después de verificar el estado de Internet.";
+"dfu_latest_version" = "Ultima versión.";
+"dfu_update_available_description" = "Actualización disponible. Por favor, actualice el firmware.";
+"dfu_update_available_caution" = "No apague el dispositivo ni cierre esta aplicación. El dispositivo podría funcionar anormalmente.";
+"dfu_update_completed" = "Actualización de firmware completa. El sensor de pañal se reinicia ahora. Se conectará con su teléfono inteligente después de un tiempo.";
+"dfu_low_battery_warning" = "La batería del sensor del pañal es demasiado baja. Por favor intente esto nuevamente después de cargarlo.";
+"current_version" = "Versión actual";
+"latest_version" = "Ultima versión.";
+"dfu_update_failed" = "La actualización del firmware falló. Por favor, reinicie el sensor de pañales con el interruptor de encendido y apagado.";
+"dfu_update_need_latestversion" = "iOS versión 11.2 o superior está disponible ahora. \n Actualiza iOS a la última versión.";
+"dfu_update_waiting" = "La actualización está lista. Por favor, espere un minuto.";
+"dfu_update_stop_process" = "¿Quieres detener la actualización del firmware?";
+"group_share_member_description" = "Si desea invitar a un miembro, seleccione el botón +. Si desea eliminar un miembro, seleccione el miembro.";
+"group_invite_member_hint" = "Código de membresía (6 dígitos)";
+"group_warning_invalid_short_id" = "Código de membresía inválido";
+"group_short_id_description" = "¿Qué es el código de Membresía? Este código es emitido por Monit con 6 dígitos. Esto SOLAMENTE incluye alfabetos y números. Puede verificar este código en el menú de Cuenta> Código de membresía";
+"group_title_shared_list" = "Lista de grupo compartido";
+"group_share_device_list_empty" = "No Hay dispositivo";
+"group_shared_group_list_empty" = "No Hay grupo compartido";
+"group_message_my_group_invite" = "Miembro invitado";
+"group_message_my_group_delete" = "Miembro eliminado";
+"group_message_my_group_leave" = "Dejar miembro";
+"group_message_my_group_request" = "Solicitar la invitación del miembro";
+"group_message_other_group_invited" = "Invitado el miembro";
+"group_message_other_group_deleted" = "Eliminado el miembro";
+"group_message_other_group_leave" = "El miembro abandonó el grupo";
+"group_message_other_group_request" = "Invitó al miembro";
+"feedback_input_text" = "Por favor Ingrese informaciones especiales";
+"btn_send" = "Envio";
+"feedback_poo" = "Popo";
+"feedback_pee" = "Pípi";
+"feedback_none" = "Ninguna";
+"feedback_true" = "Cierto";
+"feedback_false" = "Falso";
+"feedback_dk" = "No sé";
+"feedback_diaper_status" = "Estado de pañal";
+"account_signup_welcome_title" = "Bienvenido a Monit";
+"account_signup_welcome_membershipcode" = "Se ha emitido el código de membresía que se puede usar para compartir la función de información. Puede ver este código en Cuenta> Menú de código de membresía.";
+"account_signup_welcome_description" = "Monit ayudará a cuidar su bebé de forma más inteligente.";
+"group_title_group" = "Grupo";
+"group_message_init_device" = "Reiniciar el dispositivo";
+"notification_init_device_title" = "Reiniciar el dispositivo";
+"notification_init_device_description" = "El dispositivo se ha inicializado.";
+"toast_sensor_is_not_connected_directly" = "Esta característica necesita conexión entre el sensor y este teléfono inteligente.";
+"dialog_dfu_stay_this_screen" = "Si sale de esta pantalla, es posible que el dispositivo no funcione. ¿Te gustaría salir de esta pantalla?";
+"dialog_dfu_near_sensor" = "Coloque el sensor cerca del teléfono inteligente. \n ¿Desea continuar?";
+"dialog_connection_not_received_ap_info" = "Error al encontrar la información de la red inalámbrica. Inténtalo de nuevo después de retirar el sensor del concentrador y colocarlo en el centro.";
+"hub_graph_score" = "Puntuación";
+"hub_graph_temperature" = "Temperatura";
+"hub_graph_humidity" = "Humedad";
+"hub_graph_voc" = "Gas";
+"hub_graph_now" = "Ahora";
+"hub_graph_average" = "Promedio de este día";
+
+
+"sensor_graph_weekly" = "Semanal";
+"sensor_graph_monthly" = "Mensual";
+"sensor_graph_week" = "Semana";
+"sensor_graph_month" = "Mes";
+"sensor_graph_diaper" = "Pañal";
+"hub_graph_today" = "Hoy";
+"hub_graph_ago" = "Hace %@ Días";
+"guide_direct_connection_title" = "Guía de conexión Bluetooth";
+
+
+
+
+"sensitivity_low" = "Baja";
+"sensitivity_normal" = "Normal";
+"sensitivity_high" = "Alta";
+"sensitivity_title" = "Establecer sensibilidad";
+
+
+"guide_direct_connection_for_firmware_update" = "Prepare la actualización";
+"guide_direct_connection_description" = "Esta función necesita reiniciar la conexión BLE. Verifica los siguientes pasos.";
+"guide_direct_connection_description1" = "Coloque el sensor de pañal en el Hub";
+"guide_direct_connection_description2" = "Coloque este teléfono inteligente con bluetooth habilitado cerca del sensor.";
+"guide_direct_connection_description3" = "En 30 segundos, el sensor de pañal se conectará automáticamente con este teléfono inteligente y la pantalla cambiará.";
+
+
+
+
+
+
+"legal_collect_privacy" = "Recolección y uso de información personal";
+"legal_provide_3rd_party" = "Divulgación de terceros";
+
+
+
+
+
+
+"agreement_title" = "Aceptar los términos";
+"agreement_description" = "Para usar el servicio de Monit, debe aceptar los términos y condiciones. Puede verificar los términos y condiciones detallados seleccionando el botón de flecha.";
+"agreement_all" = "Estoy de acuerdo con todos los términos.";
+"agreement_service" = "(필수) 서비스 이용약관에 대한 동의";
+"agreement_warranty" = "(필수) 제품품질 보증서에 대한 동의";
+"agreement_privacy" = "(필수) 개인정보 처리방침에 대한 동의";
+"agreement_collect" = "(필수) 개인정보 수집,이용에 대한 동의";
+"agreement_disclosure" = "(필수) 개인정보 제3자 제공에 대한 동의";
+"dialog_contents_input_nickname" = "모닛 서비스 이용중에 사용하실 닉네임을 입력해주세요.(1~12자)";
+
+"hub_graph_no_data" = "No hay datos";
+
+
+
+
+"dialog_contents_sensor_need_reseting_description" = "️Para un funcionamiento correcto del sensor, desactive y active Bluetooth en la configuración.";
+"dialog_contents_dfu_low_battery" = "La actualización se ha detenido debido a la batería baja. Cargue la batería al menos al 30% para continuar la actualización.";
+"contents_need_bluetooth_reseting" = "El sensor no está conectado. Para conectarse con el sensor, apague y encienda la función Bluetooth. (Configuraciones> Bluetooth)";
+"sensor_graph_average_week" = "Promedio de esta semana";
+"sensor_graph_average_month" = "Promedio de este mes";
+"sensor_graph_count" = "veces";
+"dialog_contents_sensor_charging_error" = "La carga del sensor se ha detenido debido a un error. Desconecte el cargador y el sensor, luego apague el sensor y vuelva a prenderlo.";
+"sensor_graph_server_average_week" = "Promedio de compañeros de esta semana";
+"sensor_graph_server_average_month" = "Promedio de compañeros de este mes";
+"LOW_TEMPERATURE_DETAIL" = "La temperatura es inferior al nivel de temperatura mas bajo que usted fijo.";
+"HIGH_TEMPERATURE_DETAIL" = "La temperatura excede el nivel de temperatura mas alto que usted fijo.";
+"LOW_HUMIDITY_DETAIL" = "La humedad es inferior la nivel the humedad mas bajo que usted fijo.";
+"HIGH_HUMIDITY_DETAIL" = "La humedad excede el nivel de humedad mas alto que usted fijo.";
+"device_environment_temperature_high2" = "Es muy caliente.";
+"device_environment_temperature_high_action2" = "Por favor, encienda el aire acondicionado o abre la ventada para el aire fresco.";
+"device_environment_temperature_low2" = "Es muy frio.";
+"device_environment_temperature_low_action2" = "Por favor encienda la calefaccion.";
+"device_environment_humidity_high2" = "Es muy humedo.";
+"device_environment_humidity_high_action2" = "Por favor encienda el humidificador.";
+"device_environment_humidity_low2" = "El aire es muy seco.";
+"device_environment_humidity_low_action2" = "Por favor encienda el humidificador.";
+"device_environment_voc_bad_detected2" = "Gas detectado.";
+"device_environment_voc_bad_action2" = "Por favor encienda el purificador de aire o abre la ventana.";
+"device_environment_temperature_high3" = "Es muy caliente.";
+"device_environment_temperature_high_action3" = "Por favor, encienda el aire acondicionado o abre la ventada para el aire fresco.";
+"device_environment_temperature_low3" = "Es muy frio.";
+"device_environment_temperature_low_action3" = "Por favor encienda la calefaccion.";
+"device_environment_humidity_high3" = "Es muy humedo.";
+"device_environment_humidity_high_action3" = "Por favor encienda el humidificador.";
+"device_environment_humidity_low3" = "El aire es muy seco.";
+"device_environment_humidity_low_action3" = "Por favor encienda el humidificador.";
+"device_environment_voc_bad_detected3" = "Gas detectado.";
+"device_environment_voc_bad_action3" = "Por favor encienda el purificador de aire o abre la ventana.";
+"device_environment_temperature_high4" = "Es muy caliente.";
+"device_environment_temperature_high_action4" = "Por favor, encienda el aire acondicionado o abre la ventada para el aire fresco.";
+"device_environment_temperature_low4" = "Es muy frio.";
+"device_environment_temperature_low_action4" = "Por favor encienda la calefaccion.";
+"device_environment_humidity_high4" = "Es muy humedo.";
+"device_environment_humidity_high_action4" = "Por favor apague el humidificador.";
+"device_environment_humidity_low4" = "El aire es muy seco.";
+"device_environment_humidity_low_action4" = "Por favor encienda el humidificador.";
+"device_environment_voc_bad_detected4" = "Gas detectado.";
+"device_environment_voc_bad_action4" = "Por favor encienda el purificador de aire o abre la ventana.";
+"device_environment_temperature_high5" = "Es muy caliente.";
+"device_environment_temperature_high_action5" = "Es muy caliente.";
+"device_environment_temperature_low5" = "Es muy frio.";
+"device_environment_temperature_low_action5" = "Por favor encienda la calefaccion.";
+"device_environment_humidity_high5" = "Es muy humedo.";
+"device_environment_humidity_high_action5" = "Por favor apague el humidificador.";
+"device_environment_humidity_low5" = "El aire es muy seco.";
+"device_environment_humidity_low_action5" = "Por favor encienda el humidificador.";
+"device_environment_voc_bad_detected5" = "Gas detectado.";
+"device_environment_voc_bad_action5" = "Por favor encienda el purificador de aire o abre la ventana.";
+"agreement_title_link" = "Mostrar";
+"setting_wireless_network_change_title" = "Cambio de la red inalambrica.";
+"setting_ap_info_connected" = "Conectado";
+"btn_show" = "Mostrar";
+"agreement_description_gdpr" = "Para utilizar el servicio de Monit, deberás aceptar los términos y condiciones seleccionando la opción correcta. Puedes consultar los términos y condiciones seleccionando el botón mostrar. Si eres ciudadano de la UE (Unión Europea) aplica el Reglamento General de Protección de Datos (RGPD).\n(*) Es un campo obligatorio.";
+"agreement_eu_citizen" = "Ciudadano de EU";
+"agreement_service_goodmonit" = "Términos y condiciones";
+"agreement_privacy_gdpr_goodmonit" = "Política de Privacidad(RGPD)";
+"agreement_privacy_goodmonit" = "Política de Privacidad";
+"setting_device_detection_test_mode_title" = "Modo de prueba de deteccion.";
+"setting_device_detection_test_mode_description" = "El modo de prueba de deteccion esta habilitado durante 1 minuto para comprobar si este sensor funciona normalmente. Sople el agujero del sensor por 5 segundos. Puede recibir una alarma de deteccion. Despues de 1 minuto o haga clic en el boton Cancelar, esta ventana se cierra y el modo de prueba de deteccion esta desactivado.";
+"connection_hub_connected_detail_with_setting" = "Ahora el Hub está listo para su uso. Cuando la temperatura o la humedad salen del rango óptimo que se encuentra a continuación, la alarma le notificará. Puede establecer estas opciones en la página de configuración de este Hub.";
+"dialog_contents_already_registered_invite_request" = "Este dispositivo ya se registro. Por favor, de su codigo de miembro de 6 digitos al usuario que ha registrado este dispositivo. Si esta invitado al grupo de usuarios compartidos, puede conectar este dispositivo automaticamente sin codigo de suscripcion.";
+"contents_need_sensor_firmware_update" = "Las actualizaciones del firmware del Sensor proporcionan una funcionalidad mejorada.";
+"contents_need_hub_firmware_update" = "Las actualizaciones de firmware de Hub proporcionan una funcionalidad mejorada.";
+"account_baby_eating" = "Alimentación";
+"account_warning_eating" = "Por favor, elija el tipo de alimentación.";
+"toast_sensor_is_connected_directly" = "El sensor está conectado con el teléfono inteligente a través de Bluetooth.";
+"contents_need_firmware_update" = "Hay una nueva versión de firmware. \n¿Quieres actualizar?";
+"device_sensor_diaper_status_detectdiaperchanged_confirm_detail" = "이시간에 기저귀 교체를 하셨습니까?";
+"device_sensor_operation_analyzing" = "Analizamos";
+"device_sensor_diaper_status_analyzing" = "El gas detectado, verificamos la identidad del popo.\nLa alarma puede analizar hasta 5 minutos, pero si quita el sensor de antemano y lo desactiva, puede no recibirla.";
+"toast_diaper_status_initialized" = "El estado del pañal ha sido inicializado.";
+"account_setup_header_nugu" = "계정연동";
+"nugu_title" = "NUGU에서 모닛 사용하기";
+"nugu_speech_bubble" = "아리아, 베이비 모니터에서 온도 알려줘";
+"nugu_summary" = "대변 알려줘\n\n기저귀 교체 알려줘\n\n공기질 알려줘\n\n:";
+"nugu_guide_title" = "NUGU연동하기";
+"nugu_guide_contents_1" = "NUGU앱을 실행합니다.";
+"nugu_guide_btn_app_open" = "NUGU앱 실행하기";
+"nugu_guide_contents_2" = "NUGU앱에서 T계정으로 로그인하고, 보유하고 있는 NUGU디바이스를 추가합니다.";
+"nugu_guide_contents_3" = "NUGU Play  >  MONIT 에서 계정연동 버튼을 눌러 '모닛 웹페이지'로 이동합니다.";
+"nugu_guide_contents_4" = "아래의 인증키를 발급하여 로그인하면 연동 성공!";
+"nugu_auth_btn_issue" = "인증키 발급하기";
+"nugu_auth_memberid_title" = "나의 회원코드";
+"nugu_auth_key_title" = "인증키";
+"nugu_auth_btn_reissue" = "인증키 재발급하기";
+
+
+
+
+
+
+
+
+
+
+
+
+
+"device_type_diaper_sensor" = "Sensor de pañal";
+"device_type_hub" = "Hub";
+
+
+
+
+"toast_copy_completed" = "copy completed";
+"nugu_auth_btn_copy" = "복사하기";
+"SENSOR_LONG_DISCONNECTED" = "%@\nPerdió la conexión con el sensor.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "배터리"; ObjectID = "0tb-RV-fmh"; */
+"0tb-RV-fmh.text" = "배터리";
+
+/* Class = "UIButton"; normalTitle = "알림"; ObjectID = "EMz-Wo-HSy"; */
+"EMz-Wo-HSy.normalTitle" = "알림";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "NA8-oa-YdA"; */
+"NA8-oa-YdA.text" = "%";
+
+/* Class = "UILabel"; text = "센서와 연결이 끊어졌습니다"; ObjectID = "O1F-Eg-QjF"; */
+"O1F-Eg-QjF.text" = "센서와 연결이 끊어졌습니다";
+
+/* Class = "UILabel"; text = "움직임"; ObjectID = "TF5-G1-5Rw"; */
+"TF5-G1-5Rw.text" = "움직임";
+
+/* Class = "UILabel"; text = "동작"; ObjectID = "Tvb-iG-ec5"; */
+"Tvb-iG-ec5.text" = "동작";
+
+/* Class = "UIButton"; normalTitle = "기저귀 교체"; ObjectID = "UpF-Qo-6s3"; */
+"UpF-Qo-6s3.normalTitle" = "기저귀 교체";
+
+/* Class = "UILabel"; text = "대변 감지 후 \n10분 경과"; ObjectID = "Y4H-GL-v6A"; */
+"Y4H-GL-v6A.text" = "대변 감지 후 \n10분 경과";
+
+/* Class = "UILabel"; text = "충전이 필요합니다"; ObjectID = "eJp-nU-OdW"; */
+"eJp-nU-OdW.text" = "충전이 필요합니다";
+
+/* Class = "UILabel"; text = "센서 상태를 확인해주시고, 스마트폰 혹은  \n수유등과 가까운 곳에 놓아주세요."; ObjectID = "hLf-L0-OA7"; */
+"hLf-L0-OA7.text" = "센서 상태를 확인해주시고, 스마트폰 혹은  \n수유등과 가까운 곳에 놓아주세요.";
+
+/* Class = "UILabel"; text = "90"; ObjectID = "hN0-9P-dE5"; */
+"hN0-9P-dE5.text" = "90";
+
+/* Class = "UIButton"; normalTitle = "Disconnect"; ObjectID = "hRW-fw-RAI"; */
+"hRW-fw-RAI.normalTitle" = "Disconnect";
+
+/* Class = "UIButton"; normalTitle = "교 체 완 료"; ObjectID = "hvb-3O-MxE"; */
+"hvb-3O-MxE.normalTitle" = "교 체 완 료";
+
+/* Class = "UILabel"; text = "MONIT(센서이름)"; ObjectID = "jfG-Il-fpW"; */
+"jfG-Il-fpW.text" = "MONIT(센서이름)";
+
+/* Class = "UIButton"; normalTitle = "현상태"; ObjectID = "knF-La-eJ5"; */
+"knF-La-eJ5.normalTitle" = "현상태";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rqx-4z-r7D"; */
+"rqx-4z-r7D.text" = "Label";
+
+/* Class = "UILabel"; text = "차분"; ObjectID = "tPd-en-SsJ"; */
+"tPd-en-SsJ.text" = "차분";
+
+/* Class = "UILabel"; text = "센싱중"; ObjectID = "ueY-qz-NAW"; */
+"ueY-qz-NAW.text" = "센싱중";

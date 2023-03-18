@@ -1,0 +1,54 @@
+
+/* Class = "UITextField"; text = "8~10자리 영문+숫자+특수문자 혼합"; ObjectID = "3Vm-oi-EzB"; */
+"3Vm-oi-EzB.text" = "8~10자리 영문+숫자+특수문자 혼합";
+
+/* Class = "UILabel"; text = "약관확인"; ObjectID = "9GW-s2-7Ew"; */
+"9GW-s2-7Ew.text" = "약관확인";
+
+/* Class = "UILabel"; text = "비밀번호"; ObjectID = "By7-pM-n1z"; */
+"By7-pM-n1z.text" = "비밀번호";
+
+/* Class = "UITextField"; text = "이메일"; ObjectID = "DNR-gD-xl8"; */
+"DNR-gD-xl8.text" = "이메일";
+
+/* Class = "UILabel"; text = "가입하기"; ObjectID = "EPh-Ab-Nu0"; */
+"EPh-Ab-Nu0.text" = "가입하기";
+
+/* Class = "UIButton"; normalTitle = "모닛 가입하기"; ObjectID = "IH3-Wc-zHE"; */
+"IH3-Wc-zHE.normalTitle" = "모닛 가입하기";
+
+/* Class = "UITextField"; text = "이메일 형식으로 입력해주세요."; ObjectID = "IID-KO-7vG"; */
+"IID-KO-7vG.text" = "이메일 형식으로 입력해주세요.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Koy-p6-yIP"; */
+"Koy-p6-yIP.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "제품 보증 정책"; ObjectID = "Us8-UP-Zhh"; */
+"Us8-UP-Zhh.normalTitle" = "제품 보증 정책";
+
+/* Class = "UILabel"; text = "이메일"; ObjectID = "Vx9-Vh-Soy"; */
+"Vx9-Vh-Soy.text" = "이메일";
+
+/* Class = "UITextField"; text = "비밀번호"; ObjectID = "YCQ-lW-IhS"; */
+"YCQ-lW-IhS.text" = "비밀번호";
+
+/* Class = "UIButton"; normalTitle = "가입"; ObjectID = "gf2-Io-Sbm"; */
+"gf2-Io-Sbm.normalTitle" = "가입";
+
+/* Class = "UIButton"; normalTitle = "서비스 이용약관"; ObjectID = "hyL-Ii-c7u"; */
+"hyL-Ii-c7u.normalTitle" = "서비스 이용약관";
+
+/* Class = "UIButton"; normalTitle = "개인정보 취급방침"; ObjectID = "kvb-S2-Mby"; */
+"kvb-S2-Mby.normalTitle" = "개인정보 취급방침";
+
+/* Class = "UIButton"; normalTitle = "로그인"; ObjectID = "nGd-sC-2Vh"; */
+"nGd-sC-2Vh.normalTitle" = "로그인";
+
+/* Class = "UIButton"; normalTitle = "비밀번호 찾기"; ObjectID = "w00-QG-oKb"; */
+"w00-QG-oKb.normalTitle" = "비밀번호 찾기";
+
+/* Class = "UIButton"; normalTitle = "Join"; ObjectID = "xDX-2L-RtN"; */
+"xDX-2L-RtN.normalTitle" = "Join";
+
+/* Class = "UIButton"; normalTitle = "모든 약관에 동의합니다"; ObjectID = "zGA-lU-Cdm"; */
+"zGA-lU-Cdm.normalTitle" = "모든 약관에 동의합니다";

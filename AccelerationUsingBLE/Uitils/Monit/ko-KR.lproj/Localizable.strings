@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Monit
+
+  Created by 맥 on 2017. 11. 8..
+  Copyright © 2017년 맥. All rights reserved.
+*/
+
+"WINNER_ALERT"= "Congratulations! %@ won the match & became %@ player";
+"PEE_DETECTED" = "";
+"POO_DETECTED" = "";
+"ABNORMAL_DETECTED" = "";
+"DIAPER_CHANGED" = "%@\n기저귀 교체가 완료되었습니다.-base";
+"LOW_TEMPERATURE" = "";
+"HIGH_TEMPERATURE" = "";
+"LOW_HUMIDITY" = "";
+"HIGH_HUMIDITY" = "";
+"VOC_WARNING" = "";
+"LOW_BATTERY" = "";
+"DISCONNECTED" = "";
+"CONNECTED" = "";

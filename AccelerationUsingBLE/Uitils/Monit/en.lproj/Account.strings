@@ -1,0 +1,174 @@
+
+/* Class = "UILabel"; text = "Passsword"; ObjectID = "1WU-g1-yqS"; */
+"1WU-g1-yqS.text" = "Passsword";
+
+/* Class = "UILabel"; text = "Policy"; ObjectID = "2Jg-lb-tuX"; */
+"2Jg-lb-tuX.text" = "Policy";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "2c1-T9-3XS"; */
+"2c1-T9-3XS.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "FORGOT\nPASSWORD"; ObjectID = "4E3-ZY-Zp9"; */
+"4E3-ZY-Zp9.normalTitle" = "FORGOT\nPASSWORD";
+
+/* Class = "UIButton"; normalTitle = "Warranty"; ObjectID = "50D-aR-7Xo"; */
+"50D-aR-7Xo.normalTitle" = "Warranty";
+
+/* Class = "UILabel"; text = "Enter email address"; ObjectID = "58X-6o-52l"; */
+"58X-6o-52l.text" = "Enter email address";
+
+/* Class = "UILabel"; text = "Create new account"; ObjectID = "795-oj-gUB"; */
+"795-oj-gUB.text" = "Create new account";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "8Ye-Gy-VvN"; */
+"8Ye-Gy-VvN.text" = "M";
+
+/* Class = "UILabel"; text = "Date of birth"; ObjectID = "96R-zf-xTY"; */
+"96R-zf-xTY.text" = "Date of birth";
+
+/* Class = "UILabel"; text = "이메일 형식 주소 입력"; ObjectID = "AxU-rp-cLq"; */
+"AxU-rp-cLq.text" = "E-mail address";
+
+/* Class = "UIButton"; normalTitle = "FEMALE"; ObjectID = "BGH-w6-Gpj"; */
+"BGH-w6-Gpj.normalTitle" = "FEMALE";
+
+/* Class = "UIButton"; normalTitle = "Terms of Use"; ObjectID = "BSs-vD-VXE"; */
+"BSs-vD-VXE.normalTitle" = "Terms of Use";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "Bh6-W4-iwm"; */
+"Bh6-W4-iwm.text" = "1985";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "CVH-pU-Tbj"; */
+"CVH-pU-Tbj.normalTitle" = "SIGN UP";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "CjK-La-cxV"; */
+"CjK-La-cxV.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Date of birth"; ObjectID = "D54-t3-GYH"; */
+"D54-t3-GYH.text" = "Date of birth";
+
+/* Class = "UIButton"; normalTitle = "I AGREE"; ObjectID = "Dti-9J-n7y"; */
+"Dti-9J-n7y.normalTitle" = "I AGREE";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "DyL-hu-2KF"; */
+"DyL-hu-2KF.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "EcC-1t-NJY"; */
+"EcC-1t-NJY.normalTitle" = "DONE";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "F7Z-uE-NKH"; */
+"F7Z-uE-NKH.normalTitle" = "DONE";
+
+/* Class = "UIButton"; normalTitle = "FIND"; ObjectID = "FYj-7n-52t"; */
+"FYj-7n-52t.normalTitle" = "FIND";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "GXM-de-YFf"; */
+"GXM-de-YFf.text" = "M";
+
+/* Class = "UILabel"; text = "1-12 Characters"; ObjectID = "Giv-7P-pxz"; */
+"Giv-7P-pxz.text" = "1-12 Characters";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "HDD-uu-Lgs"; */
+"HDD-uu-Lgs.text" = "Y";
+
+/* Class = "UIButton"; normalTitle = "MALE"; ObjectID = "KYC-Om-WQq"; */
+"KYC-Om-WQq.normalTitle" = "MALE";
+
+/* Class = "UILabel"; text = "Caregiver Information"; ObjectID = "KfB-Rs-G2E"; */
+"KfB-Rs-G2E.text" = "Caregiver Information";
+
+/* Class = "UILabel"; text = "8-12 characters"; ObjectID = "KuN-oS-rEs"; */
+"KuN-oS-rEs.text" = "8-12 characters";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "LmJ-dK-sDv"; */
+"LmJ-dK-sDv.text" = "ID";
+
+/* Class = "UILabel"; text = "Create new account"; ObjectID = "LrX-4K-NEb"; */
+"LrX-4K-NEb.text" = "Create new account";
+
+/* Class = "UILabel"; text = "Please check verification email."; ObjectID = "Lub-cK-OMl"; */
+"Lub-cK-OMl.text" = "Please check verification email.";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "M3z-ZN-YVo"; */
+"M3z-ZN-YVo.text" = "15";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "MoO-fp-FY2"; */
+"MoO-fp-FY2.text" = "Password";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "S6R-jL-3zR"; */
+"S6R-jL-3zR.text" = "15";
+
+/* Class = "UILabel"; text = "E-mail address"; ObjectID = "UPw-EQ-t1v"; */
+"UPw-EQ-t1v.text" = "E-mail address";
+
+/* Class = "UILabel"; text = "이메일 형식이 아닙니다."; ObjectID = "UzG-9Q-maI"; */
+"UzG-9Q-maI.text" = "Enter email address";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "VLN-i7-swf"; */
+"VLN-i7-swf.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "WdM-8S-3CU"; */
+"WdM-8S-3CU.text" = "Y";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "a1o-jQ-nCb"; */
+"a1o-jQ-nCb.text" = "Sex";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "aFo-Vp-wuf"; */
+"aFo-Vp-wuf.text" = "10";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "bVe-kG-dqs"; */
+"bVe-kG-dqs.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "Resend verification email"; ObjectID = "bfR-iq-uZH"; */
+"bfR-iq-uZH.normalTitle" = "Resend verification email";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "dUB-oX-4lI"; */
+"dUB-oX-4lI.text" = "D";
+
+/* Class = "UIButton"; normalTitle = "MAN"; ObjectID = "eao-TN-gKM"; */
+"eao-TN-gKM.normalTitle" = "MAN";
+
+/* Class = "UIButton"; normalTitle = "TestLogin3"; ObjectID = "gfn-Jq-EIn"; */
+"gfn-Jq-EIn.normalTitle" = "TestLogin3";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "gny-Cq-IaI"; */
+"gny-Cq-IaI.text" = "Email";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "i46-ca-cqq"; */
+"i46-ca-cqq.text" = "Sex";
+
+/* Class = "UILabel"; text = "Forgot the password?"; ObjectID = "iCg-og-49d"; */
+"iCg-og-49d.text" = "Forgot the password?";
+
+/* Class = "UIButton"; normalTitle = "Privacy"; ObjectID = "jBv-WY-Cmq"; */
+"jBv-WY-Cmq.normalTitle" = "Privacy";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "kX5-i9-1kl"; */
+"kX5-i9-1kl.text" = "D";
+
+/* Class = "UILabel"; text = "Please complete the sign-up with fill out the caregiver's information.\nThese information is useful when you use Monit community service."; ObjectID = "pNa-rg-ckN"; */
+"pNa-rg-ckN.text" = "Please complete the sign-up with fill out the caregiver's information.\nThese information is useful when you use Monit community service.";
+
+/* Class = "UIButton"; normalTitle = "TestLogin2"; ObjectID = "qBP-zZ-sEa"; */
+"qBP-zZ-sEa.normalTitle" = "TestLogin2";
+
+/* Class = "UILabel"; text = "입력하신 이메일 주소로 인증 메일을 보냈습니다.\n사용자 이메일@goodmonit.com\n\n메일 내에 있는 활성화 버튼을 누른 후에 \n다음 버튼을 눌러주세요."; ObjectID = "tSr-Iv-9Q4"; */
+"tSr-Iv-9Q4.text" = "입력하신 이메일 주소로 인증 메일을 보냈습니다.\n사용자 이메일@goodmonit.com\n\n메일 내에 있는 활성화 버튼을 누른 후에 \n다음 버튼을 눌러주세요.";
+
+/* Class = "UILabel"; text = "Create new account"; ObjectID = "tcy-o9-lu0"; */
+"tcy-o9-lu0.text" = "Create new account";
+
+/* Class = "UIButton"; normalTitle = "TestLogin1"; ObjectID = "tos-Mg-Yfi"; */
+"tos-Mg-Yfi.normalTitle" = "TestLogin1";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "uWW-KM-t8X"; */
+"uWW-KM-t8X.text" = "1985";
+
+/* Class = "UILabel"; text = "8-12 characters"; ObjectID = "xpD-Tn-Mw2"; */
+"xpD-Tn-Mw2.text" = "8-12 characters";
+
+/* Class = "UIButton"; normalTitle = "WOMEN"; ObjectID = "zLV-1n-NWn"; */
+"zLV-1n-NWn.normalTitle" = "WOMEN";
+
+/* Class = "UILabel"; text = "1-12 Characters"; ObjectID = "zYc-Ge-0M0"; */
+"zYc-Ge-0M0.text" = "1-12 Characters";

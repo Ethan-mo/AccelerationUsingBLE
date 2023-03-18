@@ -1,0 +1,1205 @@
+// ch
+
+"app_name" = "MONIT";
+"swipe_down_to_refresh" = "界面每隔10秒自动更新，如您要设置手动更新，请滑动屏幕";
+"toast_sent_new_password_email" = "密码变更链接地址发送到您的邮箱中，请查收";
+"toast_sent_an_authentication_email" = "重新发送验证邮件，请查收";
+"toast_failed_to_send_an_email" = "邮件发送失败，请过1分钟后重试";
+"toast_invalid_user_info" = "账号不一致，请重新输入";
+"toast_invalid_user_session" = "用户信息变更，请重新登录";
+
+
+
+
+"toast_change_password_succeeded" = "密码修改成功";
+
+"toast_change_nickname_succeeded" = "昵称修改成功";
+"toast_change_same_nickname" = "此昵称重复，请修改";
+"toast_change_nickname_failed" = "昵称修改失败，请稍后重试";
+
+"toast_invite_group_member_failed" = "成员邀请失败";
+
+
+"toast_delete_group_member_failed" = "成员删除失败，请查看邮箱地址";
+"toast_leave_group_succeeded" = "退群成功";
+"toast_leave_group_failed" = "退群失败，请稍后重试";
+
+
+
+
+
+
+
+"dialog_contents_update_available" = "发现新版本，请下载进行升级";
+
+
+
+"dialog_contents_err_communication_with_server" = "与服务器连接不稳定，请稍后重试(%@)";
+"dialog_contents_input_invitee_short_id" = "请输入要邀请人的会员代码（6个字）";
+
+"dialog_contents_sign_out_confirm_description" = "退出登录后与设备断开连接，无法收到新信息，确定退出登录吗？";
+"dialog_contents_leave_confirm" = "注销";
+"dialog_contents_leave_confirm_description" = "注销后退出信息分享的群体，而您邀请的成员们也与设备断开连接。并且，设备不可做初始化。请您注销前将设备做好初始化。注销后用同一邮箱地址注册需要2周时间，确定注销吗？";
+"dialog_contents_group_leave_confirm" = "退出以%@(%@)为群主的群体？退出后与设备断开连接，确定退出群体吗？";
+"dialog_contents_need_internet_connection" = "需要网络连接，请确认您的网络连接是否正常，再与尿布感知器做连接";
+"dialog_contents_scanning" = "正在搜索设备，请稍等";
+"dialog_contents_connecting" = "正在连接设备，请稍等";
+"dialog_contents_hub_ap_connecting" = "空气质量检测仪器正在进行网络设置，请稍等";
+
+"dialog_contents_hub_ap_connection_failed" = "空气质量检测仪器与网络连接失败，请查看AP信息后重试";
+"dialog_contents_not_detected_monit" = "无法搜索尿布感知器，根据下面办法，请重试。\n1.请将尿布感知器重机   \n2.请查看LED蓝灯是否闪烁   \n3.请按下下面的“重试”按键";
+
+"dialog_contents_not_detected_all" = "无法搜索设备，请查看LED蓝灯闪烁后重试";
+"dialog_contents_ask_for_connectint_hub" = "继续要进行连接空气质量检测仪器吗？";
+
+"dialog_contents_remove_device" = "删除设备。删除后也会删除与该设备一起信息分享的另外设备。确定删除吗？";
+"dialog_contents_initialize_device" = "设备进行初始化。初始化后断开连接而删除设备。如再要连接设备，请重新注册。";
+"dialog_contents_finding_device" = "为搜索设备，LED蓝灯闪烁5秒";
+"signin_email" = "邮箱地址";
+"signin_password" = "密码";
+"signin_forgot_password" = "搜索密码";
+
+
+
+
+
+"title_setting" = "设置";
+"title_firmware_update" = "版本升级";
+"title_account" = "账号";
+
+"title_signin" = "登录";
+"title_signup" = "注册";
+"title_forgot_password" = "搜索密码";
+"title_connection" = "注册设备";
+"tab_status" = "状态";
+"tab_graph" = "曲线图";
+"tab_notification" = "提示";
+
+"account_shortid" = "会员代码";
+"account_change_password" = "修改密码";
+
+"account_change_nickname" = "修改昵称";
+
+"account_gender" = "性别";
+
+
+
+
+
+"account_baby_name" = "宝宝昵称";
+"account_hint_baby_name" = "可输入24个字";
+
+"account_baby_sex" = "宝宝性别";
+"account_baby_birthday" = "宝宝出生日期";
+"account_email" = "邮箱地址";
+"account_hint_email" = "按照邮箱地址的格式，请输入";
+"account_warning_dialog_email" = "请输入邮箱地址";
+"account_warning_email" = "不是邮箱地址的格式，请重新输入";
+"account_warning_duplicated_email" = "已注册的邮箱地址，请重新输入";
+"account_warning_leave_email" = "已退出的邮箱地址，请重新输入";
+
+"account_birthday" = "出生日期";
+"account_hint_birthday" = "按下这儿，请选择出生日期";
+"account_warning_birthday" = "选择出生日期";
+
+"account_hint_password" = "8-64个字\n（混合英文，数字，特殊符号）";
+"account_warning_password" = "8-64个字\n（混合英文，数字，特殊符号）";
+"account_warning_password_digit" = "请输入8个字以上，64个字以下";
+"account_warning_password_no_alphabet" = "英文也需要输入";
+"account_warning_password_no_number" = "数字也需要输入";
+"account_warning_password_no_special_character" = "特殊符号也需要输入";
+"account_warning_dialog_password" = "请输入密码。8-64个字（混合英文，数字，特殊符号）";
+"account_nickname" = "昵称";
+"account_hint_nickname" = "请输入使用账号";
+"account_warning_nickname" = "请输入1-12个文字";
+"account_warning_dialog_nickname" = "请输入昵称";
+
+"account_warning_gender" = "选择性别";
+"account_warning_dialog_gender" = "选择性别";
+
+
+
+
+
+"account_warning_agreement" = "请同意条款";
+"account_warning_dialog_agreement" = "请同意条款";
+
+"signup_check_auth_email" = "请查看验证邮件";
+"signup_check_auth_email_description" = "验证邮件发送到您的邮箱中。\n%@\n\请按下邮件中的'确认验证'后\n请继续按下'下一步'";
+"signup_not_authenticated" = "邮件验证没有完成";
+"signup_send_auth_email" = "重新发送验证邮件";
+
+
+
+"signup_step1_title" = "MONIT(梦伊特）账号创建成功";
+"signup_step1_detail" = "正在创建MONIT(梦伊特）账号。\n请填充下边的空格后按下右上边的按键。";
+"signup_step3_title" = "注册保护者信息";
+"signup_step3_detail" = "请输入用户（保护者）信息后完成注册\n您输入的信息通过统计和分析过程后，可用于产品品质改善。";
+"gender_male" = "男";
+"gender_female" = "女";
+"sex_baby_boy" = "男婴";
+"sex_baby_girl" = "女婴";
+"time_year_short" = "年";
+"time_month_short" = "月";
+"time_day_short" = "日";
+"time_year" = "年";
+"time_month" = "月";
+"time_day" = "日";
+"time_hour" = "点";
+"time_minute" = "分";
+
+"btn_leave" = "注销";
+"btn_invite" = "邀请";
+
+"btn_done" = "成功";
+"btn_group_leave" = "注销";
+
+
+"btn_next" = "下一步";
+"btn_save" = "储存";
+
+
+"btn_connect" = "连接";
+
+
+"btn_signout" = "退出登录";
+
+"btn_register_device" = "注册设备";
+
+"btn_update" = "升级";
+
+"btn_ok" = "确认";
+"btn_yes" = "是";
+"btn_no" = "不是";
+"btn_none" = "没有";
+"btn_try_again" = "重试";
+"btn_close" = "关闭";
+"btn_cancel" = "取消";
+"btn_remove" = "删除";
+
+
+"unit_temperature_celsius" = "℃";
+"unit_temperature_fahrenheit" = "℉";
+
+
+
+
+
+
+
+"time_elapsed_hour" = "点";
+"time_elapsed_minute" = "分";
+
+
+"time_hour_short" = "点";
+"time_minute_short" = "分";
+
+
+"time_time" = "时间";
+
+
+"connection_select_device" = "主页上请选择要注册的设备。\n已注册过设备初始化之前，不可再注册。";
+"connection_monit_sensor_ready_title" = "连接尿布感知器";
+"connection_monit_sensor_ready_detail_step1" = "请开机尿布感知器";
+"connection_monit_sensor_ready_detail_step2" = "请查看LED蓝灯闪烁";
+"connection_monit_sensor_babyinfo_title" = "注册宝宝信息";
+"connection_monit_sensor_babyinfo_detail" = "请输入要使用尿布感知器的宝宝信息。根据此信息尿布感知器的精确度会不同。";
+"connection_monit_sensor_connected_title" = "尿布感知器连接成功";
+"connection_monit_sensor_connected_detail" = "现在可以使用尿布感知器\n参考下面，请使用";
+"connection_hub_ready_title" = "连接空气质量检测仪器";
+"connection_hub_ready_detail_step1" = "空气质量检测仪器连接电源时，请使用随附的适配器。\n如把USB电线直接与电脑插座或其他提供电源的USB插座，电源供应量不足，不会正常启动。";
+"connection_hub_ready_detail_step2" = "请查看LED蓝灯闪烁";
+
+
+"connection_hub_put_sensor_title" = "连接空气质量检测仪器";
+"connection_hub_put_sensor_detail_step1" = "没有连接的尿布感知器，请先做连接";
+"connection_hub_put_sensor_detail_step2" = "请将尿布感知器插入在空气质量检测仪器上面的插座口。";
+"connection_hub_add_new_network_title" = "输入新无线网络信息";
+
+"connection_hub_hint_input_network_name" = "请输入网络名称";
+"connection_hub_network_name" = "名字";
+"connection_hub_network_security" = "保安";
+"connection_hub_network_security_none" = "没有";
+
+
+
+
+
+
+
+"connection_hub_hint_input_ap_password" = "请输入密码";
+"connection_hub_ap_password" = "密码";
+"connection_hub_selected_ap_name" = "无线网络：";
+"connection_hub_select_ap_title" = "设置无线网络";
+"connection_hub_scan_ap_detail" = "空气质量检测仪器连接成功\n请按下下边搜索按键连接无线网络";
+
+"connection_hub_scanning_add_new_network" = "添加网络";
+"connection_hub_scan_network_list" = "选择无线网络";
+
+"connection_hub_select_ap_detail" = "下边无线网络中，请选择要连接的无线网络";
+"connection_scan_ap" = "搜索";
+"connection_start_connect" = "开始连接";
+"connection_hub_connected_title" = "空气质量检测仪器连接成功";
+"connection_hub_connected_detail" = "现在可以使用空气质量检测仪器";
+"connection_connect_other_device" = "添加设备";
+
+
+"toast_need_to_enable_bluetooth" = "使用该功能，需要关闭蓝牙";
+"device_monit_hub_connection_condition" = "为连接空气质量检测仪器，必须要提前完成尿布感知器连接";
+"device_no_registered_devices" = "没有与本手机连上的设备。\n请注册设备";
+
+"device_sensing_environment" = "状态";
+
+"device_hub_disconnected" = "与空气质量检测仪器连接断开。\n 请查看连上的无线网络状态。\n 如没有解决问题，请重新连接充电器后再重试";
+"device_hub_disconnected_title" = "与空气质量检测仪器连接断开。";
+"device_hub_disconnected_detail" = "与空气质量检测仪器连接断开。";
+"device_sensor_disconnected" = "与尿布感知器连接断开。\n 请查看尿布感知器状态和将它放在智能手机或空气质量检测仪器靠近的地方。";
+"device_sensor_disconnected_title" = "与尿布感知器连接断开。";
+"device_sensor_disconnected_detail" = "请查看尿布感知器是否开机后将它放在智能手机或空气质量检测仪器靠近的位置。";
+
+
+
+
+
+
+
+
+
+
+
+"device_environment_temperature" = "温度";
+"device_environment_temperature_unit" = "温度单位";
+"device_environment_temperature_high" = "太热";
+"device_environment_temperature_high_action" = "请开空调或者做换气通风";
+"device_environment_temperature_low" = "太冷";
+"device_environment_temperature_low_action" = "请开暖气或者加热器";
+"device_environment_humidity" = "湿度";
+"device_environment_humidity_high" = "太潮湿";
+"device_environment_humidity_high_action" = "如开着加湿器，请关闭";
+"device_environment_humidity_low" = "太干燥";
+"device_environment_humidity_low_action" = "请打开加湿器";
+"device_environment_voc" = "VOC气体";
+"device_environment_voc_bad_detected" = "检测到VOC气体";
+
+"device_environment_voc_bad_action" = "请开空气净化器或者做换气通风";
+"device_environment_voc_good" = "好";
+"device_environment_voc_normal" = "普通";
+"device_environment_voc_not_good" = "不好";
+"device_environment_voc_very_bad" = "非常不好";
+
+
+"device_environment_status_normal_detail" = "舒适";
+"device_sensor_battery_power" = "电池";
+
+
+
+
+"device_sensor_detect_passed_time" = "%@分钟后";
+"device_sensor_operation" = "启动";
+"device_sensor_operation_sensing" = "感知模式";
+"device_sensor_operation_idle" = "休眠模式";
+"device_sensor_operation_charging" = "充电模式";
+"device_sensor_operation_connected" = "连接成功";
+"device_sensor_operation_disconnected" = "断开连接";
+
+
+
+"device_sensor_diaper_status_normal" = "舒适";
+"device_sensor_diaper_status_normal_detail" = "舒适";
+"device_sensor_diaper_status_pee" = "小便";
+"device_sensor_diaper_status_pee_detail" = "小便感知";
+"device_sensor_diaper_status_poo" = "大便";
+"device_sensor_diaper_status_poo_detail" = "大便感知";
+"device_sensor_diaper_status_fart" = "放屁";
+"device_sensor_diaper_status_fart_detail" = "放屁感知！\n 放屁会带出少量大便，请查看宝宝尿布";
+"device_sensor_diaper_status_abnormal" = "检查需要";
+"device_sensor_diaper_status_abnormal_detail" = "由正在感知多量的湿度和气体。\n请查看尿布并更换";
+"device_sensor_diaper_status_change" = "请查看尿布状态";
+"device_sensor_diaper_status_change_button" = "尿布更换成功";
+"device_sensor_diaper_status_change_detail" = "尿布更换后，请按下更换完成按键";
+"device_sensor_movement" = "动态";
+"device_sensor_movement_sleeping" = "安静";
+"device_sensor_movement_crawling" = "活泼";
+"device_sensor_movement_running" = "很活泼";
+"setting_device_babyinfo" = "使用设备的宝宝";
+"setting_device_name" = "设备名称";
+"setting_device_find" = "搜索设备";
+
+"setting_device_remove" = "删除设备及退出群体";
+"setting_device_initialize" = "设备初始化及删除";
+"setting_device_firmware_version" = "固件版本";
+"setting_device_app_version" = "APP版本";
+"setting_device_enable_alarm" = "开启提示";
+"setting_device_enable_connection_alarm" = "连接状态";
+"setting_device_enable_diaper_alarm" = "尿布状态";
+"setting_device_led_light" = "开启LED提示灯";
+"setting_device_led_light_on_time" = "LED提示灯开启时间";
+
+"setting_custom_temperature" = "适宜温度设置";
+"setting_max_temperature_threshold" = "最高温度";
+"setting_min_temperature_threshold" = "最低温度";
+"setting_custom_temperature_description" = "如超过已设置的适宜温度范围，给提醒";
+"setting_ap_info_title" = "更换无线网络";
+
+
+"setting_custom_humidity" = "适宜湿度设置";
+"setting_max_humidity_threshold" = "最高湿度";
+"setting_min_humidity_threshold" = "最低湿度";
+"setting_custom_humidity_description" = "如超过已设置的适宜湿度范围，给提醒";
+"setting_custom_led_on_off_time" = "LED提示灯设置";
+"setting_led_on_time" = "LED提示灯开灯时间";
+"setting_led_off_time" = "LED提示灯关灯时间";
+"setting_custom_led_on_off_time_description" = "为了不妨碍您的睡眠，LED提示灯只能开在您所设置的开/关灯时间";
+
+"notification_empty_view" = "没有提示";
+"notification_diaper_status_diaper_changed_title" = "尿布更换完成";
+"notification_diaper_status_diaper_changed_detail" = "尿布更换完成";
+
+
+
+
+
+"notification_diaper_status_fart_detected_detail" = "放屁感知。放屁会带出少量大便，请查看宝宝尿布";
+
+
+"notification_environment_high_humidity_title" = "太潮湿";
+
+"notification_environment_low_humidity_title" = "太干燥";
+
+"notification_environment_high_temperature_title" = "太热";
+
+"notification_environment_low_temperature_title" = "太冷";
+
+"notification_environment_bad_voc_title" = "VOC气体感知";
+
+"notification_low_battery_title" = "电池电量低";
+"notification_low_battery_detail" = "电池电量低。\n请尽快做充电";
+"group_share" = "做分享";
+"group_title_name" = "群体名称";
+"group_title_device_count" = "分享的设备(%@)";
+"group_title_shared_member_count" = "受分享的成员(%@)";
+"group_title_sharing" = "做分享";
+"group_title_shared" = "受分享";
+"group_no_sharing_member_description" = "没有受分享的成员。如要邀请成员，请按下上边邀请按键。";
+
+"group_sharing_member_description" = "如要删除成员，请将该成员往左方向推";
+"group_title_sharing_description" = "您可以邀请成员分享您的设备信息";
+"group_leave_description" = "如要退群，请按下上边退群按键。";
+"group_title_shared_description" = "您受邀请后，可以受分享群主的设备信息";
+"group_mygroup" = "我的群体";
+"group_name_default" = "新群体";
+"group_count" = "个";
+"group_set_name" = "群体名称设置";
+"group_set_name_detail" = "您所设置的群体名称只能在您的APP上显示";
+"group_leader" = "群主";
+"group_invite_member" = "邀请成员";
+"group_member_category_me" = "我";
+
+
+"group_member_count" = "名";
+"group_invite_description" = "如受邀请成员，可以实时收到设备的信息";
+"group_delete_dialog_title" = "确定删除成员";
+"group_delete_dialog_description" = "如删除成员，该成员无法收到信息。确定删除成员吗？";
+"legal_notice" = "法律告知";
+"legal_terms" = "服务使用条款";
+"legal_privacy" = "个人信息使用方针";
+"legal_warranty" = "产品保证政策";
+"legal_agreement" = "同意条款";
+"legal_agree_all" = "同意所有条款";
+"help" = "帮助和支持";
+"help_support" = "客户服务";
+
+
+
+
+
+
+"dfu_status_completed_msg" = "固件升级成功";
+
+
+
+
+"dfu_status_error" = "升级失败";
+"dfu_status_error_msg" = "固件升级失败";
+
+
+
+
+
+"dfu_status_uploading" = "升级中";
+
+
+
+
+
+
+
+
+"toast_invalid_min_max_range" = "请设置将最高值比最低值要高";
+"device_sensor_operation_fully_charged" = "充电完成";
+"toast_invite_group_member_exceeded" = "超出可邀请的人数范围";
+"dialog_group_leave_title" = "退群";
+"dialog_unknown_error_description" = "无名错误";
+"account_warning_dialog_findpw_description" = "请确认您输入的信息";
+"account_warning_dialog_babyname" = "请输入宝宝昵称";
+"toast_sharing_member_renewed" = "分享信息修改成功。\n 进行数据更新";
+"dialog_contents_failed_hub_connection" = "与空气质量检测仪器连接失败。如继续失败连接，将尿布感知器从空气质量检测仪器上拔出来再插入后，请重新做连接";
+"dialog_contents_failed_hub_connection_empty_sensor" = "从空气质量检测仪器上分离了尿布感知器。\n 请插入尿布感知器";
+"device_warning_dialog_babyname" = "请输入宝宝昵称";
+"device_warning_dialog_hubname" = "请输入名字";
+"PEE_DETECTED" = "%@\n小便感知。\n请查看尿布状态";
+"POO_DETECTED" = "%@\n大便感知。\n请尽快更换尿布";
+"ABNORMAL_DETECTED" = "%@\n由正在感知多量的湿度和气体。\n请查看尿布并更换";
+"DIAPER_CHANGED" = "尿布更换完成";
+"LOW_TEMPERATURE" = "%@\n低于设置的最低温度";
+"HIGH_TEMPERATURE" = "%@\n超过设置的最高温度";
+"LOW_HUMIDITY" = "%@\n低于设置的最低湿度";
+"HIGH_HUMIDITY" = "%@\n超过设置的最高湿度";
+"VOC_WARNING" = "%@\nVOC气体感知。\n请尽快做换气通风";
+"LOW_BATTERY" = "%@\n电池电量低。\n请尽快做充电";
+"DISCONNECTED" = "与%@\n连接断开";
+"CONNECTED" = "与%@\n连接成功";
+"FART_DETECTED" = "%@\n放屁感知。放屁会带出少量大便，请查看宝宝尿布";
+"deviceSetupAlarmOffSummary" = "关于设置提示。iphone主页-》设置-》确认有关MONIT（梦伊特）设置";
+"setting_device_hub_constraints_not_owner" = "本机被分享的。只能设置提示和温度单位";
+"setting_device_sensor_constraints_not_owner" = "本机被分享的。只能设置提示";
+"device_sensor_alarm_count" = "提示";
+"btn_refresh" = "刷新";
+"account_name" = "昵称";
+"account_id" = "账号";
+"account_hint_id" = "请输入您的账号";
+"account_warning_id" = "请输入您的账号（3个字以上）";
+"account_warning_dialog_id" = "请输入您的账号（3个字以上）";
+"btn_send_report" = "发送系统日志";
+"dialog_contents_send_report" = "正在向系统管理团队发送系统日志\nIf如在应用程序（APP）有任何问题，请反馈我们\n应用程序将（APP）要关闭。 请重机。";
+"internet_disconnected_detail" = "请查看网络连接状态。";
+"toast_noti_loading" = "正在加载提示记录";
+"connection_hub_select_ap_detail_etc" = "空气质量检测仪器只可与2.4Ghz无线网络连接。5Ghz无线网络无法查询和连接。";
+"connection_terminate_app_noti_detail" = "如强制退出应用程序（APP），智能手机与尿布感知器连接断开。而且，无法收到应用程序（APP）提示。";
+"notice_title" = "公告";
+"rast_notice" = "";
+"btn_do_not_repeat" = "下次不要再看";
+"cautions_title" = "注意事项";
+"toast_need_to_enable_bluetooth_with_err" = "要使用此功能，必须打开蓝牙。\nSettings > Bluetooth\n\nIf您重复错误，请将操作系统升级至最新版本。";
+"btn_connecting" = "连接中";
+"dialog_contents_already_registered" = "已被注册过的设备。要被添加群体，受分享信息吗？按下“是”可做连接，“不是”断开连接。";
+"dialog_contents_failed_connection_reason_ble" = "尿布感知器与蓝牙连接失败。请将尿布感知器重机后再试连接。";
+"dialog_contents_failed_connection_reason_internet" = "网络连接失败。请查看手机与网络连接状态后重试。";
+"dfu_latest_version" = "现在是最新版本。";
+"dfu_update_available_description" = "现在固件不是最新版本。请升级。";
+"dfu_update_available_caution" = "升级固件中请勿将尿布感知器关闭。此会影响给尿布感知器正常启动。";
+"do_not_firmware_update" = "此设备无法用于当前APP。\n请安装MECS专用APP。";
+"dfu_update_completed" = "固件升级完毕。尿布感知器将自动重机后再连接。";
+"dfu_low_battery_warning" = "电池电量低。请做好充电后再试升级。";
+"current_version" = "现在版本";
+"latest_version" = "最新版本";
+"dfu_update_failed" = "固件升级失败。请将尿布感知器关闭后重试。";
+"dfu_update_need_latestversion" = "iOS 11.2 以上的版本可升级。\n 请下载 iOS 最新版本。";
+"dfu_update_waiting" = "正在准备升级。请稍等一下。";
+"dfu_update_stop_process" = "要停止固件升级？";
+"group_share_member_description" = "如果邀请成员，请按下 + 按键。如果删除成员，请选择删除的成员。";
+"group_invite_member_hint" = "会员代码（6个字）";
+"group_warning_invalid_short_id" = "不是正常的会员代码格式";
+"group_short_id_description" = "什么是会员代码？MONIT（梦伊特）公司给用户开的，由英文和数字组成的6个字代码。相关细节内容可参考于主页右上方的 账号 > 会员代码";
+"group_title_shared_list" = "受分享群体目录";
+"group_share_device_list_empty" = "没有分享的设备";
+"group_shared_group_list_empty" = "没有受分享的群体";
+"group_message_my_group_invite" = "邀请成员";
+"group_message_my_group_delete" = "删除成员";
+"group_message_my_group_leave" = "成员已退出我的群体";
+"group_message_my_group_request" = "邀请成员";
+"group_message_other_group_invited" = "成员邀请成功";
+"group_message_other_group_deleted" = "成员删除成功";
+"group_message_other_group_leave" = "成员已退出我的群体";
+"group_message_other_group_request" = "成员申请加入我的群体";
+"feedback_input_text" = "请输入异常内容";
+"btn_send" = "传送";
+"feedback_poo" = "大便";
+"feedback_pee" = "小便";
+"feedback_none" = "无";
+"feedback_true" = "正确的";
+"feedback_false" = "正确";
+"feedback_dk" = "错误";
+"feedback_diaper_status" = "尿布状态";
+"account_signup_welcome_title" = "欢迎注册会员";
+"account_signup_welcome_membershipcode" = "使用于分享设备信息的会员代码发行成功。请您参考在主页右上方 账号>会员代码";
+"account_signup_welcome_description" = "现在与MONIT（梦伊特）开始智能育儿！";
+"group_title_group" = "群体";
+"group_message_init_device" = "设备初始化成功";
+"notification_init_device_title" = "设备初始化";
+"notification_init_device_description" = "设备初始化成功";
+"toast_sensor_is_not_connected_directly" = "尿布感知器与本手机直接连接时，才能使";
+"dialog_dfu_stay_this_screen" = "如升级中离开升级页面，会发生问题。确定离开吗？";
+"dialog_dfu_near_sensor" = "请将尿布感知器放在离手机近的位置。确定进行吗？";
+"dialog_connection_not_received_ap_info" = "无法搜索无线网络，请将尿布感知器从空气质量检测仪器上拔出来再插入后，重试。";
+"hub_graph_score" = "积分";
+"hub_graph_temperature" = "温度";
+"hub_graph_humidity" = "湿度";
+"hub_graph_voc" = "VOC气体";
+"hub_graph_now" = "现在";
+"hub_graph_average" = "当天平均";
+
+
+"sensor_graph_weekly" = "每周的";
+"sensor_graph_monthly" = "每月的";
+"sensor_graph_week" = "周";
+"sensor_graph_month" = "月";
+"sensor_graph_diaper" = "尿布";
+"hub_graph_today" = "今天";
+"hub_graph_ago" = "%@ 日前";
+"guide_direct_connection_title" = "尿布感知器与蓝牙连接指南";
+
+
+
+
+"sensitivity_low" = "低";
+"sensitivity_normal" = "普通";
+"sensitivity_high" = "高";
+"sensitivity_title" = "灵敏度设置";
+
+
+"guide_direct_connection_for_firmware_update" = "升级之前";
+"guide_direct_connection_description" = "需要尿布感知器与蓝牙做好连接。根据下面办法，请做连接。";
+"guide_direct_connection_description1" = "请将尿布感知器插入在空气质量检测仪器上面的插座口。";
+"guide_direct_connection_description2" = "请开启手机蓝牙功能后，将尿布感知器放在离手机近的位置。";
+"guide_direct_connection_description3" = "30秒之内，尿布感知器与蓝牙自动连接，界面也更新。";
+
+
+
+
+
+
+"legal_collect_privacy" = "用户个人信息收集和使用";
+"legal_provide_3rd_party" = "用户个人信息向第三方提供";
+
+
+
+
+
+
+"agreement_title" = "接受条款";
+"agreement_description" = "为使用MONIT（梦伊特）APP服务而需要同意条款。\n请按下APP界面左边复选框的'同意'。如要查看细节内容，请按下“查看细节”。\n(*)是必要同意的条款。";
+"agreement_all" = "我同意所有条款。";
+"agreement_service" = "(필수) 서비스 이용약관에 대한 동의";
+"agreement_warranty" = "(필수) 제품품질 보증서에 대한 동의";
+"agreement_privacy" = "(필수) 개인정보 처리방침에 대한 동의";
+"agreement_collect" = "(필수) 개인정보 수집,이용에 대한 동의";
+"agreement_disclosure" = "(필수) 개인정보 제3자 제공에 대한 동의";
+"dialog_contents_input_nickname" = "모닛 서비스 이용중에 사용하실 닉네임을 입력해주세요.(1~12자)";
+
+"hub_graph_no_data" = "暂无数据";
+
+
+
+
+"dialog_contents_sensor_need_reseting_description" = "❗️为尿布感知器正常启动，请将智能手机蓝牙关闭后重新打开。";
+"dialog_contents_dfu_low_battery" = "因为电池的电量不足的原因，停止了升级。请将电量最少30%以上充电后再进行升级。";
+"contents_need_bluetooth_reseting" = "正在无法与尿布感知器连接。如要与尿布感知器连接，请将智能手机蓝牙关闭后重新打开。(设置 > 蓝牙)";
+"sensor_graph_average_week" = "本周的平均值";
+"sensor_graph_average_month" = "本月的平均值";
+"sensor_graph_count" = "次";
+"dialog_contents_sensor_charging_error" = "尿布感知器充电中发现问题。将尿布感知器和充电器分离后，请把尿布感知器重机。";
+"sensor_graph_server_average_week" = "本周与我宝宝同月群的平均值";
+"sensor_graph_server_average_month" = "本月与我宝宝同月群的平均值";
+"LOW_TEMPERATURE_DETAIL" = "%@\n低于设置的最低温度 (%@)";
+"HIGH_TEMPERATURE_DETAIL" = "%@\n超过设置的最高温度 (%@)";
+"LOW_HUMIDITY_DETAIL" = "%@\n低于设置的最低湿度 (%@)";
+"HIGH_HUMIDITY_DETAIL" = "%@\n超过设置的最高湿度 (%@)";
+"device_environment_temperature_high2" = "太热";
+"device_environment_temperature_high_action2" = "请开空调或者做换气通风";
+"device_environment_temperature_low2" = "太冷";
+"device_environment_temperature_low_action2" = "请开暖气或者加热器";
+"device_environment_humidity_high2" = "太潮湿";
+"device_environment_humidity_high_action2" = "如开着加湿器，请关闭";
+"device_environment_humidity_low2" = "太干燥";
+"device_environment_humidity_low_action2" = "请打开加湿器";
+"device_environment_voc_bad_detected2" = "检测到VOC气体";
+"device_environment_voc_bad_action2" = "请开空气净化器或者做换气通风";
+"device_environment_temperature_high3" = "太热";
+"device_environment_temperature_high_action3" = "请开空调或者做换气通风";
+"device_environment_temperature_low3" = "太冷";
+"device_environment_temperature_low_action3" = "请开暖气或者加热器";
+"device_environment_humidity_high3" = "太潮湿";
+"device_environment_humidity_high_action3" = "如开着加湿器，请关闭";
+"device_environment_humidity_low3" = "太干燥";
+"device_environment_humidity_low_action3" = "请打开加湿器";
+"device_environment_voc_bad_detected3" = "检测到VOC气体";
+"device_environment_voc_bad_action3" = "请开空气净化器或者做换气通风";
+"device_environment_temperature_high4" = "太热";
+"device_environment_temperature_high_action4" = "请开空调或者做换气通风";
+"device_environment_temperature_low4" = "太冷";
+"device_environment_temperature_low_action4" = "请开暖气或者加热器";
+"device_environment_humidity_high4" = "太潮湿";
+"device_environment_humidity_high_action4" = "如开着加湿器，请关闭";
+"device_environment_humidity_low4" = "太干燥";
+"device_environment_humidity_low_action4" = "请打开加湿器";
+"device_environment_voc_bad_detected4" = "检测到VOC气体";
+"device_environment_voc_bad_action4" = "请开空气净化器或者做换气通风";
+"device_environment_temperature_high5" = "太热";
+"device_environment_temperature_high_action5" = "请开空调或者做换气通风";
+"device_environment_temperature_low5" = "太冷";
+"device_environment_temperature_low_action5" = "请开暖气或者加热器";
+"device_environment_humidity_high5" = "太潮湿";
+"device_environment_humidity_high_action5" = "如开着加湿器，请关闭";
+"device_environment_humidity_low5" = "太干燥";
+"device_environment_humidity_low_action5" = "请打开加湿器";
+"device_environment_voc_bad_detected5" = "检测到VOC气体";
+"device_environment_voc_bad_action5" = "请开空气净化器或者做换气通风";
+"agreement_title_link" = "内容を見る";
+"setting_wireless_network_change_title" = "无线网络变更";
+"setting_ap_info_connected" = "连接成功";
+"btn_show" = "查看细节";
+"agreement_description_gdpr" = "为使用MONIT（梦伊特）APP服务而需要同意条款。\n请按下APP界面左边复选框的'同意'。如要查看细节内容，请按下“查看细节”。\n欧盟公民可以被适用于GDPR (General Data Protection Regulation)，如您是欧盟公民的话，请输入您是否欧盟公民。\n(*)是必要同意的条款。";
+"agreement_eu_citizen" = "欧盟公民";
+"agreement_service_goodmonit" = "服务使用条款";
+"agreement_privacy_gdpr_goodmonit" = "欧盟公民个人信息使用方针(GDPR)";
+"agreement_privacy_goodmonit" = "个人信息使用方针";
+"setting_device_detection_test_mode_title" = "感知测试模式";
+"setting_device_detection_test_mode_description" = "为测试尿布感知器的正常启动，1分钟时间会启动感知测试模式。请向尿布感知器中间的感知洞大概5秒吹一下。您会收到感知提示。如过了1分钟或进行测试当中按下“取消”按键，感知测试模式会停止。";
+"connection_hub_connected_detail_with_setting" = "现在可以使用空气质量检测仪器。\n请设置适宜的温度和湿度范围。如超过该范围，您会收到提示。而且，该设置可以在空气质量检测仪器设置页面上变更。";
+"dialog_contents_already_registered_invite_request" = "该设备已被注册过。请将您的6个字会员代码告诉注册设备的使用者。如您被此使用者邀请分享群体的话，与设备自动连接，不必再注册。\n会员代码:";
+"contents_need_sensor_firmware_update" = "尿布感知器可升级，请享受一下更提高的功能";
+"contents_need_hub_firmware_update" = "空气检测仪器可升级，享受一下更提高的功能";
+"account_baby_eating" = "喂养方法";
+"account_warning_eating" = "请选择您的喂养方法";
+"toast_sensor_is_connected_directly" = "尿布感知器与智能手机蓝牙连接成功";
+"contents_need_firmware_update" = "有一个新的固件版本。\n要更新吗？";
+"device_sensor_diaper_status_detectdiaperchanged_confirm_detail" = "이시간에 기저귀 교체를 하셨습니까?";
+"device_sensor_operation_analyzing" = "分析中";
+"device_sensor_diaper_status_analyzing" = "由于感知屁屁，而正在进行分析该是否大便。\n分析需要最长5分钟时间，如此前将尿布感知器取下来，不会收到大便提示。";
+"toast_diaper_status_initialized" = "尿布状态已做好初始化";
+"account_setup_header_nugu" = "계정연동";
+"nugu_title" = "NUGU에서 모닛 사용하기";
+
+"nugu_speech_bubble" = "아리아, 베이비 모니터에서 온도 알려줘";
+"nugu_summary" = "대변 알려줘\n\n기저귀 교체 알려줘\n\n공기질 알려줘\n\n:";
+"nugu_guide_title" = "NUGU연동하기";
+"nugu_guide_contents_1" = "NUGU앱을 실행합니다.";
+"nugu_guide_btn_app_open" = "NUGU앱 실행하기";
+
+"nugu_guide_contents_2" = "을 누르시고, NUGU Play에서 'MONIT'을 눌러주세요.";
+
+"nugu_guide_contents_3" = "을 눌러 '인증 페이지'로 이동합니다.";
+"nugu_guide_contents_4" = "아래의 인증키를 발급하여 로그인하면 연동 성공!";
+"nugu_auth_btn_issue" = "인증키 발급하기";
+"nugu_auth_memberid_title" = "나의 회원코드";
+"nugu_auth_key_title" = "인증키";
+"nugu_auth_btn_reissue" = "인증키 재발급하기";
+
+
+
+
+
+
+
+
+
+
+
+
+
+"device_type_diaper_sensor" = "尿布感知器状态";
+"device_type_hub" = "空气质量检测仪器";
+
+
+
+
+"toast_copy_completed" = "copy completed";
+"nugu_auth_btn_copy" = "복사하기";
+"SENSOR_LONG_DISCONNECTED" = "%@\n与尿布感知器连接断开。";
+
+"btn_learnmore" = "查看细节";
+"btn_start" = "开始";
+"tooltip_lamp_section_enable_button_title" = "调整夜灯亮度";
+"tooltip_lamp_section_enable_button_contents" = "现在就可以在MONIT（梦伊特）APP上开关夜灯";
+"tooltip_lamp_section_brightness_adjustment_contents" = "按下该键子可调整夜灯的亮度";
+"tooltip_lamp_section_turning_off_timer_contents" = "夜灯可设置自动关闭时间";
+"widget_settings" = "设置";
+"widget_info_not_connected" = "连接断开";
+"widget_settings_choose_device" = "选择要显示的设备";
+"sensor_move_graph_deep_sleep" = "沉睡";
+"sensor_move_graph_now" = "动态";
+"toast_change_widget_setting_succeeded" = "设置已变更";
+"toast_oauth_authentication_succeeded" = "验证已完成";
+"device_type_lamp" = "夜灯";
+"connection_lamp_ready_title" = "准备夜灯连接";
+"dialog_contents_not_detected_lamp" = "在附近找不到夜灯。\n按照下列步骤，请重试。\n1。将USB电源重新连接到夜灯。\n2。查看夜灯的LED是否一直蓝灯闪烁。\n3。请按下下面的重试按键。";
+"connection_lamp_ready_detail_step1" = "请使用提供的适配器将USB电源连接到夜灯。\n连接到计算机上的USB端口或多个USB端口时，由于电源不足，可能无法正常启动";
+"connection_lamp_ready_detail_step2" = "查看蓝灯是否闪烁";
+"connection_lamp_select_ap_detail" = "下面无线网络之中，请选择要与夜灯连接网络 ";
+"connection_lamp_select_ap_detail_etc" = "该夜灯只能连接2.4GHz频段的无线网络。无法与5GHz频段的无线网络连接。";
+"connection_lamp_scan_ap_detail" = "夜灯接通！按下下面的搜索按键，将夜灯连接到无线网络。 ";
+"connection_lamp_connected_title" = "夜灯连接成功";
+"connection_lamp_connected_detail" = "现在可以使用夜灯";
+"connection_lamp_connected_detail_with_setting" = "现在可以使用夜灯。\n下面设置适合温度和湿度的话，每当超过设置范围时，会提醒您。此设置您也可以在各夜灯设置上更改。 ";
+"dialog_contents_lamp_ap_connecting" = "正在夜灯网络设置\n请稍候。 ";
+"dialog_connection_not_received_ap_info_lamp" = "从夜灯无法收到无线AP信息。请重试。";
+"device_lamp_disconnected" = "与夜灯连接断开。请查看网络状态。如果问题无法解决，请拆下夜灯电源适配器并重新插上。";
+"device_lamp_disconnected_title" = "与夜灯连接断开 ";
+"device_lamp_disconnected_detail" = "请查看网络状态。要更改网络，请转到右上角的设置并选择更改网络。";
+"app_name_kc" = "Huggies x Monit";
+
+"btn_diaper_sensor_dry_diaper" = "干尿布";
+"btn_diaper_sensor_change_diaper" = "更换尿布";
+"btn_diaper_sensor_diaper_changed" = "更换完成";
+"device_sensor_diaper_status_no_pee_or_poo" = "未检测粪便";
+"contents_need_lamp_firmware_update" = "通过夜灯固件更新，可以使用提升的功能。 ";
+"account_signup_welcome_title_for_kc" = "Welcome to HuggiesxMonit Service";
+"tooltip_sensor_status_tab" = "您现在可以查看尿布状态。";
+"tooltip_sensor_graph_tab" = "您可以看到过去尿布动态图表。 ";
+"tooltip_sensor_alarm_tab" = "您可以看到尿布提醒列表。 ";
+"tooltip_sensor_setup" = "您可以设置婴儿信息或APP提示。 ";
+"setting_device_serial_number" = "验证码";
+
+
+"setting_temperature_range" = "温度范围";
+"setting_humidity_range" = "湿度范围";
+"setting_hint_range" = "请设置范围";
+"setting_warning_range" = "请设置范围";
+"setting_room_name" = "房间名";
+"setting_sensor_eating_summary" = "可重复选";
+"setting_warning_dialog_room_name" = "请输入宝宝房间名";
+"setting_baby_name_hint" = "谁用此尿布提醒器";
+"setting_room_name_hint" = "空气质量检测仪器放在哪？";
+"movement_deep_sleep" = "Sleep deeply";
+"movement_disconnected" = "Disconnected";
+"movement_not_moving" = "Stay still";
+"movement_not_using" = "Not using";
+"agreement_description_kc" = "To use the Huggies x Monit service, you need to agree to the terms and conditions by selecting checkbox. You can see the terms and conditions by selecting show button.\n(*) is a required agreement.";
+"signup_step1_title_kc" = "Create Huggies x Monit Account";
+"signup_step1_detail_kc" = "Huggies x Monit account is necessary for using this service.\nFill out boxes below and select the button on the top.";
+"account_signup_welcome_title_kc" = "Welcome to Huggies x Monit Service";
+"account_signup_welcome_description_kc" = "Huggies x Monit will help babycare smarter.";
+"setting_account_name_hint" = "谁照顾宝宝";
+
+
+
+"connection_package_components" = "Diaper Sensor / Hub / Diaper Cradle";
+"device_monit_package" = "Package";
+"connection_package_ready_title" = "Ready for connection to the package";
+"connection_package_put_sensor_detail" = "Put the sensor into a hub. The sensor needs to be plugged into the hub to activate it. The hub will be connected with your smart phone through the sensor.";
+"setting_title_sensor_information" = "Information of baby who uses this sensor";
+"setting_title_hub_information" = "Information of room for the hub";
+"dialog_contents_sensor_already_registered" = "该设备已被注册过。请将您的6个字会员代码告诉注册设备的使用者。如您被此使用者邀请分享群体的话，与设备自动连接，不必再注册。\n会员代码:";
+"dialog_contents_hub_already_registered" = "该设备已被注册过。请将您的6个字会员代码告诉注册设备的使用者。如您被此使用者邀请分享群体的话，与设备自动连接，不必再注册。\n会员代码:";
+"dialog_contents_lamp_already_registered" = "This lamp has already been registered. Please give your 6-digit membership code to the user who has registered this device. If you are invited to the user's sharing group, you can connect this device automatically without registration.\nMembership code:";
+"btn_device_initialize" = "Initialize";
+"dialog_contents_sensor_initialize_with_serialnumber" = "Input the serial number of the diaper sensor which is placed on the backside of the sensor or a package box. After checking the serial number, the sensor will be initialized.\n[Warning]\nThis initializing will delete all the data from this sensor.";
+"toast_sensor_initialize_succeeded" = "Diaper sensor initializing has been succeeded";
+"toast_sensor_initialize_failed" = "Diaper sensor initializing has been failed.";
+"toast_sensor_initialize_wrong_serialnumber" = "Wrong diaper sensor serial number";
+"dialog_contents_hub_initialize_with_serialnumber" = "Input the serial number of the hub which is placed on the bottom of the hub or a package box. After checking the serial number, the hub will be initialized.\n[Warning]\nThis initializing will delete all the data from this sensor.";
+"toast_hub_initialize_succeeded" = "Hub initializing has been succeeded";
+"toast_hub_initialize_failed" = "Hub initializing has been failed.";
+"toast_hub_initialize_wrong_serialnumber" = "Wrong hub serial number";
+"toast_lamp_initialize_succeeded" = "Lamp initializing has been succeeded";
+
+
+
+
+
+"dialog_contents_initializing_device" = "初始化中，请稍等";
+
+
+
+
+
+
+
+
+
+"account_warning_password_no_alphabet_lowercase" = "输入至少一个小写字母。";
+"account_warning_password_no_alphabet_uppercase" = "输入至少一个大写字母。";
+"account_current_password" = "当前密码";
+"account_current_password_not_match" = "现有密码不匹配";
+"account_current_password_hint" = "输入现有密码";
+"connection_monit_sensor_attaching_guide_title" = "Sensor attaching Guide";
+"connection_monit_sensor_attaching_guide_cradle_title" = "How to attach the diaper cradle";
+"connection_monit_sensor_attaching_guide_cradle_description" = "Please attach the diaper cradle so that the sensing part is visible in the hole.";
+"connection_monit_sensor_attaching_guide_diaper_title" = "How to attach to the diaper";
+"connection_monit_sensor_attaching_guide_diaper_description" = "Attach the sensor to the bottom of the hips.\nThe sensor position may affect alarm accuracy.\nTwist the sensor lightly so that it is firmly attached to the diaper.";
+"dfu_update_available_description_force" = "To ensure the best security, please update the firmware to the most recent version available.";
+"contents_need_sensor_firmware_update_force" = "To ensure the best security, please update the sensor firmware to the most recent version available.";
+"contents_need_hub_firmware_update_force" = "To ensure the best security, please update the hub firmware to the most recent version available.";
+"contents_need_firmware_update_force" = "To ensure the best security, please update the firmware to the most recent version available.";
+"account_password_description" = "请输入密码。8-64个字（8-64个字符，大写字母，小写字母，数字，特殊字符）";
+"account_new_password" = "密码";
+"account_new_password_hint" = "密码";
+"DIAPER_SCORE" = "%@\n기저귀를 확인해주세요.";
+"MOVE_DETECTED" = "%@\n수면중 움직임이 감지되었습니다.";
+"sensor_graph_sleeping" = "Sleeping";
+"sensor_graph_total_sleeping_time" = "Sleeping Time";
+"sensor_graph_total_deep_sleeping_time" = "Deep sleeping time";
+"sensor_graph_average_movement_level" = "Average Movement";
+"sensor_graph_sleeping_score" = "Score";
+"device_environment_voc_bad" = "Bad";
+"device_sensor_voc" = "Gas";
+"device_sensor_diaper_status_charging_detail" = "Diaper sensor is charging now.";
+"device_sensor_diaper_status_charged_detail" = "Diaper sensor has been fully charged.\nNow you can check diaper status with the sensor.";
+"device_sensor_diaper_status_idle_detail" = "Diaper sensor is on standby now.\nIt will start sensing within 30 seconds from attachment to a diaper.";
+"device_sensor_diaper_status_sensing_detail" = "Sensor is monitoring the status of baby.";
+"device_sensor_diaper_status_analyzing_detail" = "Sensor detects VOC gas now.";
+"device_sensor_diaper_changed_passed_time" = "Elapsed time from the latest diaper changed(%@)";
+"device_sensor_diaper_status_orange_detail" = "Little amount of Humidity and Gas are detected in the diaper.";
+"device_sensor_diaper_status_red_detail" = "High humidity and gas are detected.\nCheck and refresh the diaper.";
+"device_sensor_baby_status_good_detail" = "I feel good!";
+"device_sensor_baby_status_check_diaper_detail" = "Please check my diaper!";
+"device_sensor_baby_monitoring_information" = "The information of baby status";
+"device_sensor_activity_sensing_mode" = "Activity tracking mode";
+"device_sensor_sleeping_sensing_mode" = "Sleeping tracking mode";
+"device_sensor_activity_sensing_mode_disconnected" = "Activity mode";
+"device_sensor_sleeping_sensing_mode_disconnected" = "Sleeping mode";
+"device_sensor_diaper_status_title" = "Diaper";
+"device_sensor_voc_status" = "VOC Gas";
+"device_sensor_activity_status" = "Activity";
+"device_sensor_the_latest_time_diaper_changed" = "%@ elapsed";
+"device_sensor_status" = "The information of the sensor";
+"device_sensor_sleeping_elapsed_time" = "%@ sleeping";
+"dialog_sensor_diaper_changed_date_time" = "Diaper change record";
+"device_sensor_diaper_never_changed" = "Never changed";
+"dialog_sensor_sleep_start_date_time" = "Sleep start time";
+"dialog_sensor_sleep_end_date_time" = "Sleep end time";
+"notification_sleep_start" = "Sleeping now...";
+"notification_sleep_end" = "Sleep %@\n(%@~%3$s)";
+"device_sensor_diaper_status_nothing" = "Clean";
+"device_sensor_diaper_status_mixed" = "Mixed";
+"notification_diaper_changed" = "Diaper";
+"notification_feeding_baby_food" = "Baby food";
+"notification_feeding_nursed_breast_milk" = "Nursed breast milk";
+"notification_feeding_bottle_breast_milk" = "Bottle breast milk";
+"notification_feeding_bottle_formula_milk" = "Formula milk";
+"dialog_sensor_feeding_input" = "Feeding information";
+"dialog_sensor_sleep_input" = "Sleep information";
+"dialog_sensor_sleep_input_time" = "Input sleep start and end time.";
+"notification_check_diaper_status" = "Check diaper status";
+"notification_check_diaper_status_10min" = "Check diaper status(10min)";
+"notification_check_diaper_status_40min" = "Check diaper status(40min)";
+"notification_check_diaper_status_clean" = "Diaper checked(Clean)";
+"notification_check_diaper_status_pee" = "Diaper checked(Pee)";
+"notification_check_diaper_status_poo" = "Diaper checked(Poo)";
+"notification_check_diaper_status_mixed" = "Diaper checked(Mixed)";
+"notification_confirm_detected_status" = "Select here to provide feedback";
+"notification_check_detail_information" = "Detail information";
+"dialog_sensor_diaper_change_record" = "Please select time and diaper status";
+"dialog_sensor_feeding_record" = "Please input feeding type, time and amount.";
+"device_hub_room_monitoring_information" = "Hub monitoring information";
+"device_hub_brightness_control" = "Brightness control";
+"device_hub_power_brightness" = "Turning on/off and brightness adjustment";
+"device_hub_power_timer" = "Timer";
+"device_hub_lamp_delay" = "Depending on the network environment, you may experience a delay of 3 to 5 seconds.";
+"device_hub_connection_status" = "The information of the hub";
+"movement_sleep" = "Sleeping";
+"setting_device_enable_diaper_check_alarm" = "Diaper Check";
+"notification_diaper_status_check_diaper" = "Check baby's diaper!";
+"device_sensor_diaper_status_soiled" = "Soiled";
+"device_sensor_diaper_status_check_diaper" = "Check";
+"device_sensor_diaper_status_idle_main_screen" = "Baby monitoring has been paused. Please attach this sensor again.";
+"device_sensor_baby_talk_disconnected" = "Please come near by me. Sensor has been disconnected.";
+"device_lamp_room_monitoring_information" = "Lamp monitoring information";
+"device_lamp_connection_status" = "The information of the lamp";
+"notification_diaper_status_movement_detected_title" = "Movement detected";
+"notification_diaper_status_movement_detected_detail" = "Movement detected";
+"device_sensor_movement_during_sleep" = "Movement during sleep";
+"sensor_diaper_graph_average_total_count" = "Average diaper changed count";
+"sensor_diaper_graph_average_pee_count" = "Average pee count";
+"sensor_diaper_graph_average_poo_count" = "Average poo count";
+"sensor_diaper_graph_day_total_count" = "Diaper changed count";
+"sensor_diaper_graph_day_pee_count" = "Pee count";
+"sensor_diaper_graph_day_poo_count" = "Poo count";
+"sensor_diaper_graph_day_soiled_count" = "Soiled count";
+"sensor_sleep_graph_average_total_time" = "Average sleep time";
+"sensor_sleep_graph_average_total_deep_sleep_time" = "Average deep sleep time";
+"sensor_sleep_graph_average_movement_count" = "Average movement count";
+"sensor_sleep_graph_day_total_time" = "Total sleep time";
+"sensor_sleep_graph_day_total_deep_sleep_time" = "Total deep sleep time";
+"sensor_sleep_graph_day_movement_count" = "Total movement count";
+"sensor_movement_graph_average_value" = "Average movement value";
+"sensor_movement_graph_average_text" = "Average movement level";
+"sensor_movement_graph_day_value" = "Movement value";
+"sensor_movement_graph_day_text" = "Movement level";
+"lamp_environment_graph_temperature_selected" = "Temperature";
+"lamp_environment_graph_temperature_current" = "Current temperature";
+"lamp_environment_graph_temperature_average" = "Average temperature";
+"lamp_environment_graph_humidity_selected" = "Humidity";
+"lamp_environment_graph_humidity_current" = "Current humidity";
+"lamp_environment_graph_humidity_average" = "Average humidity";
+"lamp_environment_graph_voc_selected" = "VOC";
+"lamp_environment_graph_voc_current" = "Current VOC";
+"lamp_environment_graph_voc_average" = "Average VOC";
+"lamp_widget_btn_power_on" = "Lamp ON";
+"lamp_widget_btn_power_off" = "Lamp OFF";
+"device_environment_voc_avg_level0" = "None";
+"device_environment_voc_avg_level1" = "Low";
+"device_environment_voc_avg_level2" = "High";
+"device_environment_voc_avg_level3" = "Very high";
+"device_environment_voc_avg_level4" = "Very bad";
+"guide_sensor_sleep_mode_title" = "Sleeping mode";
+"guide_sensor_sleep_mode_contents" = "If the sleep mode is enabled, the diaper sensor monitors the quality of the sleep.\nAlso if the baby awakes or moves, it sends movement detected notification to the smartphone.\nA user can check the history of the sleep at the graph tab. ";
+"guide_sensor_diaper_status_title" = "Diaper status";
+"guide_sensor_diaper_status_contents" = "The diaper sensor analyzes pee, poop and gas in a diaper and the diaper wearing time to show the soiled stage of the diaper. There are 3 stages of Good, Soiled, Check.\nGood: The diaper is clean.\nSoiled: The diaper has been soiled a little bit.\nCheck: The diaper has been soiled a lot so that a user needs to check the diaper.";
+"guide_sensor_voc_avg_title" = "VOC Gas";
+"guide_sensor_voc_avg_contents" = "VOCs are numerous, varied, and ubiquitous. They include both human-made and naturally occurring chemical compounds. Most scents or odors are of VOCs.\nThis value shows the amount of the average of the VOCs in a diaper during 5 minutes. And there are 5 stages of None, Low, High, Very High and Very Bad.\nIf the stage of High is maintained continuously, please check the diaper.\nEven if there is poop or fart in the diaper, the amount of VOCs could be detected little bit differently like the odors of poop or fart is different.";
+"guide_sensor_moving_title" = "Movement level";
+"guide_sensor_moving_contents" = "This value is the level of movements which a diaper sensor detects.\nIf a baby moves continuously or a baby moves quickly, this value changes to the higher.\nThere are 4 stages of None, Calm, Active and Energetic.";
+"guide_sensor_operation_title" = "Sensor status";
+"guide_sensor_operation_contents" = "The sensor status can be displayed by Ready, Stand by and Analyzing.\nReady: The diaper sensor is monitoring.\nStand by: The diaper sensor needs to be attached to a diaper. If a user attaches it, the status would be changed to Ready within 30 seconds.\nAnalyzing: The diaper sensor detects increase of the amount of the gas in a diaper and it analyzes the components of the gas.";
+"toast_sensor_sleep_than_start_time" = "Set the sleep end time later than the start time.";
+"device_sensor_the_latest_time" = "%@ elapsed";
+"device_sensor_naps" = "naps";
+"device_sensor_night_sleep" = "night sleep";
+"device_sensor_breast_milk_left" = "left";
+"device_sensor_breast_milk_right" = "right";
+"notification_sleep_end_for_ios" = "Sleep";
+"assistant_title" = "Google Assistant에서 모닛 사용하기";
+"assistant_guide_title" = "Google Assistant 연동하기";
+"assistant_guide_contents_1" = "Google Assistant 앱을 실행합니다. \nAssistant 앱이 실행되면 '베이비 모니터에게 말하기' 라고 말해주세요. 자동으로 인증페이지에 연결됩니다.";
+
+"assistant_guide_btn_app_open" = "Google Assistant 앱 실행하기";
+
+"assistant_guide_contents_3" = "아래의 버튼을 눌러 인증키를 발급하세요.";
+
+"assistant_auth_btn_issue" = "인증키 발급하기";
+"assistant_auth_memberid_title" = "나의 회원코드";
+"assistant_auth_key_title" = "인증키";
+"assistant_auth_btn_reissue" = "인증키 재발급하기";
+"assistant_auth_btn_copy" = "복사하기";
+
+"device_monit_hub_lamp_differentiation" = "Please check a socket to charge a diaper sensor when you connect a hub. No socket is in a lamp.";
+"notification_diaper_status_diaper_soiled_title" = "Soiled detected";
+"setting_device_enable_diaper_soiled_alarm" = "Diaper soiled";
+"setting_device_babyinfo_description" = "Update about the information of baby using this sensor. The accuracy of the sensor may be related to this information.";
+"setting_device_enable_connection_alarm_description" = "You can get a notification when 15 minutes elapsed since this sensor was disconnected.";
+"setting_device_enable_diaper_check_alarm_description" = "You can get an alarm when a diaper soiled a lot.";
+"setting_device_enable_diaper_soiled_alarm_description" = "You can get an alarm when a diaper is soiled by pee, poo and so on.";
+"setting_device_sensor_movement_during_sleep_description" = "You can get an alarm when your baby is awake or tossing.";
+"setting_device_firmware_version_description" = "This shows the version of firmware and you can update this device to the latest version of the firmware.";
+"setting_device_environment_temperature_description" = "You can get an alarm when temperature is out of range from this range you have set.";
+"setting_device_environment_humidity_description" = "You can get an alarm when humidity is out of range from this range you have set.";
+"setting_device_led_light_description" = "Turning on/off the LED(blue or red) which is on the top case of this device.";
+"setting_ap_info_title_description" = "This shows the name of the access point which has been set now. You can connect/update an access point to connect to the Internet.";
+"setting_device_firmware_lamp_internet" = "To update the firmware of this lamp, this lamp should be connected to the Internet.\nBut now, the lamp is only connected to the smartphone via Bluetooth without any Internet connection.\nIf you want to update the firmware, please connect this lamp to the Internet with selecting network change button at the device setting page.";
+"connection_elderly_sensor_ready_title" = "Elderly diaper sensor";
+"connection_elderly_sensor_ready_detail_step1" = "Turn on the sensor.";
+"connection_elderly_sensor_ready_detail_step2" = "Check blue light is flashing.";
+"device_type_elderly_diaper_sensor" = "Elderly diaper sensor";
+"connection_elderly_sensor_info_title" = "Patient info";
+"connection_elderly_sensor_info_detail" = "Please input the information of patient who uses this sensor. The accuracy of the sensor may be related to this information.";
+"NOTIFICATION_DIAPER_SOILED" = "%@\nSoiled detected";
+"NOTIFICATION_DIAPER_SOILED_PEE" = "%@\nSoiled detected(Pee)";
+"NOTIFICATION_DIAPER_SOILED_POO" = "%@\nSoiled detected(Poo)";
+"dialog_contents_limited_feature_during_lamp_bluetooth_connection" = "This lamp is not connected to the Internet. This feature is disabled when this lamp is only connected with this smartphone via Bluetooth. Please connect this lamp to the Internet via Setting > Network.";
+"setting_device_enable_auto_sleep_monitoring" = "Automatic sleep monitoring";
+"dialog_contents_sensor_already_registered_init" = "[Warning]\nThis initializing will delete all the data from this sensor.\nIf you want to reset, please enter the membership code below.\nMembership code: ";
+"dialog_contents_Lamp_already_registered_init" = "[Warning]\nThis initializing will delete all the data from this Lamp.\nIf you want to reset, please enter the membership code below.\nMembership code: ";
+"init_member_hint" = "会员代码（6个字）";
+"warning_invalid_short_id" = "不是正常的会员代码格式";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

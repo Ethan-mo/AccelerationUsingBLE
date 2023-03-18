@@ -1,0 +1,339 @@
+
+/* Class = "UILabel"; text = "60 %"; ObjectID = "0ai-Fe-dMP"; */
+"0ai-Fe-dMP.text" = "60 %";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "1cf-yv-XRa"; */
+"1cf-yv-XRa.text" = "Name";
+
+/* Class = "UILabel"; text = "Turn on alarm"; ObjectID = "2CI-Ks-Y8r"; */
+"2CI-Ks-Y8r.text" = "Turn on alarm";
+
+/* Class = "UILabel"; text = "40 %"; ObjectID = "2PY-He-dsG"; */
+"2PY-He-dsG.text" = "40 %";
+
+/* Class = "UILabel"; text = "2017.08.11"; ObjectID = "2ed-Gj-wyQ"; */
+"2ed-Gj-wyQ.text" = "2017.08.11";
+
+/* Class = "UILabel"; text = "Pee"; ObjectID = "2fz-l0-Uxk"; */
+"2fz-l0-Uxk.text" = "Pee";
+
+/* Class = "UILabel"; text = "1.01.01"; ObjectID = "3Ij-2d-l3O"; */
+"3Ij-2d-l3O.text" = "1.01.01";
+
+/* Class = "UIButton"; normalTitle = "The highest temperature"; ObjectID = "4tE-0S-KQh"; */
+"4tE-0S-KQh.normalTitle" = "The highest temperature";
+
+/* Class = "UILabel"; text = "현재 버전 1.01.01"; ObjectID = "4yW-Il-Eqo"; */
+"4yW-Il-Eqo.text" = "현재 버전 1.01.01";
+
+/* Class = "UILabel"; text = "Temperature setting"; ObjectID = "4yh-6h-bOg"; */
+"4yh-6h-bOg.text" = "Temperature setting";
+
+/* Class = "UIButton"; normalTitle = "The lowest temperature"; ObjectID = "5DO-fH-vln"; */
+"5DO-fH-vln.normalTitle" = "The lowest temperature";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "5ce-4w-C9T"; */
+"5ce-4w-C9T.text" = "15";
+
+/* Class = "UILabel"; text = "현재 펌웨어가 최신 버전이 아닙니다.\n업데이트가 필요합니다."; ObjectID = "5oQ-Pi-YRh"; */
+"5oQ-Pi-YRh.text" = "현재 펌웨어가 최신 버전이 아닙니다.\n업데이트가 필요합니다.";
+
+/* Class = "UIButton"; normalTitle = "Temperature"; ObjectID = "6PL-9U-fct"; */
+"6PL-9U-fct.normalTitle" = "Temperature";
+
+/* Class = "UILabel"; text = "Humidity setting"; ObjectID = "7fb-dr-YPA"; */
+"7fb-dr-YPA.text" = "Humidity setting";
+
+/* Class = "UILabel"; text = "1.01.01"; ObjectID = "8zK-3F-id2"; */
+"8zK-3F-id2.text" = "1.01.01";
+
+/* Class = "UILabel"; text = "기저귀 센서를 허브에 꽂아주세요."; ObjectID = "9Lu-AG-dPK"; */
+"9Lu-AG-dPK.text" = "기저귀 센서를 허브에 꽂아주세요.";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트 중에는 센서의 전원을 끄거나 앱을 종료하지 마세요. 센서가 정상 동작 하지 않을 수 있습니다."; ObjectID = "9iq-tM-zBQ"; */
+"9iq-tM-zBQ.text" = "펌웨어 업데이트 중에는 센서의 전원을 끄거나 앱을 종료하지 마세요. 센서가 정상 동작 하지 않을 수 있습니다.";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트"; ObjectID = "CaO-zd-SF6"; */
+"CaO-zd-SF6.text" = "펌웨어 업데이트";
+
+/* Class = "UILabel"; text = "최신 버전 1.01.01"; ObjectID = "ERi-33-pKK"; */
+"ERi-33-pKK.text" = "최신 버전 1.01.01";
+
+/* Class = "UILabel"; text = "°C"; ObjectID = "EZf-Aa-LhU"; */
+"EZf-Aa-LhU.text" = "°C";
+
+/* Class = "UILabel"; text = "30초 이내에 스마트폰과 연결되며, 화면이 자동으로 변경됩니다."; ObjectID = "F5B-Oz-Woi"; */
+"F5B-Oz-Woi.text" = "30초 이내에 스마트폰과 연결되며, 화면이 자동으로 변경됩니다.";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "F8C-7u-0As"; */
+"F8C-7u-0As.text" = "Setting";
+
+/* Class = "UILabel"; text = "기기 이름을 입력해주세요."; ObjectID = "FQQ-Hm-azc"; */
+"FQQ-Hm-azc.text" = "기기 이름을 입력해주세요.";
+
+/* Class = "UIButton"; normalTitle = "센서 민감도"; ObjectID = "GJK-ZP-Mq2"; */
+"GJK-ZP-Mq2.normalTitle" = "센서 민감도";
+
+/* Class = "UILabel"; text = "OFF"; ObjectID = "Gbv-Rl-hwI"; */
+"Gbv-Rl-hwI.text" = "OFF";
+
+/* Class = "UIButton"; normalTitle = "BOY"; ObjectID = "HkX-5g-jSn"; */
+"HkX-5g-jSn.normalTitle" = "BOY";
+
+/* Class = "UILabel"; text = "When humidity overs or falls than registered optimal humidity, alert notifies."; ObjectID = "HqA-Bm-Pwv"; */
+"HqA-Bm-Pwv.text" = "When humidity overs or falls than registered optimal humidity, alert notifies.";
+
+/* Class = "UIButton"; normalTitle = "Initialize and Delete"; ObjectID = "IGj-mO-hQT"; */
+"IGj-mO-hQT.normalTitle" = "Initialize and Delete";
+
+/* Class = "UILabel"; text = "OFF"; ObjectID = "IuV-hA-prD"; */
+"IuV-hA-prD.text" = "OFF";
+
+/* Class = "UIButton"; normalTitle = "Device name"; ObjectID = "J8g-9s-JHI"; */
+"J8g-9s-JHI.normalTitle" = "Device name";
+
+/* Class = "UIButton"; normalTitle = "현재 최신 버전입니다"; ObjectID = "JfP-pm-EDW"; */
+"JfP-pm-EDW.normalTitle" = "현재 최신 버전입니다";
+
+/* Class = "UIButton"; normalTitle = "Initialize and Delete"; ObjectID = "JiY-kV-GCc"; */
+"JiY-kV-GCc.normalTitle" = "Initialize and Delete";
+
+/* Class = "UILabel"; text = "스마트폰의 블루투스를 켜고 기저귀 센서 가까이에\n놓아주세요."; ObjectID = "KsC-rG-2Zm"; */
+"KsC-rG-2Zm.text" = "스마트폰의 블루투스를 켜고 기저귀 센서 가까이에\n놓아주세요.";
+
+/* Class = "UILabel"; text = "Setting optimal humidity"; ObjectID = "Lz8-o2-o0l"; */
+"Lz8-o2-o0l.text" = "Setting optimal humidity";
+
+/* Class = "UILabel"; text = "(0%)"; ObjectID = "Nk7-F6-RVh"; */
+"Nk7-F6-RVh.text" = "(0%)";
+
+/* Class = "UILabel"; text = "알림에 관한 설정은 아이폰 > 설정 > 알림에서 모닛 관련 설정을 확인해주세요."; ObjectID = "O58-kU-G5L"; */
+"O58-kU-G5L.text" = "알림에 관한 설정은 아이폰 > 설정 > 알림에서 모닛 관련 설정을 확인해주세요.";
+
+/* Class = "UIButton"; normalTitle = "업데이트 취소"; ObjectID = "OAp-96-xwq"; */
+"OAp-96-xwq.normalTitle" = "업데이트 취소";
+
+/* Class = "UILabel"; text = "Led setting"; ObjectID = "OKc-qd-pWZ"; */
+"OKc-qd-pWZ.text" = "Led setting";
+
+/* Class = "UILabel"; text = "Poo"; ObjectID = "Ow3-ga-c5q"; */
+"Ow3-ga-c5q.text" = "Poo";
+
+/* Class = "UILabel"; text = "30%~60%"; ObjectID = "PQJ-Wg-kaw"; */
+"PQJ-Wg-kaw.text" = "30%~60%";
+
+/* Class = "UIButton"; normalTitle = "Firmware version"; ObjectID = "QIe-HD-Nl2"; */
+"QIe-HD-Nl2.normalTitle" = "Firmware version";
+
+/* Class = "UIButton"; normalTitle = "Firmware version"; ObjectID = "Qu5-bT-HxA"; */
+"Qu5-bT-HxA.normalTitle" = "Firmware version";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "RaF-G3-zxc"; */
+"RaF-G3-zxc.text" = "1985";
+
+/* Class = "UILabel"; text = "Device name setting"; ObjectID = "RrG-t0-sPw"; */
+"RrG-t0-sPw.text" = "Device name setting";
+
+/* Class = "UILabel"; text = "알림에 관한 설정은 아이폰 > 설정 > 알림에서 모닛 관련 설정을 확인해주세요."; ObjectID = "RwO-kt-EPR"; */
+"RwO-kt-EPR.text" = "알림에 관한 설정은 아이폰 > 설정 > 알림에서 모닛 관련 설정을 확인해주세요.";
+
+/* Class = "UILabel"; text = "When temperature overs or falls than registered optimal temperature, alert notifies."; ObjectID = "S7j-B9-1m5"; */
+"S7j-B9-1m5.text" = "When temperature overs or falls than registered optimal temperature, alert notifies.";
+
+/* Class = "UILabel"; text = "60 %"; ObjectID = "Sef-Wh-F8X"; */
+"Sef-Wh-F8X.text" = "60 %";
+
+/* Class = "UIButton"; normalTitle = "Leave and Delete"; ObjectID = "Tx9-3i-Ued"; */
+"Tx9-3i-Ued.normalTitle" = "Leave and Delete";
+
+/* Class = "UILabel"; text = "Turn on alarm"; ObjectID = "UKM-bT-On6"; */
+"UKM-bT-On6.text" = "Turn on alarm";
+
+/* Class = "UIButton"; normalTitle = "알람 받기"; ObjectID = "UyU-5v-TgS"; */
+"UyU-5v-TgS.normalTitle" = "알람 받기";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트 중에는 센서의 전원을 끄거나 앱을 종료하지 마세요. 센서가 정상 동작 하지 않을 수 있습니다."; ObjectID = "VrX-Lq-Ry2"; */
+"VrX-Lq-Ry2.text" = "펌웨어 업데이트 중에는 센서의 전원을 끄거나 앱을 종료하지 마세요. 센서가 정상 동작 하지 않을 수 있습니다.";
+
+/* Class = "UILabel"; text = "MONIT"; ObjectID = "W4z-xP-JLB"; */
+"W4z-xP-JLB.text" = "MONIT";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "W8w-2p-bmW"; */
+"W8w-2p-bmW.text" = "Sex";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "Wi7-Ue-Dga"; */
+"Wi7-Ue-Dga.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "20.0~28.0"; ObjectID = "WiD-sX-0OI"; */
+"WiD-sX-0OI.text" = "20.0~28.0";
+
+/* Class = "UIButton"; normalTitle = "The lowest humidity"; ObjectID = "WmB-UV-HyN"; */
+"WmB-UV-HyN.normalTitle" = "The lowest humidity";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트"; ObjectID = "Wmc-rT-vqe"; */
+"Wmc-rT-vqe.text" = "펌웨어 업데이트";
+
+/* Class = "UIButton"; normalTitle = "사용중인 AP 정보"; ObjectID = "XIc-Wd-esl"; */
+"XIc-Wd-esl.normalTitle" = "사용중인 AP 정보";
+
+/* Class = "UILabel"; text = "24 Alphabets or 8 Characters"; ObjectID = "XbF-Sa-qg4"; */
+"XbF-Sa-qg4.text" = "24 Alphabets or 8 Characters";
+
+/* Class = "UILabel"; text = "현재 펌웨어가 최신 버전이 아닙니다.\n업데이트가 필요합니다."; ObjectID = "Yq3-Eh-fm4"; */
+"Yq3-Eh-fm4.text" = "현재 펌웨어가 최신 버전이 아닙니다.\n업데이트가 필요합니다.";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트"; ObjectID = "YtS-lV-w2d"; */
+"YtS-lV-w2d.text" = "펌웨어 업데이트";
+
+/* Class = "UILabel"; text = "(0%)"; ObjectID = "ZpH-nq-rIs"; */
+"ZpH-nq-rIs.text" = "(0%)";
+
+/* Class = "UILabel"; text = "Baby Name"; ObjectID = "a7V-kH-RM2"; */
+"a7V-kH-RM2.text" = "Baby Name";
+
+/* Class = "UIButton"; normalTitle = "온도 단위"; ObjectID = "acM-IW-uug"; */
+"acM-IW-uug.normalTitle" = "온도 단위";
+
+/* Class = "UILabel"; text = "20.0~28.0"; ObjectID = "b1T-UR-q4H"; */
+"b1T-UR-q4H.text" = "20.0~28.0";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "bXM-hz-cGC"; */
+"bXM-hz-cGC.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "22.0"; ObjectID = "c21-s5-kES"; */
+"c21-s5-kES.text" = "22.0";
+
+/* Class = "UILabel"; text = "Baby information"; ObjectID = "c8M-sP-hff"; */
+"c8M-sP-hff.text" = "Baby information";
+
+/* Class = "UIButton"; normalTitle = "켜짐시간"; ObjectID = "cDj-t7-ZCe"; */
+"cDj-t7-ZCe.normalTitle" = "켜짐시간";
+
+/* Class = "UILabel"; text = "Baby Name"; ObjectID = "cfM-Lj-pvN"; */
+"cfM-Lj-pvN.text" = "Baby Name";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "ctu-x6-D9G"; */
+"ctu-x6-D9G.text" = "M";
+
+/* Class = "UILabel"; text = "Device name"; ObjectID = "dM1-0M-ICZ"; */
+"dM1-0M-ICZ.text" = "Device name";
+
+/* Class = "UILabel"; text = "LED 상태등 켜기"; ObjectID = "ee7-y7-lgY"; */
+"ee7-y7-lgY.text" = "LED 상태등 켜기";
+
+/* Class = "UIButton"; normalTitle = "알람 받기"; ObjectID = "epw-Hh-IeX"; */
+"epw-Hh-IeX.normalTitle" = "알람 받기";
+
+/* Class = "UILabel"; text = "Baby information"; ObjectID = "es7-NQ-CUO"; */
+"es7-NQ-CUO.text" = "Baby information";
+
+/* Class = "UILabel"; text = "기저귀 센서와 스마트폰이 블루투스로 연결되어 있어야합니다. 아래 방법을 따라 진행해주세요."; ObjectID = "fL6-k9-tza"; */
+"fL6-k9-tza.text" = "기저귀 센서와 스마트폰이 블루투스로 연결되어 있어야합니다. 아래 방법을 따라 진행해주세요.";
+
+/* Class = "UILabel"; text = "현재 버전 1.1.1"; ObjectID = "faa-tP-nd6"; */
+"faa-tP-nd6.text" = "현재 버전 1.1.1";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "fs8-zn-u7X"; */
+"fs8-zn-u7X.text" = "D";
+
+/* Class = "UIButton"; normalTitle = "Baby information"; ObjectID = "g7y-SL-OdQ"; */
+"g7y-SL-OdQ.normalTitle" = "Baby information";
+
+/* Class = "UIButton"; normalTitle = "The highest humidity"; ObjectID = "goA-nu-dkX"; */
+"goA-nu-dkX.normalTitle" = "The highest humidity";
+
+/* Class = "UILabel"; text = "When humidity overs or falls than registered optimal humidity, alert notifies."; ObjectID = "h0c-IQ-7ej"; */
+"h0c-IQ-7ej.text" = "When humidity overs or falls than registered optimal humidity, alert notifies.";
+
+/* Class = "UILabel"; text = "최신 버전 1.1.1"; ObjectID = "h1J-J9-GS4"; */
+"h1J-J9-GS4.text" = "최신 버전 1.1.1";
+
+/* Class = "UILabel"; text = "40 %"; ObjectID = "hAQ-hS-F2s"; */
+"hAQ-hS-F2s.text" = "40 %";
+
+/* Class = "UILabel"; text = "Girl"; ObjectID = "j61-va-bjC"; */
+"j61-va-bjC.text" = "Girl";
+
+/* Class = "UIButton"; normalTitle = "GIRL"; ObjectID = "jYA-Qk-WIH"; */
+"jYA-Qk-WIH.normalTitle" = "GIRL";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "jgv-Zp-wq1"; */
+"jgv-Zp-wq1.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "kVv-Jv-jIe"; */
+"kVv-Jv-jIe.text" = "Birthday";
+
+/* Class = "UIButton"; normalTitle = "업데이트 취소"; ObjectID = "kwq-Vy-fcj"; */
+"kwq-Vy-fcj.normalTitle" = "업데이트 취소";
+
+/* Class = "UIButton"; normalTitle = "Leave and Delete"; ObjectID = "kyP-yz-S7e"; */
+"kyP-yz-S7e.normalTitle" = "Leave and Delete";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "lfT-tl-Ibg"; */
+"lfT-tl-Ibg.text" = "Birthday";
+
+/* Class = "UIButton"; normalTitle = "The lowest humidity"; ObjectID = "lmr-2M-MxK"; */
+"lmr-2M-MxK.normalTitle" = "The lowest humidity";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "nBj-wp-2T1"; */
+"nBj-wp-2T1.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "Humidity"; ObjectID = "nFG-4S-hVA"; */
+"nFG-4S-hVA.normalTitle" = "Humidity";
+
+/* Class = "UIButton"; normalTitle = "현재 최신 버전입니다"; ObjectID = "na9-Qo-0FB"; */
+"na9-Qo-0FB.normalTitle" = "현재 최신 버전입니다";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트"; ObjectID = "pPz-gD-DUn"; */
+"pPz-gD-DUn.text" = "펌웨어 업데이트";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "piX-uE-TDV"; */
+"piX-uE-TDV.normalTitle" = "SAVE";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "pr4-1h-1v3"; */
+"pr4-1h-1v3.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "Setting optimal temperature"; ObjectID = "qaf-rW-5rM"; */
+"qaf-rW-5rM.text" = "Setting optimal temperature";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "rxZ-ur-ZZN"; */
+"rxZ-ur-ZZN.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "센서 동작 확인"; ObjectID = "svm-sF-Euf"; */
+"svm-sF-Euf.normalTitle" = "센서 동작 확인";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "taM-m3-IYw"; */
+"taM-m3-IYw.text" = "Sex";
+
+/* Class = "UIButton"; normalTitle = "기기 찾기"; ObjectID = "ti2-iS-7d1"; */
+"ti2-iS-7d1.normalTitle" = "기기 찾기";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "uPt-Sv-V1H"; */
+"uPt-Sv-V1H.text" = "-";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트 중에는 기기의 전원을 끄거나 앱을 종료하지 마세요. 기기가 정상 동작 하지 않을 수 있습니다."; ObjectID = "uYL-BV-bEQ"; */
+"uYL-BV-bEQ.text" = "펌웨어 업데이트 중에는 기기의 전원을 끄거나 앱을 종료하지 마세요. 기기가 정상 동작 하지 않을 수 있습니다.";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "ug3-YB-4pR"; */
+"ug3-YB-4pR.text" = "Setting";
+
+/* Class = "UIButton"; normalTitle = "업데이트 취소"; ObjectID = "uml-hr-xIR"; */
+"uml-hr-xIR.normalTitle" = "업데이트 취소";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "vhw-Cc-bQh"; */
+"vhw-Cc-bQh.text" = "Y";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "wnF-vv-I5a"; */
+"wnF-vv-I5a.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "The highest humidity"; ObjectID = "xVL-vg-2uP"; */
+"xVL-vg-2uP.normalTitle" = "The highest humidity";
+
+/* Class = "UILabel"; text = "Setting optimal humidity"; ObjectID = "xto-fI-TYJ"; */
+"xto-fI-TYJ.text" = "Setting optimal humidity";
+
+/* Class = "UILabel"; text = "펌웨어 업데이트를 하기 전에"; ObjectID = "y02-lO-zMw"; */
+"y02-lO-zMw.text" = "펌웨어 업데이트를 하기 전에";
+
+/* Class = "UILabel"; text = "22.0"; ObjectID = "zf5-HJ-cpp"; */
+"zf5-HJ-cpp.text" = "22.0";

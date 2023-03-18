@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "초대"; ObjectID = "3jn-W1-gtg"; */
+"3jn-W1-gtg.normalTitle" = "초대";
+
+/* Class = "UILabel"; text = "공유 멤버로 초대되면실시간 기기 상태를 공유할 수 있습니다."; ObjectID = "8F6-O8-iYQ"; */
+"8F6-O8-iYQ.text" = "공유 멤버로 초대되면실시간 기기 상태를 공유할 수 있습니다.";
+
+/* Class = "UILabel"; text = "이메일 형식으로 입력해주세요."; ObjectID = "9Hy-JV-TDT"; */
+"9Hy-JV-TDT.text" = "이메일 형식으로 입력해주세요.";
+
+/* Class = "UIButton"; normalTitle = "초대"; ObjectID = "Dxa-9V-lfj"; */
+"Dxa-9V-lfj.normalTitle" = "초대";
+
+/* Class = "UILabel"; text = "내 그룹"; ObjectID = "Hz4-DZ-jP9"; */
+"Hz4-DZ-jP9.text" = "내 그룹";
+
+/* Class = "UILabel"; text = "그룹 이름"; ObjectID = "KS7-KE-woh"; */
+"KS7-KE-woh.text" = "그룹 이름";
+
+/* Class = "UINavigationItem"; title = "비밀번호 변경"; ObjectID = "KtM-QF-Luh"; */
+"KtM-QF-Luh.title" = "비밀번호 변경";
+
+/* Class = "UILabel"; text = "내 그룹"; ObjectID = "V5R-DP-oSz"; */
+"V5R-DP-oSz.text" = "내 그룹";
+
+/* Class = "UILabel"; text = "공유 멤버 초대"; ObjectID = "WOD-mp-vQ3"; */
+"WOD-mp-vQ3.text" = "공유 멤버 초대";
+
+/* Class = "UILabel"; text = "이메일"; ObjectID = "czm-iR-4KA"; */
+"czm-iR-4KA.text" = "이메일";
+
+/* Class = "UIButton"; normalTitle = "탈퇴"; ObjectID = "etB-Ig-fdZ"; */
+"etB-Ig-fdZ.normalTitle" = "탈퇴";
+
+/* Class = "UILabel"; text = "내가 다른 구성원을 초대하여 내 기기 상태를 공유할 수 있습니다."; ObjectID = "gSO-gE-Pbq"; */
+"gSO-gE-Pbq.text" = "내가 다른 구성원을 초대하여 내 기기 상태를 공유할 수 있습니다.";
+
+/* Class = "UILabel"; text = "초대할 사용자의 이메일"; ObjectID = "j2l-i8-2gJ"; */
+"j2l-i8-2gJ.text" = "초대할 사용자의 이메일";
+
+/* Class = "UIButton"; normalTitle = "수유등"; ObjectID = "nXS-Y5-BCV"; */
+"nXS-Y5-BCV.normalTitle" = "수유등";
+
+/* Class = "UILabel"; text = "실시간 기기상태를 공유하고 있는 다른 구성원이 없습니다.\n구성원을 초대하시려면 상단에 있는 초대 버튼을 눌러주세요."; ObjectID = "pZh-MH-HES"; */
+"pZh-MH-HES.text" = "실시간 기기상태를 공유하고 있는 다른 구성원이 없습니다.\n구성원을 초대하시려면 상단에 있는 초대 버튼을 눌러주세요.";

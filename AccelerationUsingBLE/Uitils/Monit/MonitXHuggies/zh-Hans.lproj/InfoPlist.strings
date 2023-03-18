@@ -1,0 +1,11 @@
+/* 
+  LocalInfo.strings
+  Monit
+
+  Created by 맥 on 2017. 8. 21..
+  Copyright © 2017년 맥. All rights reserved.
+*/
+
+CFBundleDisplayName = "Monit";
+NSBluetoothAlwaysUsageDescription = "기저귀 센서와 BLE 연결시 필요합니다.";
+NSBluetoothPeripheralUsageDescription = "기저귀 센서와 BLE 연결시 필요합니다.";

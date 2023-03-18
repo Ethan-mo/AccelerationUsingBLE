@@ -1,0 +1,191 @@
+/* Class = "UILabel"; text = "Now sensor is ready to use"; ObjectID = "0Sk-9k-ZhG"; */
+"0Sk-9k-ZhG.text" = "Now sensor is ready to use";
+
+/* Class = "UILabel"; text = "Wireless network setting"; ObjectID = "1v2-4A-zxr"; */
+"1v2-4A-zxr.text" = "Wireless network setting";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "2fy-ST-o4x"; */
+"2fy-ST-o4x.text" = "Registration";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "32R-EW-p5m"; */
+"32R-EW-p5m.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Sex"; ObjectID = "3mJ-Ck-aMC"; */
+"3mJ-Ck-aMC.text" = "Sex";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "6Y2-NP-yKI"; */
+"6Y2-NP-yKI.normalTitle" = "DONE";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "6ps-DA-Ffj"; */
+"6ps-DA-Ffj.text" = "Registration";
+
+/* Class = "UITextView"; text = "Check blue light flashing."; ObjectID = "71h-KW-Rjq"; */
+"71h-KW-Rjq.text" = "Check blue light flashing.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "71s-By-aAs"; */
+"71s-By-aAs.text" = "Registration";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "8xi-Zp-jEi"; */
+"8xi-Zp-jEi.normalTitle" = "DONE";
+
+/* Class = "UIButton"; normalTitle = "SEARCHING WIRELESS NETWORK"; ObjectID = "9hp-RD-BaH"; */
+"9hp-RD-BaH.normalTitle" = "SEARCHING WIRELESS NETWORK";
+
+/* Class = "UILabel"; text = "Put the sensor into a hub. The hub will be connected with your smart phone through the sensor."; ObjectID = "9zO-nu-Fvj"; */
+"9zO-nu-Fvj.text" = "Put the sensor into a hub. The hub will be connected with your smart phone through the sensor.";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "B9b-dH-7Dd"; */
+"B9b-dH-7Dd.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "BGe-Lc-v3j"; */
+"BGe-Lc-v3j.text" = "Connect with MONIT Hub";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "Bmq-5E-HFD"; */
+"Bmq-5E-HFD.text" = "Registration";
+
+/* Class = "UIButton"; normalTitle = "START CONNECTION"; ObjectID = "CBD-dm-icf"; */
+"CBD-dm-icf.normalTitle" = "START CONNECTION";
+
+/* Class = "UILabel"; text = "Connect with MONIT Sensor"; ObjectID = "CfO-Vm-0DJ"; */
+"CfO-Vm-0DJ.text" = "Connect with MONIT Sensor";
+
+/* Class = "UITextView"; text = "Turn on the sensor."; ObjectID = "D3o-PZ-a8V"; */
+"D3o-PZ-a8V.text" = "Turn on the sensor.";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "EId-bO-W7w"; */
+"EId-bO-W7w.normalTitle" = "DONE";
+
+/* Class = "UILabel"; text = "Wireless network setting"; ObjectID = "EJ9-QK-IfV"; */
+"EJ9-QK-IfV.text" = "Wireless network setting";
+
+/* Class = "UILabel"; text = "Baby Information"; ObjectID = "EMH-Px-8CP"; */
+"EMH-Px-8CP.text" = "Baby Information";
+
+/* Class = "UIButton"; normalTitle = "Monit Hub"; ObjectID = "FBl-wT-Ehk"; */
+"FBl-wT-Ehk.normalTitle" = "Monit Hub";
+
+/* Class = "UILabel"; text = "Birthday"; ObjectID = "Fg6-xI-nFP"; */
+"Fg6-xI-nFP.text" = "Birthday";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "JaO-U5-JT9"; */
+"JaO-U5-JT9.normalTitle" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "D"; ObjectID = "KL6-xv-H6Z"; */
+"KL6-xv-H6Z.normalTitle" = "D";
+
+/* Class = "UILabel"; text = "Choose a device to register in"; ObjectID = "L9X-Yd-Ir0"; */
+"L9X-Yd-Ir0.text" = "Choose a device to register in";
+
+/* Class = "UIButton"; normalTitle = "CONNECT"; ObjectID = "MpH-xH-kF2"; */
+"MpH-xH-kF2.normalTitle" = "CONNECT";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "Sf3-Iz-V3E"; */
+"Sf3-Iz-V3E.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "Uv2-aq-5mh"; */
+"Uv2-aq-5mh.text" = "Connect with MONIT Hub";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "Y8a-Ce-LDF"; */
+"Y8a-Ce-LDF.text" = "Registration";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "YG7-s4-1GX"; */
+"YG7-s4-1GX.text" = "Registration";
+
+/* Class = "UILabel"; text = "Connection with the hub succeed"; ObjectID = "ZWN-dw-mZ0"; */
+"ZWN-dw-mZ0.text" = "Connection with the hub succeed";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Zro-YQ-4lN"; */
+"Zro-YQ-4lN.text" = "Name";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "ZyZ-FZ-6IU"; */
+"ZyZ-FZ-6IU.text" = "Registration";
+
+/* Class = "UILabel"; text = "Please input information of baby who uses this sensor. The accuracy of detection is related to this information."; ObjectID = "c0M-MK-TvY"; */
+"c0M-MK-TvY.text" = "Please input information of baby who uses this sensor. The accuracy of detection is related to this information.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "dQc-Ag-16s"; */
+"dQc-Ag-16s.text" = "Registration";
+
+/* Class = "UILabel"; text = "1985"; ObjectID = "dUl-m2-xXW"; */
+"dUl-m2-xXW.text" = "1985";
+
+/* Class = "UIButton"; normalTitle = "BOY"; ObjectID = "eM9-Nf-704"; */
+"eM9-Nf-704.normalTitle" = "BOY";
+
+/* Class = "UILabel"; text = "M"; ObjectID = "ed5-Li-fgl"; */
+"ed5-Li-fgl.text" = "M";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "ehj-TF-nPn"; */
+"ehj-TF-nPn.text" = "Registration";
+
+/* Class = "UILabel"; text = "Connect with MONIT Hub"; ObjectID = "f3C-Ja-eaK"; */
+"f3C-Ja-eaK.text" = "Connect with MONIT Hub";
+
+/* Class = "UILabel"; text = "Y"; ObjectID = "f7h-uv-3db"; */
+"f7h-uv-3db.text" = "Y";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "h86-2E-Ecl"; */
+"h86-2E-Ecl.text" = "15";
+
+/* Class = "UIButton"; normalTitle = "CONNECT"; ObjectID = "iLd-2e-kHK"; */
+"iLd-2e-kHK.normalTitle" = "CONNECT";
+
+/* Class = "UILabel"; text = "Hub is connected! Presse search button below for connecting hub to Wireless network."; ObjectID = "j3q-7E-tt8"; */
+"j3q-7E-tt8.text" = "Hub is connected! Presse search button below for connecting hub to Wireless network.";
+
+/* Class = "UILabel"; text = "Choose a network beleow for the hub"; ObjectID = "l1z-sn-ACo"; */
+"l1z-sn-ACo.text" = "Choose a network beleow for the hub";
+
+/* Class = "UITextView"; text = "Check blue light flashing."; ObjectID = "mG3-bc-trL"; */
+"mG3-bc-trL.text" = "Check blue light flashing.";
+
+/* Class = "UILabel"; text = "D"; ObjectID = "mmJ-db-DAz"; */
+"mmJ-db-DAz.text" = "D";
+
+/* Class = "UIButton"; normalTitle = "Start connection"; ObjectID = "oXn-zV-lU2"; */
+"oXn-zV-lU2.normalTitle" = "Start connection";
+
+/* Class = "UILabel"; text = "Connect with MONIT Sensor"; ObjectID = "ont-Sa-gm5"; */
+"ont-Sa-gm5.text" = "Connect with MONIT Sensor";
+
+/* Class = "UILabel"; text = "Device not connected.\nPlease register new device."; ObjectID = "pIS-Rs-uKE"; */
+"pIS-Rs-uKE.text" = "Device not connected.\nPlease register new device.";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "qYx-kd-xkX"; */
+"qYx-kd-xkX.text" = "Registration";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "rlq-rb-nIC"; */
+"rlq-rb-nIC.text" = "Registration";
+
+/* Class = "UIButton"; normalTitle = "ADD OTHER DEVICES"; ObjectID = "rtF-Of-kyF"; */
+"rtF-Of-kyF.normalTitle" = "ADD OTHER DEVICES";
+
+/* Class = "UIButton"; normalTitle = "Monit Sensor"; ObjectID = "sKd-DN-i6B"; */
+"sKd-DN-i6B.normalTitle" = "Monit Sensor";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "vKr-P2-8LI"; */
+"vKr-P2-8LI.text" = "Registration";
+
+/* Class = "UIButton"; normalTitle = "GIRL"; ObjectID = "vq1-aM-fDg"; */
+"vq1-aM-fDg.normalTitle" = "GIRL";
+
+/* Class = "UITextView"; text = "Select below button after supply power to the hub."; ObjectID = "w5L-ZY-t8I"; */
+"w5L-ZY-t8I.text" = "Select below button after supply power to the hub.";
+
+/* Class = "UILabel"; text = "Connection with the sensor succeed"; ObjectID = "wES-yR-rwA"; */
+"wES-yR-rwA.text" = "Connection with the sensor succeed";
+
+/* Class = "UILabel"; text = "Now hub is ready to use"; ObjectID = "wmP-c4-iGy"; */
+"wmP-c4-iGy.text" = "Now hub is ready to use";
+
+/* Class = "UILabel"; text = "24 Alphabets or 8 Characters"; ObjectID = "y15-3N-B9U"; */
+"y15-3N-B9U.text" = "24 Alphabets or 8 Characters";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "z0N-4Z-epa"; */
+"z0N-4Z-epa.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "ADD OTHER DEVICES"; ObjectID = "z6E-4S-adc"; */
+"z6E-4S-adc.normalTitle" = "ADD OTHER DEVICES";
+
+/* Class = "UILabel"; text = "You need to connect with Monit sensor before connect with Monit hub"; ObjectID = "zuw-KT-RAL"; */
+"zuw-KT-RAL.text" = "You need to connect with Monit sensor before connect with Monit hub";

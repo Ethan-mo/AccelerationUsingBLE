@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19F96" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StoreConnectedLamp" representedClassName="StoreConnectedLamp" syncable="YES">
+        <attribute name="adv" optional="YES" attributeType="String"/>
+        <attribute name="cid" optional="YES" attributeType="String"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="dps" optional="YES" attributeType="String"/>
+        <attribute name="enc" optional="YES" attributeType="String"/>
+        <attribute name="login_aid" optional="YES" attributeType="String"/>
+        <attribute name="srl" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreConnectedSensor" representedClassName="StoreConnectedSensor" syncable="YES">
+        <attribute name="adv" optional="YES" attributeType="String"/>
+        <attribute name="cid" optional="YES" attributeType="String"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="dps" optional="YES" attributeType="String"/>
+        <attribute name="enc" optional="YES" attributeType="String"/>
+        <attribute name="login_aid" optional="YES" attributeType="String"/>
+        <attribute name="srl" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreDeviceNoti" representedClassName="StoreDeviceNoti" syncable="YES">
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="extra" optional="YES" attributeType="String"/>
+        <attribute name="extra2" optional="YES" attributeType="String"/>
+        <attribute name="extra3" optional="YES" attributeType="String"/>
+        <attribute name="extra4" optional="YES" attributeType="String"/>
+        <attribute name="extra5" optional="YES" attributeType="String"/>
+        <attribute name="finish_time" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="nid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="noti" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreDeviceNotiReady" representedClassName="StoreDeviceNotiReady" syncable="YES">
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="noti" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreDiaperSensingLog" representedClassName="StoreDiaperSensingLog" syncable="YES">
+        <attribute name="act" optional="YES" attributeType="String"/>
+        <attribute name="cap" optional="YES" attributeType="String"/>
+        <attribute name="cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cnt_second" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="co2" optional="YES" attributeType="String"/>
+        <attribute name="comp" optional="YES" attributeType="String"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="eth" optional="YES" attributeType="String"/>
+        <attribute name="hum" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mlv" optional="YES" attributeType="String"/>
+        <attribute name="pres" optional="YES" attributeType="String"/>
+        <attribute name="sen" optional="YES" attributeType="String"/>
+        <attribute name="tem" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="voc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreHubGraph" representedClassName="StoreHubGraph" syncable="YES">
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="hum" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tem" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="voc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreLampGraph" representedClassName="StoreLampGraph" syncable="YES">
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="hum" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tem" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="voc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreNewAlarm" representedClassName="StoreNewAlarm" syncable="YES">
+        <attribute name="aid" optional="YES" attributeType="String"/>
+        <attribute name="device_type" optional="YES" attributeType="String"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="extra" optional="YES" attributeType="String"/>
+        <attribute name="final_item_type" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="item_type" optional="YES" attributeType="String"/>
+        <attribute name="parent_item_type" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreSensorMovGraph" representedClassName="StoreSensorMovGraph" syncable="YES">
+        <attribute name="cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mov" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreSensorVocGraph" representedClassName="StoreSensorVocGraph" syncable="YES">
+        <attribute name="cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="did" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="voc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreShareMemberNoti" representedClassName="StoreShareMemberNoti" syncable="YES">
+        <attribute name="extra" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="noti" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="StoreConnectedLamp" positionX="-9" positionY="144" width="128" height="178"/>
+        <element name="StoreConnectedSensor" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="StoreDeviceNoti" positionX="-54" positionY="117" width="128" height="238"/>
+        <element name="StoreDeviceNotiReady" positionX="-27" positionY="126" width="128" height="120"/>
+        <element name="StoreDiaperSensingLog" positionX="-18" positionY="144" width="128" height="283"/>
+        <element name="StoreHubGraph" positionX="-36" positionY="126" width="128" height="135"/>
+        <element name="StoreLampGraph" positionX="-27" positionY="135" width="128" height="133"/>
+        <element name="StoreNewAlarm" positionX="-18" positionY="135" width="128" height="180"/>
+        <element name="StoreSensorMovGraph" positionX="-27" positionY="126" width="128" height="120"/>
+        <element name="StoreSensorVocGraph" positionX="-27" positionY="135" width="128" height="118"/>
+        <element name="StoreShareMemberNoti" positionX="0" positionY="162" width="128" height="105"/>
+    </elements>
+</model>

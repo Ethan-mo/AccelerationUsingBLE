@@ -1,0 +1,1204 @@
+// en
+
+"app_name" = "MONIT";
+"swipe_down_to_refresh" = "Data on screen is automatically updated every 10 seconds. If you want to refresh the screen manually, swipe down from the top.";
+"toast_sent_new_password_email" = "The link to change your password has been sent by email. Please check your inbox.";
+"toast_sent_an_authentication_email" = "Verification email has been resent, please check your email.";
+"toast_failed_to_send_an_email" = "Failed to send a verification email. Please retry in a minute.";
+"toast_invalid_user_info" = "No account matches your input. Please check your account and try again.";
+"toast_invalid_user_session" = "Account Settings have been changed. Please sign in again.";
+
+
+
+
+"toast_change_password_succeeded" = "Password has been changed.";
+
+"toast_change_nickname_succeeded" = "Nickname has been changed.";
+"toast_change_same_nickname" = "Nickname you entered is the same as before. Please make any change.";
+"toast_change_nickname_failed" = "Failed to change nickname. Please try it again.";
+
+"toast_invite_group_member_failed" = "Failed to invite a new member.";
+
+
+"toast_delete_group_member_failed" = "Failed to remove a member. Please check the account ID.";
+"toast_leave_group_succeeded" = "Leaving the group has been succeeded.";
+"toast_leave_group_failed" = "Leaving the group has been failed. Please try again later.";
+
+
+
+
+
+
+
+"dialog_contents_update_available" = "New version is available now. Please update your application.";
+
+
+
+"dialog_contents_err_communication_with_server" = "Connection error with the server. Please try again.(%@)";
+"dialog_contents_input_invitee_short_id" = "Please enter the membership code for invitation(6-digit)";
+
+"dialog_contents_sign_out_confirm_description" = "If you sign out, you will be disconnected from your devices and cannot receive shared information. Are you sure to proceed?";
+"dialog_contents_leave_confirm" = "Do you want to delete your account?";
+"dialog_contents_leave_confirm_description" = "If you delete your account, current sharing groups are removed and cannot share your device status. Once the account is deleted, it is hard to initialize settings of the device connected. Please make sure to finish all the initializing process before leave. Sign-in again with the same email account will be possible after two weeks from deletion. Do you want to proceed?";
+"dialog_contents_group_leave_confirm" = "Do you want to leave the group owned by %@(%@)?";
+"dialog_contents_need_internet_connection" = "Internet network is needed to connect to Diaper Sensor.";
+"dialog_contents_scanning" = "Searching for the device now.\nOne moment please.";
+"dialog_contents_connecting" = "Connecting the device now.\nOne moment please.";
+"dialog_contents_hub_ap_connecting" = "Setting the Internet connection on the hub.\nOne moment please.";
+
+"dialog_contents_hub_ap_connection_failed" = "Setting the Internet connection failed.\nPlease check the information of the wireless network and try again.";
+"dialog_contents_not_detected_monit" = "Cannot find the diaper sensor nearby.\nPlease try again after following steps.\n1. Turn the senson off and on.\n2. The sensor LED blinks blue.\n3. Select Try again button below.";
+
+"dialog_contents_not_detected_all" = "Cannot find devices nearby.\nPlease check blue light is flashing and try again later.";
+"dialog_contents_ask_for_connectint_hub" = "Do you want to connect to the Hub additionally?";
+
+"dialog_contents_remove_device" = "Delete the connected device. If this device is deleted, other devices in the same group will be deleted as well. Are you sure to continue?";
+"dialog_contents_initialize_device" = "Initialize the device. After initialization is completed, the device will be disconnected and the data of the device will be removed from your phone. If you would like to connect devices, register again.";
+"dialog_contents_finding_device" = "To find the device, blue LED light flashes for 5 seconds.";
+"signin_email" = "Email";
+"signin_password" = "Password";
+"signin_forgot_password" = "Forgot\npassword";
+
+
+
+
+
+"title_setting" = "Setting";
+"title_firmware_update" = "Firmware update";
+"title_account" = "Account";
+
+"title_signin" = "Sign in";
+"title_signup" = "Create new account";
+"title_forgot_password" = "Forgot the password?";
+"title_connection" = "Registration";
+"tab_status" = "Status";
+"tab_graph" = "Graph";
+"tab_notification" = "Alarm";
+
+"account_shortid" = "Membership code";
+"account_change_password" = "Change password";
+
+"account_change_nickname" = "Change nickname";
+
+"account_gender" = "Gender";
+
+
+
+
+
+"account_baby_name" = "Nickname";
+"account_hint_baby_name" = "Up to 24 Characters";
+
+"account_baby_sex" = "Gender";
+"account_baby_birthday" = "Birthday";
+"account_email" = "Email";
+"account_hint_email" = "E-mail address";
+"account_warning_dialog_email" = "Enter your e-mail address.";
+"account_warning_email" = "Invalid e-mail address.";
+"account_warning_duplicated_email" = "The email address is already registered.";
+"account_warning_leave_email" = "This email address has already been deleted.";
+
+"account_birthday" = "Date of birth";
+"account_hint_birthday" = "Select here to set birthday";
+"account_warning_birthday" = "Enter date of birth";
+
+"account_hint_password" = "8-64 characters\n(alphabets, numbers, AND special characters)";
+"account_warning_password" = "8-64 characters\n(alphabets, numbers, AND special characters)";
+"account_warning_password_digit" = "8-64 characters";
+"account_warning_password_no_alphabet" = "Input at least an Alphabet";
+"account_warning_password_no_number" = "Input at least a number";
+"account_warning_password_no_special_character" = "Input at least a special character";
+"account_warning_dialog_password" = "Input password(8-64 characters)";
+"account_nickname" = "Nickname";
+"account_hint_nickname" = "Enter 1-12 characters";
+"account_warning_nickname" = "Enter 1-12 characters";
+"account_warning_dialog_nickname" = "Please input nickname (1-12 characters)";
+
+"account_warning_gender" = "Please select gender";
+"account_warning_dialog_gender" = "Please select gender";
+
+
+
+
+
+"account_warning_agreement" = "Please agree to the policy.";
+"account_warning_dialog_agreement" = "Please read the policy and check the box.";
+
+"signup_check_auth_email" = "Please check the verification email.";
+"signup_check_auth_email_description" = "Verification e-mail was sent. Please check your \n%@\n\n and click Authenticate button\nthen move to next step.";
+"signup_not_authenticated" = "Verification is not completed.";
+"signup_send_auth_email" = "Resend verification email";
+
+
+
+"signup_step1_title" = "Create Monit Account";
+"signup_step1_detail" = "Monit account is necessary for using Monit service.\nFill out boxes below and select the button on the top.";
+"signup_step3_title" = "Extra caregiver information";
+"signup_step3_detail" = "Please enter the information of the guardian who created the account and complete the registration.\nThe information you input will be used for product improvement through statistics and analysis.";
+"gender_male" = "Male";
+"gender_female" = "Female";
+"sex_baby_boy" = "Boy";
+"sex_baby_girl" = "Girl";
+"time_year_short" = "Y";
+"time_month_short" = "M";
+"time_day_short" = "D";
+"time_year" = "Year";
+"time_month" = "Month";
+"time_day" = "Day";
+"time_hour" = "Hour";
+"time_minute" = "Minute";
+
+"btn_leave" = "Delete your account";
+"btn_invite" = "Invite";
+
+"btn_done" = "Done";
+"btn_group_leave" = "Leave";
+
+
+"btn_next" = "Next";
+"btn_save" = "Save";
+
+
+"btn_connect" = "Connect";
+
+
+"btn_signout" = "Sign out";
+
+"btn_register_device" = "Register";
+
+"btn_update" = "Update";
+
+"btn_ok" = "OK";
+"btn_yes" = "Yes";
+"btn_no" = "No";
+"btn_none" = "None";
+"btn_try_again" = "Retry";
+"btn_close" = "Close";
+"btn_cancel" = "Cancel";
+"btn_remove" = "Delete";
+
+
+"unit_temperature_celsius" = "℃";
+"unit_temperature_fahrenheit" = "℉";
+
+
+
+
+
+
+
+"time_elapsed_hour" = "hours";
+"time_elapsed_minute" = "minutes";
+
+
+"time_hour_short" = "h";
+"time_minute_short" = "m";
+
+
+"time_time" = "Time";
+
+
+"connection_select_device" = "Choose a device to be shown on the main screen. You cannot register an additional device before initialize the device already registered.";
+"connection_monit_sensor_ready_title" = "Ready for connection to the Diaper Sensor";
+"connection_monit_sensor_ready_detail_step1" = "Turn on the sensor.";
+"connection_monit_sensor_ready_detail_step2" = "Check blue light is flashing.";
+"connection_monit_sensor_babyinfo_title" = "Baby profile";
+"connection_monit_sensor_babyinfo_detail" = "Please input the information of baby who uses this sensor. The accuracy of the sensor may be related to this information.";
+"connection_monit_sensor_connected_title" = "Sensor is Connected!";
+"connection_monit_sensor_connected_detail" = "Sensor is ready to use.\nCheck the below instruction images to use it.";
+"connection_hub_ready_title" = "Ready for connection to the Hub";
+"connection_hub_ready_detail_step1" = "Please connect the USB power to the hub using the supplied adapter.\nWhen connecting to a USB port on your computer or a multi USB ports, it may not work properly due to insufficient power supply.";
+"connection_hub_ready_detail_step2" = "Check blue light is flashing.";
+
+
+"connection_hub_put_sensor_title" = "Connect to Hub";
+"connection_hub_put_sensor_detail_step1" = "Check if the diaper sensor is connected to your smart phone.";
+"connection_hub_put_sensor_detail_step2" = "Put the sensor into a hub. The sensor needs to be plugged into the hub to activate it. The hub will be connected with your smart phone through the sensor.";
+"connection_hub_add_new_network_title" = "Enter Wireless network information";
+
+"connection_hub_hint_input_network_name" = "Input network name";
+"connection_hub_network_name" = "Name";
+"connection_hub_network_security" = "Security";
+"connection_hub_network_security_none" = "OPEN";
+
+
+
+
+
+
+
+"connection_hub_hint_input_ap_password" = "Input password";
+"connection_hub_ap_password" = "Password";
+"connection_hub_selected_ap_name" = "Network :";
+"connection_hub_select_ap_title" = "Wireless network setting";
+"connection_hub_scan_ap_detail" = "Hub is Connected! Press search button below for Hub connection to Wireless network.";
+
+"connection_hub_scanning_add_new_network" = "Add other network";
+"connection_hub_scan_network_list" = "Choose a network";
+
+"connection_hub_select_ap_detail" = "Choose a network below to use for the hub";
+"connection_scan_ap" = "Scan";
+"connection_start_connect" = "Start connection";
+"connection_hub_connected_title" = "Hub is Connected!";
+"connection_hub_connected_detail" = "Now Hub is ready to use.";
+"connection_connect_other_device" = "Add other devices";
+
+
+"toast_need_to_enable_bluetooth" = "Bluetooth is required for this mode.";
+"device_monit_hub_connection_condition" = "You need to connect to the Diaper Sensor before the Hub connection.";
+"device_no_registered_devices" = "No device is connected to your smart phone.\nPlease register a new device.";
+
+"device_sensing_environment" = "Hub";
+
+"device_hub_disconnected" = "Lost connection with Hub. Please check the internet network status. If the problem persists, remove and re-plug the hub power adapter.";
+"device_hub_disconnected_title" = "Lost connection with Hub";
+"device_hub_disconnected_detail" = "Please check the internet network status. To change the network, go to the upper right Setting and select Change Network.";
+"device_sensor_disconnected" = "Lost connection with a sensor. Please check the sensor is on, and place it near by your smart phone or Hub.";
+"device_sensor_disconnected_title" = "Lost connection with the sensor.";
+"device_sensor_disconnected_detail" = "Please make sure the sensor is on, and place it nearby your smart phone or Hub.";
+
+
+
+
+
+
+
+
+
+
+
+"device_environment_temperature" = "Temperature";
+"device_environment_temperature_unit" = "Temperature Scale";
+"device_environment_temperature_high" = "It's too hot!";
+"device_environment_temperature_high_action" = "Please turn on ac or open the window for cool air";
+"device_environment_temperature_low" = "It's too cold!";
+"device_environment_temperature_low_action" = "Please turn on the heating.";
+"device_environment_humidity" = "Humidity";
+"device_environment_humidity_high" = "It's too humid!";
+"device_environment_humidity_high_action" = "Please turn off humidifier.";
+"device_environment_humidity_low" = "The air is too dry!";
+"device_environment_humidity_low_action" = "Please turn on humidifier.";
+"device_environment_voc" = "Gas";
+"device_environment_voc_bad_detected" = "Gas detected!";
+
+"device_environment_voc_bad_action" = "Please turn on air purifier or open the window!";
+"device_environment_voc_good" = "Good";
+"device_environment_voc_normal" = "Normal";
+"device_environment_voc_not_good" = "Not good";
+"device_environment_voc_very_bad" = "Very bad";
+
+
+"device_environment_status_normal_detail" = "Within Range!";
+"device_sensor_battery_power" = "Battery";
+
+
+
+
+"device_sensor_detect_passed_time" = "%@ mins past";
+"device_sensor_operation" = "Operation";
+"device_sensor_operation_sensing" = "Ready";
+"device_sensor_operation_idle" = "Stand by";
+"device_sensor_operation_charging" = "Charging";
+"device_sensor_operation_connected" = "Connected";
+"device_sensor_operation_disconnected" = "Lost connection";
+
+
+
+"device_sensor_diaper_status_normal" = "Good";
+"device_sensor_diaper_status_normal_detail" = "Pleasant status!";
+"device_sensor_diaper_status_pee" = "Pee";
+"device_sensor_diaper_status_pee_detail" = "Pee detected!";
+"device_sensor_diaper_status_poo" = "Poo";
+"device_sensor_diaper_status_poo_detail" = "Poo detected!";
+"device_sensor_diaper_status_fart" = "Fart";
+"device_sensor_diaper_status_fart_detail" = "Fart detected! A little bit of poo may be as well. Please check the diaper!";
+"device_sensor_diaper_status_abnormal" = "Check";
+"device_sensor_diaper_status_abnormal_detail" = "High humidity and gas are detected.\nCheck and refresh the diaper.";
+"device_sensor_diaper_status_change" = "Please check the diaper.";
+"device_sensor_diaper_status_change_button" = "Diaper changed";
+"device_sensor_diaper_status_change_detail" = "After change diaper please press here.";
+"device_sensor_movement" = "Moving";
+"device_sensor_movement_sleeping" = "Calm";
+"device_sensor_movement_crawling" = "Active";
+"device_sensor_movement_running" = "Energetic";
+"setting_device_babyinfo" = "Baby information";
+"setting_device_name" = "Device name";
+"setting_device_find" = "Find the device";
+
+"setting_device_remove" = "Delete the device and leave the group";
+"setting_device_initialize" = "Initialize and Delete";
+"setting_device_firmware_version" = "Firmware version";
+"setting_device_app_version" = "App version";
+"setting_device_enable_alarm" = "Turn on alarm";
+"setting_device_enable_connection_alarm" = "Connection status";
+"setting_device_enable_diaper_alarm" = "Diaper status";
+"setting_device_led_light" = "Turn on LED indicator";
+"setting_device_led_light_on_time" = "Time setting";
+
+"setting_custom_temperature" = "Setting optimal temperature";
+"setting_max_temperature_threshold" = "The highest temperature";
+"setting_min_temperature_threshold" = "The lowest temperature";
+"setting_custom_temperature_description" = "When temperature goes out of the optimal range you set, the alarm will notify you.";
+"setting_ap_info_title" = "Change network";
+
+
+"setting_custom_humidity" = "Setting optimal humidity";
+"setting_max_humidity_threshold" = "The highest humidity";
+"setting_min_humidity_threshold" = "The lowest humidity";
+"setting_custom_humidity_description" = "When humidity goes out of the optimal range you set, the alarm will notify you.";
+"setting_custom_led_on_off_time" = "Setting LED indicator";
+"setting_led_on_time" = "Turn-On time";
+"setting_led_off_time" = "Turn-Off time";
+"setting_custom_led_on_off_time_description" = "To not disturb sleep, the light will be turned on only between the time you set";
+
+"notification_empty_view" = "No messages";
+"notification_diaper_status_diaper_changed_title" = "Diaper changed";
+"notification_diaper_status_diaper_changed_detail" = "The diaper has been changed.";
+
+
+
+
+
+"notification_diaper_status_fart_detected_detail" = "Fart detected! A little bit of poo may be as well. Please check the diaper!";
+
+
+"notification_environment_high_humidity_title" = "It's too humid!";
+
+"notification_environment_low_humidity_title" = "The air is too dry!";
+
+"notification_environment_high_temperature_title" = "It's too hot!";
+
+"notification_environment_low_temperature_title" = "It's cold!";
+
+"notification_environment_bad_voc_title" = "VOC gas detected";
+
+"notification_low_battery_title" = "Low battery power";
+"notification_low_battery_detail" = "Low Battery power. Please recharge now.";
+"group_share" = "Sharing";
+"group_title_name" = "Group name";
+"group_title_device_count" = "Device list(%@ devices)";
+"group_title_shared_member_count" = "Member(%@ members)";
+"group_title_sharing" = "Sharing";
+"group_title_shared" = "Shared";
+"group_no_sharing_member_description" = "No member shares the real-time device status with you. If you want to invite a member, select INVITE button on the top. ";
+
+"group_sharing_member_description" = "Swipe the member to the left if you want to remove from the group.";
+"group_title_sharing_description" = "You can invite others into this group and share your device status with invitees.";
+"group_leave_description" = "If you want to leave the group, select the Leave button on the top.";
+"group_title_shared_description" = "You can be invited into a group and receive the device status of the group leader.";
+"group_mygroup" = "My Group";
+"group_name_default" = "New Group";
+"group_count" = "";
+"group_set_name" = "Group Name Setting";
+"group_set_name_detail" = "This group name is shown only on my application.";
+"group_leader" = "Leader";
+"group_invite_member" = "Invite member";
+"group_member_category_me" = "Me";
+
+
+"group_member_count" = "persons";
+"group_invite_description" = "After inviting other users into this group, you can share the device status with members in real time.";
+"group_delete_dialog_title" = "Confirm Member Removal";
+"group_delete_dialog_description" = "If the member is deleted, the information of devices in this group would not be shared. Do you want to delete this member?";
+"legal_notice" = "Legal policy";
+"legal_terms" = "Terms and conditions";
+"legal_privacy" = "Privacy";
+"legal_warranty" = "Warranty";
+"legal_agreement" = "Policy";
+"legal_agree_all" = "I agree";
+"help" = "Help";
+"help_support" = "Customer Support";
+
+
+
+
+
+
+"dfu_status_completed_msg" = "The update has been completed successfully.";
+
+
+
+
+"dfu_status_error" = "Upload failed";
+"dfu_status_error_msg" = "DFU process failed.";
+
+
+
+
+
+"dfu_status_uploading" = "Downloading";
+
+
+
+
+
+
+
+
+"toast_invalid_min_max_range" = "Maximum value cannot be lower than the minimum value.";
+"device_sensor_operation_fully_charged" = "Fully charged";
+"toast_invite_group_member_exceeded" = "Max invitation exceeded";
+"dialog_group_leave_title" = "Leave this group";
+"dialog_unknown_error_description" = "Unknown error code";
+"account_warning_dialog_findpw_description" = "Please check input box.";
+"account_warning_dialog_babyname" = "Input your baby nickname";
+"toast_sharing_member_renewed" = "Sharing setting has been changed.\nRenew the data.";
+"dialog_contents_failed_hub_connection" = "Connection with the Hub has failed. If it fails several times, please remove the sensor from the hub and try again from the beginning.";
+"dialog_contents_failed_hub_connection_empty_sensor" = "The sensor has been removed from the hub.\n Please put it into the hub.";
+"device_warning_dialog_babyname" = "Input your baby nickname";
+"device_warning_dialog_hubname" = "Input the hub name";
+"PEE_DETECTED" = "%@\nPee detected.\nPlease check diaper.";
+"POO_DETECTED" = "%@\nPoo detected.\nPlease change diaper.";
+"ABNORMAL_DETECTED" = "%@\nHigh humidity and gas are detected.\nCheck and refresh the diaper.";
+"DIAPER_CHANGED" = "%@\nThe diaper has been changed.";
+"LOW_TEMPERATURE" = "%@\nThe temperature is below the lowest temperature level you set.";
+"HIGH_TEMPERATURE" = "%@\nThe temperature exceeded the highest temperature level you set.";
+"LOW_HUMIDITY" = "%@\nThe humidity is below the lowest humidity level you set.";
+"HIGH_HUMIDITY" = "%@\nThe humidity exceeded the highest humidity level you set.";
+"VOC_WARNING" = "%@\nVOC gas detected.\nPlease ventilate the room.";
+"LOW_BATTERY" = "%@\nLow Battery power. Please recharge now.";
+"DISCONNECTED" = "%@\nConnection lost";
+"CONNECTED" = "%@\nConnected";
+"FART_DETECTED" = "%@\nFart detected. A little bit of poo may be as well. Please check the diaper!";
+"deviceSetupAlarmOffSummary" = "To adjust the alarm settings, go to Settings > Notifications > Monit on your phone.";
+"setting_device_hub_constraints_not_owner" = "As this is a shared device, you can set the alarm and temperature unit only. ";
+"setting_device_sensor_constraints_not_owner" = "As this is a shared device, you can set the alarm only. ";
+"device_sensor_alarm_count" = "Alarm";
+"btn_refresh" = "Refresh";
+"account_name" = "Nickname";
+"account_id" = "Account";
+"account_hint_id" = "Enter the account ID";
+"account_warning_id" = "Enter the account ID at least 3 characters.";
+"account_warning_dialog_id" = "Enter the account ID at least 3 characters.";
+"btn_send_report" = "Send log data";
+"dialog_contents_send_report" = "Send log data to a monit service manager.\nYou can get quick response with this feature.";
+"internet_disconnected_detail" = "Please check your internet network status";
+"toast_noti_loading" = "importing a list of notifications.";
+"connection_hub_select_ap_detail_etc" = "This hub is only able to connect with 2.4Ghz wireless networks. 5Ghz networks are unable to be found and connected.";
+"connection_terminate_app_noti_detail" = "If you forcibly shut down this app, the Bluetooth connection between your smart phone and the sensor will be lost. In case of disconnection, you may not receive the notification alert.";
+"notice_title" = "Notice";
+"rast_notice" = "";
+"btn_do_not_repeat" = "Do not watch from next time";
+"cautions_title" = "Cautions!";
+"toast_need_to_enable_bluetooth_with_err" = "To use this function, Bluetooth must be turned on.\nSettings > Bluetooth \n\n If this error keeps occurring, please update iOS to the latest version.";
+"btn_connecting" = "Connecting";
+"dialog_contents_already_registered" = "This device has been already registered. You are able to get the information of this device with joining the group. Do you want to continue this connection?";
+"dialog_contents_failed_connection_reason_ble" = "Connection with the device failed with bad bluetooth communication. Please try this again after rebooting this sensor.";
+"dialog_contents_failed_connection_reason_internet" = "Connection with the device failed with bad Internet communication. Please try this again after checking the Internet status.";
+"dfu_latest_version" = "Latest version.";
+"dfu_update_available_description" = "Update available. Please update the firmware.";
+"dfu_update_available_caution" = "Do not power off the device or close this application. The device might operate abnormally.";
+"do_not_firmware_update" = "This device is not supported on this app.\nPlease install the MECS app.";
+"dfu_update_completed" = "Firmware update completed. The diaper sensor will now reboot. It will connect with your smartphone shortly.";
+"dfu_low_battery_warning" = "Battery power of the diaper sensor is too low. Please try this again after charging it.";
+"current_version" = "Current version";
+"latest_version" = "Latest version";
+"dfu_update_failed" = "Firmware update failed. Please restart the diaper sensor with switch off and on.";
+"dfu_update_need_latestversion" = "iOS version 11.2 or higher is available now. \n Please update iOS to the latest version.";
+"dfu_update_waiting" = "Preparing update. One moment please.";
+"dfu_update_stop_process" = "Do you want to halt the firmware updating?";
+"group_share_member_description" = "If you want to invite a member, select + button.\nIf you want to delete a member, select the member.";
+"group_invite_member_hint" = "Membership code(6digits)";
+"group_warning_invalid_short_id" = "Invalid membership code";
+"group_short_id_description" = "What is Membership code?\nThis code is issued by Monit with 6-digits. This ONLY includes letters and numbers.\nYou can check this code by going to: Account > Membership code";
+"group_title_shared_list" = "List of shared group";
+"group_share_device_list_empty" = "No devices.";
+"group_shared_group_list_empty" = "No shared groups.";
+"group_message_my_group_invite" = "Invited member";
+"group_message_my_group_delete" = "Deleted member";
+"group_message_my_group_leave" = "Left member";
+"group_message_my_group_request" = "Requested member";
+"group_message_other_group_invited" = "Invited";
+"group_message_other_group_deleted" = "Deleted";
+"group_message_other_group_leave" = "Left";
+"group_message_other_group_request" = "Request invitation";
+"feedback_input_text" = "Please tell us what happened.";
+"btn_send" = "Send";
+"feedback_poo" = "Poo";
+"feedback_pee" = "Pee";
+"feedback_none" = "None";
+"feedback_true" = "TRUE";
+"feedback_false" = "FALSE";
+"feedback_dk" = "Don't know";
+"feedback_diaper_status" = "Diaper status";
+"account_signup_welcome_title" = "Welcome to Monit Service";
+"account_signup_welcome_membershipcode" = "The membership code which can be used for sharing information feature has been issued. You can see this code from Account > Membership code menu.";
+"account_signup_welcome_description" = "Monit will help babycare smarter.";
+"group_title_group" = "Group";
+"group_message_init_device" = "Reset device";
+"notification_init_device_title" = "Reset device";
+"notification_init_device_description" = "The device has been initialized.";
+"toast_sensor_is_not_connected_directly" = "This feature needs connection between the sensor and this smart phone.";
+"dialog_dfu_stay_this_screen" = "If you exit this screen, the device might not work. Would you like to exit this screen?";
+"dialog_dfu_near_sensor" = "Place the sensor near the smartphone.\nDo you want to proceed?";
+"dialog_connection_not_received_ap_info" = "Failed to get found wireless network information. Please try it again after removing the sensor from the hub and putting it into the hub.";
+"hub_graph_score" = "Score";
+"hub_graph_temperature" = "Temperature";
+"hub_graph_humidity" = "Humidity";
+"hub_graph_voc" = "Gas";
+"hub_graph_now" = "Now";
+"hub_graph_average" = "Today’s Average";
+
+
+"sensor_graph_weekly" = "weekly";
+"sensor_graph_monthly" = "monthly";
+"sensor_graph_week" = "week";
+"sensor_graph_month" = "month";
+"sensor_graph_diaper" = "diaper";
+"hub_graph_today" = "Today";
+"hub_graph_ago" = "%@ days ago";
+"guide_direct_connection_title" = "Bluetooth connection guide";
+
+
+
+
+"sensitivity_low" = "Low";
+"sensitivity_normal" = "Normal";
+"sensitivity_high" = "High";
+"sensitivity_title" = "Set sensitivity";
+
+
+"guide_direct_connection_for_firmware_update" = "Prepare the update";
+"guide_direct_connection_description" = "This feature needs to reset BLE connection. Check following steps.";
+"guide_direct_connection_description1" = "Put the diaper sensor to the hub.";
+"guide_direct_connection_description2" = "Place this smartphone with bluetooth enabled near the sensor.";
+"guide_direct_connection_description3" = "Within 30 seconds, the diaper sensor will connect with this smartphone automatically and the screen will be changed.";
+
+
+
+
+
+
+"legal_collect_privacy" = "Collection and Use of Personal Information";
+"legal_provide_3rd_party" = "Disclosure of third party";
+
+
+
+
+
+
+"agreement_title" = "Accept terms";
+"agreement_description" = "To use the Monit service, you need to agree to the terms and conditions by selecting checkbox. You can see the terms and conditions by selecting show button.\n(*) is a required agreement.";
+"agreement_all" = "I agree to all the terms.";
+"agreement_service" = "(필수) 서비스 이용약관에 대한 동의";
+"agreement_warranty" = "(필수) 제품품질 보증서에 대한 동의";
+"agreement_privacy" = "(필수) 개인정보 처리방침에 대한 동의";
+"agreement_collect" = "(필수) 개인정보 수집,이용에 대한 동의";
+"agreement_disclosure" = "(필수) 개인정보 제3자 제공에 대한 동의";
+"dialog_contents_input_nickname" = "모닛 서비스 이용중에 사용하실 닉네임을 입력해주세요.(1~12자)";
+
+"hub_graph_no_data" = "No data";
+
+
+
+
+"dialog_contents_sensor_need_reseting_description" = "❗️For proper operation of the sensor, turn Bluetooth off and on in the settings.";
+"dialog_contents_dfu_low_battery" = "The update has been stopped due to low battery. Charge the battery to at least 30% to continue the update.";
+"contents_need_bluetooth_reseting" = "The sensor is not connected. To connect with the sensor, turn the Bluetooth function off and on. (Settings > Bluetooth)";
+"sensor_graph_average_week" = "Average of this week";
+"sensor_graph_average_month" = "Average of this month";
+"sensor_graph_count" = "";
+"dialog_contents_sensor_charging_error" = "The sensor charging has been stopped because of an error. Disconnect the charger and sensor, then turn the sensor off and on again.";
+"sensor_graph_server_average_week" = "Peer average of this week";
+"sensor_graph_server_average_month" = "Peer average of this month";
+"LOW_TEMPERATURE_DETAIL" = "%@\nThe temperature is below the lowest temperature level you set. (%@)";
+"HIGH_TEMPERATURE_DETAIL" = "%@\nThe temperature exceeded the highest temperature level you set. (%@)";
+"LOW_HUMIDITY_DETAIL" = "%@\nThe humidity is below the lowest humidity level you set. (%@)";
+"HIGH_HUMIDITY_DETAIL" = "%@\nThe humidity exceeded the highest humidity level you set. (%@)";
+"device_environment_temperature_high2" = "It's too hot!";
+"device_environment_temperature_high_action2" = "Please turn on ac or open the window for cool air";
+"device_environment_temperature_low2" = "It's too cold!";
+"device_environment_temperature_low_action2" = "Please turn on the heating.";
+"device_environment_humidity_high2" = "It's too humid!";
+"device_environment_humidity_high_action2" = "Please turn off humidifier.";
+"device_environment_humidity_low2" = "The air is too dry!";
+"device_environment_humidity_low_action2" = "Please turn on humidifier.";
+"device_environment_voc_bad_detected2" = "Gas detected!";
+"device_environment_voc_bad_action2" = "Please turn on air purifier or open the window!";
+"device_environment_temperature_high3" = "It's too hot!";
+"device_environment_temperature_high_action3" = "Please turn on ac or open the window for cool air";
+"device_environment_temperature_low3" = "It's too cold!";
+"device_environment_temperature_low_action3" = "Please turn on the heating.";
+"device_environment_humidity_high3" = "It's too humid!";
+"device_environment_humidity_high_action3" = "Please turn off humidifier.";
+"device_environment_humidity_low3" = "The air is too dry!";
+"device_environment_humidity_low_action3" = "Please turn on humidifier.";
+"device_environment_voc_bad_detected3" = "Gas detected!";
+"device_environment_voc_bad_action3" = "Please turn on air purifier or open the window!";
+"device_environment_temperature_high4" = "It's too hot!";
+"device_environment_temperature_high_action4" = "Please turn on ac or open the window for cool air";
+"device_environment_temperature_low4" = "It's too cold!";
+"device_environment_temperature_low_action4" = "Please turn on the heating.";
+"device_environment_humidity_high4" = "It's too humid!";
+"device_environment_humidity_high_action4" = "Please turn off humidifier.";
+"device_environment_humidity_low4" = "The air is too dry!";
+"device_environment_humidity_low_action4" = "Please turn on humidifier.";
+"device_environment_voc_bad_detected4" = "Gas detected!";
+"device_environment_voc_bad_action4" = "Please turn on air purifier or open the window!";
+"device_environment_temperature_high5" = "It's too hot!";
+"device_environment_temperature_high_action5" = "Please turn on ac or open the window for cool air";
+"device_environment_temperature_low5" = "It's too cold!";
+"device_environment_temperature_low_action5" = "Please turn on the heating.";
+"device_environment_humidity_high5" = "It's too humid!";
+"device_environment_humidity_high_action5" = "Please turn off humidifier.";
+"device_environment_humidity_low5" = "The air is too dry!";
+"device_environment_humidity_low_action5" = "Please turn on humidifier.";
+"device_environment_voc_bad_detected5" = "Gas detected!";
+"device_environment_voc_bad_action5" = "Please turn on air purifier or open the window!";
+"agreement_title_link" = "Show";
+"setting_wireless_network_change_title" = "Wireless Network Change";
+"setting_ap_info_connected" = "Connected";
+"btn_show" = "Show";
+"agreement_description_gdpr" = "To use the Monit service, you need to agree to the terms and conditions by selecting checkbox. You can see the terms and conditions by selecting show button.\nEU (European Union) Citizens are applicable to General Data Protection Regulation (GDPR).\n(*) is a required agreement.";
+"agreement_eu_citizen" = "EU Citizen";
+"agreement_service_goodmonit" = "Terms and Conditions";
+"agreement_privacy_gdpr_goodmonit" = "Privacy Policy(GDPR)";
+"agreement_privacy_goodmonit" = "Privacy Policy";
+"setting_device_detection_test_mode_title" = "Detection test mode";
+"setting_device_detection_test_mode_description" = "Detection test mode is enabled for 1 minute to check whether this sensor operates normally. Blow the sensor hole for 5 seconds. You can receive a detection alarm. After 1 minute or click the cancel button, this window closes and the detection test mode is disabled.";
+"connection_hub_connected_detail_with_setting" = "Now Hub is ready to use.\nWhen temperature or humidity goes out of the optimal range you set below, the alarm will notify you. You can set these options in the setting page of this hub as well.";
+"dialog_contents_already_registered_invite_request" = "This device has already registered. Please give your 6-digit membership code to the user who has registered this device. If you are invited to the user's sharing group, you can connect this device automatically without registration.\nMembership code:";
+"contents_need_sensor_firmware_update" = "Sensor firmware updates provide enhanced functionality.";
+"contents_need_hub_firmware_update" = "Hub firmware updates provide enhanced functionality.";
+"account_baby_eating" = "Feeding";
+"account_warning_eating" = "Please choose the type of feeding.";
+"toast_sensor_is_connected_directly" = "The sensor is connected with this smartphone through Bluetooth.";
+"contents_need_firmware_update" = "The latest firmware update is available.\nDo you want to update the firmware?";
+"device_sensor_diaper_status_detectdiaperchanged_confirm_detail" = "이시간에 기저귀 교체를 하셨습니까?";
+"device_sensor_operation_analyzing" = "Analyzing";
+"device_sensor_diaper_status_analyzing" = "Gas detected, whether it is poo or not being analyzed.\nIt may take up to 5 minutes for analysis and, if the sensor is taken off beforehand, you may not receive the poo alarm. ";
+"toast_diaper_status_initialized" = "The diaper status has been initialized.";
+"account_setup_header_nugu" = "계정연동";
+"nugu_title" = "NUGU에서 모닛 사용하기";
+
+"nugu_speech_bubble" = "아리아, 베이비 모니터에서 온도 알려줘";
+"nugu_summary" = "대변 알려줘\n\n기저귀 교체 알려줘\n\n공기질 알려줘\n\n:";
+"nugu_guide_title" = "NUGU연동하기";
+"nugu_guide_contents_1" = "NUGU앱을 실행합니다.";
+"nugu_guide_btn_app_open" = "NUGU앱 실행하기";
+
+"nugu_guide_contents_2" = "을 누르시고, NUGU Play에서 'MONIT'을 눌러주세요.";
+
+"nugu_guide_contents_3" = "을 눌러 '인증 페이지'로 이동합니다.";
+"nugu_guide_contents_4" = "아래의 인증키를 발급하여 로그인하면 연동 성공!";
+"nugu_auth_btn_issue" = "인증키 발급하기";
+"nugu_auth_memberid_title" = "나의 회원코드";
+"nugu_auth_key_title" = "인증키";
+"nugu_auth_btn_reissue" = "인증키 재발급하기";
+
+
+
+
+
+
+
+
+
+
+
+
+
+"device_type_diaper_sensor" = "Diaper Sensor";
+"device_type_hub" = "Hub";
+
+
+
+
+"toast_copy_completed" = "copy completed";
+"nugu_auth_btn_copy" = "복사하기";
+"SENSOR_LONG_DISCONNECTED" = "%@\nLost connection with the sensor. Please place the sensor near by your smart phone or Hub.";
+
+"btn_learnmore" = "Learn more";
+"btn_start" = "Start";
+"tooltip_lamp_section_enable_button_title" = "Remote brightness adjustment";
+"tooltip_lamp_section_enable_button_contents" = "Now, turn the nursing light on and off remotely from this application!";
+"tooltip_lamp_section_brightness_adjustment_contents" = "Select below buttons to adjust the brightness of the nursing light.";
+"tooltip_lamp_section_turning_off_timer_contents" = "You can set the auto-off timer.";
+"widget_settings" = "Settings";
+"widget_info_not_connected" = "Not Connected";
+"widget_settings_choose_device" = "Select devices to show";
+"sensor_move_graph_deep_sleep" = "Deep sleep";
+"sensor_move_graph_now" = "Current movement";
+"toast_change_widget_setting_succeeded" = "Widget setting has been changed.";
+"toast_oauth_authentication_succeeded" = "Authentication has been completed.";
+"device_type_lamp" = "Nursing lamp";
+"connection_lamp_ready_title" = "Ready for connection to the Nursing lamp";
+"dialog_contents_not_detected_lamp" = "Cannot find nursing lamp nearby.\nPlease try again after following steps.\n1. Reconnect the USB power to the nursing lamp.\n2. Check the nursing lamp LED is kept blinking in blue.\n3. Select Try again button below.";
+"connection_lamp_ready_detail_step1" = "Please connect the USB power to the nursing lamp using the supplied adapter.\nWhen connecting to a USB port on your computer or a multi USB ports, it may not work properly due to insufficient power supply.";
+"connection_lamp_ready_detail_step2" = "Check blue light is flashing.";
+"connection_lamp_select_ap_detail" = "Choose a network below to use for the nursing lamp";
+"connection_lamp_select_ap_detail_etc" = "This nursing lamp is enable to connect with only 2.4Ghz band wireless network. 5Ghz band wireless network is unavailable to be found and connected.";
+"connection_lamp_scan_ap_detail" = "Nursing lamp is Connected! Press search button below for nursing lamp connection to Wireless network.";
+"connection_lamp_connected_title" = "Nursing lamp is Connected!";
+"connection_lamp_connected_detail" = "Now nursing lamp is ready to use.";
+"connection_lamp_connected_detail_with_setting" = "Now nursing lamp is ready to use.\nWhen temperature or humidity goes out of the optimal range you set below, the alarm will notify you. You can set these options in the setting page of this nursing lamp as well.";
+"dialog_contents_lamp_ap_connecting" = "Setting the Internet connection on the nursing lamp.\nOne moment please.";
+"dialog_connection_not_received_ap_info_lamp" = "Failed to get found wireless network information. Please try it again.";
+"device_lamp_disconnected" = "Lost connection with the nursing lamp. Please check the internet network status. If the problem persists, remove and re-plug the nursing lamp power adapter.";
+"device_lamp_disconnected_title" = "Lost connection with the nursing lamp";
+"device_lamp_disconnected_detail" = "Please check the internet network status. To change the network, go to the upper right Setting and select Change Network.";
+"app_name_kc" = "Huggies x Monit";
+
+"btn_diaper_sensor_dry_diaper" = "Dry Diaper";
+"btn_diaper_sensor_change_diaper" = "Change Diaper";
+"btn_diaper_sensor_diaper_changed" = "Diaper Changed";
+"device_sensor_diaper_status_no_pee_or_poo" = "No Pee Or Poo Detected";
+"contents_need_lamp_firmware_update" = "Nursing lamp firmware updates provide enhanced functionality.";
+"account_signup_welcome_title_for_kc" = "Welcome to HuggiesxMonit Service";
+"tooltip_sensor_status_tab" = "You can see the current diaper status.";
+"tooltip_sensor_graph_tab" = "You can see a graph which shows the number of alerts during a week or a month.";
+"tooltip_sensor_alarm_tab" = "You can see received alert list.";
+"tooltip_sensor_setup" = "You can set baby information or notification alarm.";
+"setting_device_serial_number" = "Serial number";
+
+
+"setting_temperature_range" = "Temperature range";
+"setting_humidity_range" = "Humidity range";
+"setting_hint_range" = "Please set the range";
+"setting_warning_range" = "Please set the range";
+"setting_room_name" = "Room name";
+"setting_sensor_eating_summary" = "※ Multi-selectable";
+"setting_warning_dialog_room_name" = "Input baby's room name";
+"setting_baby_name_hint" = "Who uses this diaper sensor?";
+"setting_room_name_hint" = "Where is this hub placed?";
+"movement_deep_sleep" = "Sleep deeply";
+"movement_disconnected" = "Disconnected";
+"movement_not_moving" = "Stay still";
+"movement_not_using" = "Not using";
+"agreement_description_kc" = "To use the Huggies x Monit service, you need to agree to the terms and conditions by selecting checkbox. You can see the terms and conditions by selecting show button.\n(*) is a required agreement.";
+"signup_step1_title_kc" = "Create Huggies x Monit Account";
+"signup_step1_detail_kc" = "Huggies x Monit account is necessary for using this service.\nFill out boxes below and select the button on the top.";
+"account_signup_welcome_title_kc" = "Welcome to Huggies x Monit Service";
+"account_signup_welcome_description_kc" = "Huggies x Monit will help babycare smarter.";
+"setting_account_name_hint" = "Who cares a baby?";
+
+
+
+"connection_package_components" = "Diaper Sensor / Hub / Diaper Cradle";
+"device_monit_package" = "Package";
+"connection_package_ready_title" = "Ready for connection to the package";
+"connection_package_put_sensor_detail" = "Put the sensor into a hub. The sensor needs to be plugged into the hub to activate it. The hub will be connected with your smart phone through the sensor.";
+"setting_title_sensor_information" = "Information of baby who uses this sensor";
+"setting_title_hub_information" = "Information of room for the hub";
+"dialog_contents_sensor_already_registered" = "This diaper sensor has already been registered. Please give your 6-digit membership code to the user who has registered this device. If you are invited to the user's sharing group, you can connect this device automatically without registration.\nMembership code:";
+"dialog_contents_hub_already_registered" = "This hub has already been registered. Please give your 6-digit membership code to the user who has registered this device. If you are invited to the user's sharing group, you can connect this device automatically without registration.\nMembership code:";
+"dialog_contents_lamp_already_registered" = "This lamp has already been registered. Please give your 6-digit membership code to the user who has registered this device. If you are invited to the user's sharing group, you can connect this device automatically without registration.\nMembership code:";
+"btn_device_initialize" = "Initialize";
+"dialog_contents_sensor_initialize_with_serialnumber" = "Input the serial number of the diaper sensor which is placed on the backside of the sensor or a package box. After checking the serial number, the sensor will be initialized.\nSerial number is like 'MKX123123123'\n[Warning]\nThis initializing will delete all the data from this sensor.";
+"toast_sensor_initialize_succeeded" = "Diaper sensor initializing has been succeeded";
+"toast_sensor_initialize_failed" = "Diaper sensor initializing has been failed.";
+"toast_sensor_initialize_wrong_serialnumber" = "Wrong diaper sensor serial number";
+"dialog_contents_hub_initialize_with_serialnumber" = "Input the serial number of the hub which is placed on the bottom of the hub or a package box. After checking the serial number, the hub will be initialized.\nSerial number is like 'HKX123123123'\n[Warning]\nThis initializing will delete all the data from this hub.";
+"toast_hub_initialize_succeeded" = "Hub initializing has been succeeded";
+"toast_hub_initialize_failed" = "Hub initializing has been failed.";
+"toast_hub_initialize_wrong_serialnumber" = "Wrong hub serial number";
+"toast_lamp_initialize_succeeded" = "Lamp initializing has been succeeded";
+
+
+
+
+"dialog_contents_initializing_device" = "Initializing the device now.\nOne moment please.";
+
+
+
+
+
+
+
+
+
+"account_warning_password_no_alphabet_lowercase" = "Input at least a lowercase letter.";
+"account_warning_password_no_alphabet_uppercase" = "Input at least an uppercase letter.";
+"account_current_password" = "Current password";
+"account_current_password_not_match" = "Enter correct current password.";
+"account_current_password_hint" = "Enter current password";
+"connection_monit_sensor_attaching_guide_title" = "Sensor attaching Guide";
+"connection_monit_sensor_attaching_guide_cradle_title" = "How to attach the diaper cradle";
+"connection_monit_sensor_attaching_guide_cradle_description" = "Please attach the diaper cradle so that the sensing part is visible in the hole.";
+"connection_monit_sensor_attaching_guide_diaper_title" = "How to attach to the diaper";
+"connection_monit_sensor_attaching_guide_diaper_description" = "Attach the sensor to the bottom of the hips.\nThe sensor position may affect alarm accuracy.\nTwist the sensor lightly so that it is firmly attached to the diaper.";
+"dfu_update_available_description_force" = "To ensure the best security, please update the firmware to the most recent version available.";
+"contents_need_sensor_firmware_update_force" = "To ensure the best security, please update the sensor firmware to the most recent version available.";
+"contents_need_hub_firmware_update_force" = "To ensure the best security, please update the hub firmware to the most recent version available.";
+"contents_need_firmware_update_force" = "To ensure the best security, please update the firmware to the most recent version available.";
+"account_password_description" = "Your password must be a combination of 8 to 64 single-byte upper letters, lower letters, numbers and special characters.";
+"account_new_password" = "New password";
+"account_new_password_hint" = "Please enter a new password.";
+"DIAPER_SCORE" = "%@\n기저귀를 확인해주세요.";
+"MOVE_DETECTED" = "%@\n수면중 움직임이 감지되었습니다.";
+"sensor_graph_sleeping" = "Sleeping";
+"sensor_graph_total_sleeping_time" = "Sleeping Time";
+"sensor_graph_total_deep_sleeping_time" = "Deep sleeping time";
+"sensor_graph_average_movement_level" = "Average Movement";
+"sensor_graph_sleeping_score" = "Score";
+"device_environment_voc_bad" = "Bad";
+"device_sensor_voc" = "Gas";
+"device_sensor_diaper_status_charging_detail" = "Diaper sensor is charging now.";
+"device_sensor_diaper_status_charged_detail" = "Diaper sensor has been fully charged.\nNow you can check diaper status with the sensor.";
+"device_sensor_diaper_status_idle_detail" = "Diaper sensor is on standby now.\nIt will start sensing within 30 seconds from attachment to a diaper.";
+"device_sensor_diaper_status_sensing_detail" = "Sensor is monitoring the status of baby.";
+"device_sensor_diaper_status_analyzing_detail" = "Sensor detects VOC gas now.";
+"device_sensor_diaper_changed_passed_time" = "Elapsed time from the latest diaper changed(%@)";
+"device_sensor_diaper_status_orange_detail" = "Little amount of Humidity and Gas are detected in the diaper.";
+"device_sensor_diaper_status_red_detail" = "High humidity and gas are detected.\nCheck and refresh the diaper.";
+"device_sensor_baby_status_good_detail" = "I feel good!";
+"device_sensor_baby_status_check_diaper_detail" = "Please check my diaper!";
+"device_sensor_baby_monitoring_information" = "The information of baby status";
+"device_sensor_activity_sensing_mode" = "Activity tracking mode";
+"device_sensor_sleeping_sensing_mode" = "Sleeping tracking mode";
+"device_sensor_activity_sensing_mode_disconnected" = "Activity mode";
+"device_sensor_sleeping_sensing_mode_disconnected" = "Sleeping mode";
+"device_sensor_diaper_status_title" = "Diaper";
+"device_sensor_voc_status" = "VOC Gas";
+"device_sensor_activity_status" = "Activity";
+"device_sensor_the_latest_time_diaper_changed" = "%@ elapsed";
+"device_sensor_status" = "The information of the sensor";
+"device_sensor_sleeping_elapsed_time" = "%@ sleeping";
+"dialog_sensor_diaper_changed_date_time" = "Diaper change record";
+"device_sensor_diaper_never_changed" = "Never changed";
+"dialog_sensor_sleep_start_date_time" = "Sleep start time";
+"dialog_sensor_sleep_end_date_time" = "Sleep end time";
+"notification_sleep_start" = "Sleeping now...";
+"notification_sleep_end" = "Sleep %@\n(%@~%3$s)";
+"device_sensor_diaper_status_nothing" = "Clean";
+"device_sensor_diaper_status_mixed" = "Mixed";
+"notification_diaper_changed" = "Diaper";
+"notification_feeding_baby_food" = "Baby food";
+"notification_feeding_nursed_breast_milk" = "Nursed breast milk";
+"notification_feeding_bottle_breast_milk" = "Bottle breast milk";
+"notification_feeding_bottle_formula_milk" = "Formula milk";
+"dialog_sensor_feeding_input" = "Feeding information";
+"dialog_sensor_sleep_input" = "Sleep information";
+"dialog_sensor_sleep_input_time" = "Input sleep start and end time.";
+"notification_check_diaper_status" = "Check diaper status";
+"notification_check_diaper_status_10min" = "Check diaper status(10min)";
+"notification_check_diaper_status_40min" = "Check diaper status(40min)";
+"notification_check_diaper_status_clean" = "Diaper checked(Clean)";
+"notification_check_diaper_status_pee" = "Diaper checked(Pee)";
+"notification_check_diaper_status_poo" = "Diaper checked(Poo)";
+"notification_check_diaper_status_mixed" = "Diaper checked(Mixed)";
+"notification_confirm_detected_status" = "Select here to provide feedback";
+"notification_check_detail_information" = "Detail information";
+"dialog_sensor_diaper_change_record" = "Please select time and diaper status";
+"dialog_sensor_feeding_record" = "Please input feeding type, time and amount.";
+"device_hub_room_monitoring_information" = "Hub monitoring information";
+"device_hub_brightness_control" = "Brightness control";
+"device_hub_power_brightness" = "Turning on/off and brightness adjustment";
+"device_hub_power_timer" = "Timer";
+"device_hub_lamp_delay" = "Depending on the network environment, you may experience a delay of 3 to 5 seconds.";
+"device_hub_connection_status" = "The information of the hub";
+"movement_sleep" = "Sleeping";
+"setting_device_enable_diaper_check_alarm" = "Diaper Check";
+"notification_diaper_status_check_diaper" = "Check baby's diaper!";
+"device_sensor_diaper_status_soiled" = "Soiled";
+"device_sensor_diaper_status_check_diaper" = "Check";
+"device_sensor_diaper_status_idle_main_screen" = "Baby monitoring has been paused. Please attach this sensor again.";
+"device_sensor_baby_talk_disconnected" = "Please come near by me. Sensor has been disconnected.";
+"device_lamp_room_monitoring_information" = "Lamp monitoring information";
+"device_lamp_connection_status" = "The information of the lamp";
+"notification_diaper_status_movement_detected_title" = "Movement detected";
+"notification_diaper_status_movement_detected_detail" = "Movement detected";
+"device_sensor_movement_during_sleep" = "Movement during sleep";
+"sensor_diaper_graph_average_total_count" = "Average diaper changed count";
+"sensor_diaper_graph_average_pee_count" = "Average pee count";
+"sensor_diaper_graph_average_poo_count" = "Average poo count";
+"sensor_diaper_graph_day_total_count" = "Diaper changed count";
+"sensor_diaper_graph_day_pee_count" = "Pee count";
+"sensor_diaper_graph_day_poo_count" = "Poo count";
+"sensor_diaper_graph_day_soiled_count" = "Soiled count";
+"sensor_sleep_graph_average_total_time" = "Average sleep time";
+"sensor_sleep_graph_average_total_deep_sleep_time" = "Average deep sleep time";
+"sensor_sleep_graph_average_movement_count" = "Average movement count";
+"sensor_sleep_graph_day_total_time" = "Total sleep time";
+"sensor_sleep_graph_day_total_deep_sleep_time" = "Total deep sleep time";
+"sensor_sleep_graph_day_movement_count" = "Total movement count";
+"sensor_movement_graph_average_value" = "Average movement value";
+"sensor_movement_graph_average_text" = "Average movement level";
+"sensor_movement_graph_day_value" = "Movement value";
+"sensor_movement_graph_day_text" = "Movement level";
+"lamp_environment_graph_temperature_selected" = "Temperature";
+"lamp_environment_graph_temperature_current" = "Current temperature";
+"lamp_environment_graph_temperature_average" = "Average temperature";
+"lamp_environment_graph_humidity_selected" = "Humidity";
+"lamp_environment_graph_humidity_current" = "Current humidity";
+"lamp_environment_graph_humidity_average" = "Average humidity";
+"lamp_environment_graph_voc_selected" = "VOC";
+"lamp_environment_graph_voc_current" = "Current VOC";
+"lamp_environment_graph_voc_average" = "Average VOC";
+"lamp_widget_btn_power_on" = "Lamp ON";
+"lamp_widget_btn_power_off" = "Lamp OFF";
+"device_environment_voc_avg_level0" = "None";
+"device_environment_voc_avg_level1" = "Low";
+"device_environment_voc_avg_level2" = "High";
+"device_environment_voc_avg_level3" = "Very high";
+"device_environment_voc_avg_level4" = "Very bad";
+"guide_sensor_sleep_mode_title" = "Sleeping mode";
+"guide_sensor_sleep_mode_contents" = "If the sleep mode is enabled, the diaper sensor monitors the quality of the sleep.\nAlso if the baby awakes or moves, it sends movement detected notification to the smartphone.\nA user can check the history of the sleep at the graph tab. ";
+"guide_sensor_diaper_status_title" = "Diaper status";
+"guide_sensor_diaper_status_contents" = "The diaper sensor analyzes pee, poop and gas in a diaper and the diaper wearing time to show the soiled stage of the diaper. There are 3 stages of Good, Soiled, Check.\nGood: The diaper is clean.\nSoiled: The diaper has been soiled a little bit.\nCheck: The diaper has been soiled a lot so that a user needs to check the diaper.";
+"guide_sensor_voc_avg_title" = "VOC Gas";
+"guide_sensor_voc_avg_contents" = "VOCs are numerous, varied, and ubiquitous. They include both human-made and naturally occurring chemical compounds. Most scents or odors are of VOCs.\nThis value shows the amount of the average of the VOCs in a diaper during 5 minutes. And there are 5 stages of None, Low, High, Very High and Very Bad.\nIf the stage of High is maintained continuously, please check the diaper.\nEven if there is poop or fart in the diaper, the amount of VOCs could be detected little bit differently like the odors of poop or fart is different.";
+"guide_sensor_moving_title" = "Movement level";
+"guide_sensor_moving_contents" = "This value is the level of movements which a diaper sensor detects.\nIf a baby moves continuously or a baby moves quickly, this value changes to the higher.\nThere are 4 stages of None, Calm, Active and Energetic.";
+"guide_sensor_operation_title" = "Sensor status";
+"guide_sensor_operation_contents" = "The sensor status can be displayed by Ready, Stand by and Analyzing.\nReady: The diaper sensor is monitoring.\nStand by: The diaper sensor needs to be attached to a diaper. If a user attaches it, the status would be changed to Ready within 30 seconds.\nAnalyzing: The diaper sensor detects increase of the amount of the gas in a diaper and it analyzes the components of the gas.";
+"toast_sensor_sleep_than_start_time" = "Set the sleep end time later than the start time.";
+"device_sensor_the_latest_time" = "%@ elapsed";
+"device_sensor_naps" = "naps";
+"device_sensor_night_sleep" = "night sleep";
+"device_sensor_breast_milk_left" = "left";
+"device_sensor_breast_milk_right" = "right";
+"notification_sleep_end_for_ios" = "Sleep";
+"assistant_title" = "Google Assistant에서 모닛 사용하기";
+"assistant_guide_title" = "Google Assistant 연동하기";
+"assistant_guide_contents_1" = "Google Assistant 앱을 실행합니다. \nAssistant 앱이 실행되면 '베이비 모니터에게 말하기' 라고 말해주세요. 자동으로 인증페이지에 연결됩니다.";
+
+"assistant_guide_btn_app_open" = "Google Assistant 앱 실행하기";
+
+"assistant_guide_contents_3" = "아래의 버튼을 눌러 인증키를 발급하세요.";
+
+"assistant_auth_btn_issue" = "인증키 발급하기";
+"assistant_auth_memberid_title" = "나의 회원코드";
+"assistant_auth_key_title" = "인증키";
+"assistant_auth_btn_reissue" = "인증키 재발급하기";
+"assistant_auth_btn_copy" = "복사하기";
+
+"device_monit_hub_lamp_differentiation" = "Please check a socket to charge a diaper sensor when you connect a hub. No socket is in a lamp.";
+"notification_diaper_status_diaper_soiled_title" = "Soiled detected";
+"setting_device_enable_diaper_soiled_alarm" = "Diaper soiled";
+"setting_device_babyinfo_description" = "Update about the information of baby using this sensor. The accuracy of the sensor may be related to this information.";
+"setting_device_enable_connection_alarm_description" = "You can get a notification when 15 minutes elapsed since this sensor was disconnected.";
+"setting_device_enable_diaper_check_alarm_description" = "You can get an alarm when a diaper soiled a lot.";
+"setting_device_enable_diaper_soiled_alarm_description" = "You can get an alarm when a diaper is soiled by pee, poo and so on.";
+"setting_device_sensor_movement_during_sleep_description" = "You can get an alarm when your baby is awake or tossing.";
+"setting_device_firmware_version_description" = "This shows the version of firmware and you can update this device to the latest version of the firmware.";
+"setting_device_environment_temperature_description" = "You can get an alarm when temperature is out of range from this range you have set.";
+"setting_device_environment_humidity_description" = "You can get an alarm when humidity is out of range from this range you have set.";
+"setting_device_led_light_description" = "Turning on/off the LED(blue or red) which is on the top case of this device.";
+"setting_ap_info_title_description" = "This shows the name of the access point which has been set now. You can connect/update an access point to connect to the Internet.";
+"setting_device_firmware_lamp_internet" = "To update the firmware of this lamp, this lamp should be connected to the Internet.\nBut now, the lamp is only connected to the smartphone via Bluetooth without any Internet connection.\nIf you want to update the firmware, please connect this lamp to the Internet with selecting network change button at the device setting page.";
+"connection_elderly_sensor_ready_title" = "Elderly diaper sensor";
+"connection_elderly_sensor_ready_detail_step1" = "Turn on the sensor.";
+"connection_elderly_sensor_ready_detail_step2" = "Check blue light is flashing.";
+"device_type_elderly_diaper_sensor" = "Elderly diaper sensor";
+"connection_elderly_sensor_info_title" = "Patient info";
+"connection_elderly_sensor_info_detail" = "Please input the information of patient who uses this sensor. The accuracy of the sensor may be related to this information.";
+"NOTIFICATION_DIAPER_SOILED" = "%@\nSoiled detected";
+"NOTIFICATION_DIAPER_SOILED_PEE" = "%@\nSoiled detected(Pee)";
+"NOTIFICATION_DIAPER_SOILED_POO" = "%@\nSoiled detected(Poo)";
+"dialog_contents_limited_feature_during_lamp_bluetooth_connection" = "This lamp is not connected to the Internet. This feature is disabled when this lamp is only connected with this smartphone via Bluetooth. Please connect this lamp to the Internet via Setting > Network.";
+"setting_device_enable_auto_sleep_monitoring" = "Automatic sleep monitoring";
+"dialog_contents_sensor_already_registered_init" = "[Warning]\nThis initializing will delete all the data from this sensor.\nIf you want to reset, please enter the membership code below.\nMembership code: ";
+"dialog_contents_Lamp_already_registered_init" = "[Warning]\nThis initializing will delete all the data from this Lamp.\nIf you want to reset, please enter the membership code below.\nMembership code: ";
+"init_member_hint" = "Membership code(6digits)";
+"warning_invalid_short_id" = "Invalid membership code";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
