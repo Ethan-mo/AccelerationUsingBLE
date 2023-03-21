@@ -172,11 +172,14 @@ class BlePacket_Controller {
                 if let _type: BlePacketType = BlePacketType(rawValue:data[2]) {
                     if (item.m_packetType == _type) {
                         if (0 == data[1]) {
-                            print("[BLE] Response Ble Packet: TYPE(\(item.m_communicationType!)), ID(\(item.m_packetType!)), PACKET(\(data.description)))")
+                            Debug.print("[BLE] 😝센서가 cmd Type으로 Data를 보내왔습니다.")
+                            Debug.print("[BLE] 😝Response Ble Packet: TYPE(\(item.m_communicationType!)), ID(\(item.m_packetType!)), PACKET(\(data.description)))")
                             _isFound = true
                             item.m_status = .success
                             item.m_receivePacket.removeAll()
                             item.m_receivePacket.append(data)
+                            Debug.print("[BLE] 😝 m_receivePacket Array에 data가 추가되었습니다. ")
+                            Debug.print("[BLE] 😝 현재 m_receivePacket Array의 값:\(item.m_receivePacket)")
                             
                             if (item.m_completion != nil) {
                                 item.m_completion?(item)
@@ -214,7 +217,7 @@ class BlePacket_Controller {
     }
     
     func writeCmd(communicationType: BLE_COMMUNICATION_TYPE, packetType: BlePacketType, packet: [UInt8], completion: ActionResultBlePacketInfo?) {
-        print("\(#function)가 실행되었습니다.")
+        print("writeCmd(communicationType:\(communicationType) ,packetType:\(packetType) ,packet: \(packet),)가 실행되었습니다.")
         if (packet.count > 20) {
             var chunkedData:[UInt8] = Array(repeating:0, count: 20)
             for i in 0..<packet.count {
@@ -232,7 +235,7 @@ class BlePacket_Controller {
             _packetInfo.m_completion = completion
             addPacket(_packetInfo)
         } else {
-            print("실행됨")
+            print("짧은 크기의 writeCmd가실행됨")
             let _packetInfo = BlePacketInfo(communicationType: communicationType, packet: packet, packetType: packetType)
             _packetInfo.m_completion = completion
             addPacket(_packetInfo)
