@@ -116,14 +116,12 @@ class Peripheral_Controller {
     }
 
     func getInitInfo() {
-        print("실행됩니다.1")
         if let _bleInfo = bleInfo, let _peripheral = m_peripheral {
             _bleInfo.m_adv = _peripheral.name!
         } else {
             changeState(status: .connectFail)
             return
         }
-        print("실행됩니다.2")
         // autopolling off
         m_packetCommend?.setAutoPollingFirst(isAutoPolling: false)
         m_packetCommend?.setAutoPollingSecond(isAutoPolling: false)
@@ -138,6 +136,8 @@ class Peripheral_Controller {
     }
 
     func checkDeviceId() {
+        print(#function)
+        print("기본 정보를 모두 불러왔습니다.")
         if let _bleInfo = bleInfo {
             let send = Send_GetDeviceId()
             send.aid = 1004
@@ -160,6 +160,7 @@ class Peripheral_Controller {
     }
 
     func startConnection() {
+        print("실행됨⭐️⭐️⭐️⭐️⭐️⭐️⭐️")
         if let _bleInfo = bleInfo {
             let send = Send_StartConnection()
 
@@ -168,16 +169,20 @@ class Peripheral_Controller {
             // dps 보내지 않음 (서버에서 dps 값은 들어가지 않으므로 받아오면 -1로 온다.)
             let _member = SendSensorStatusInfo(type: DEVICE_TYPE.Sensor.rawValue, did: _bleInfo.m_did, enc: _bleInfo.m_enc, bat: _bleInfo.m_battery, mov: _bleInfo.m_movement, dps: nil, opr: _bleInfo.m_operation, tem: _bleInfo.m_temp, hum: _bleInfo.m_hum, voc: _bleInfo.m_voc, fwv: _bleInfo.m_firmware, con: nil)
             send.data.append(_member)
+            print("실행됨⭐️⭐️")
+            self.receiveStartConnection()
         } else {
             self.changeState(status: .connectFail)
         }
     }
 
-    func receiveStartConnection(_ json: JSON) {
-        let receive = Receive_StartConnection(json)
+    func receiveStartConnection() {
+        let receive = ReceiveBase()
         m_gensorConnectionLogInfo.m_startConnEcd = receive.m_ecd
+        print("💄receive한 ecd의 값은?\(receive.m_ecd)")
         switch receive.ecd {
         case .success:
+            print("receiveStartConnection 정상적으로 실행됨")
             changeState(status: .connectSuccess)
         case .sensor_not_found_deviceid, // 위험!! 패킷 응답이 왔으나, 기기에 deviceId가 있으나 서버에 로우가 없다., 또는 시리얼 번호가 일치하지 않는다. (거의 발생하지 않음)
              .sensor_not_found_row:

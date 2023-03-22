@@ -35,4 +35,7 @@ class ReceiveBase {
             }
         }
     }
+    init() {
+        m_ecd = 151
+    }
 }
